@@ -1,5 +1,5 @@
 ﻿l_english:
- UNIT_LEADER_SKILL_LAND_DESC:0 "Having higher skill than the enemy commander gives the leader an extra chance to pick a counter tactic to beat the enemy. The skill of a commander goes up as they earn experience.\n\n"
+ UNIT_LEADER_SKILL_LAND_DESC: "Наявність більш високого навику, ніж у ворожого командира, дає лідеру додатковий шанс вибрати контр тактику, щоб перемогти ворога. Майстерність командира підвищується, оскільки він отримує досвід.\n\n"
  recon:0 "Recon Company"
  UNIT_LEVEL_0: "Greens"
  UNIT_LEVEL_1: "Freshmen"
