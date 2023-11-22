@@ -1,818 +1,808 @@
 ﻿l_english:
- # Custom tooltips
- TT_RIO_PACT: "§R[From.GetName] can call their Rio Pact allies to help them in the war§!\n"
- TT_CALL_NATO: "§R[From.GetName] can call their NATO allies to help them in the war§!\n"
- TT_JOIN_NATO: "We join NATO"
- TT_LEAVE_NATO: "We leave NATO"
- TT_NATO_DISBANDED: "NATO faction is disbanded"
- TT_NO_MILITARY_INTERNAL_FACTION: "§HThe Military§! is not one of our active §HInternal Factions§!"
- TT_AT_LEAST_SMALL_MILITARY_SPENDING: "We need to have at least §HSmall Military Spending§!"
- TT_AT_LEAST_BASIC_POLICE: "We need to have at least §HBasic Police and Security Funding§!"
+ #Custom tooltips
+ TT_RIO_PACT: "§R[From.GetName] можуть закликати своїх союзників по пакту Ріо, щоб допомогти їм у війні§!\n"
+ TT_CALL_NATO: "§R[From.GetName] можуть закликати своїх союзників по НАТО допомогти їм у війні§!\n"
+ TT_JOIN_NATO: "Вступаємо в НАТО"
+ TT_LEAVE_NATO: "Виходимо з НАТО"
+ TT_NATO_DISBANDED: "Фракція НАТО розформована"
+ TT_NO_MILITARY_INTERNAL_FACTION: "§НВійськові§! не є одним із наших активних §НВнутрішніх Фракцій§!"
+ TT_AT_LEAST_SMALL_MILITARY_SPENDING: "Ми повинні мати щонайменше §Невеликі військові витрати§!"
+ TT_AT_LEAST_BASIC_POLICE: "Ми повинні мати щонайменше §НБазове фінансування поліції та безпеки§!"
 
- TT_OKAY_CORRUPTION: "Our §HCorruption Level§! has to be better than §H(6) Systematic Corruption§!"
- TT_ALL_NATO_MEMBERS_RATIFIED: "All NATO members have to have ratified our accession!"
- TT_ATTACKER_CONTROLS_OUR_STATES: "Our enemies need to control at least one of our states"
+ TT_OKAY_CORRUPTION: "Наш §Норівень корупції§! має бути кращим, ніж §H(6) систематична корупція§!"
+ TT_ALL_NATO_MEMBERS_RATIFIED: "Усі члени НАТО мають ратифікувати наше приєднання!"
+ TT_ATTACKER_CONTROLS_OUR_STATES: "Наші вороги повинні контролювати хоча б одну з наших держав."
 
- Generic_demand_submission_tooltip: "§CThe target country is more willing to accept submission if our military strength greatly outnumbers theirs!§!"
+ Generic_demand_submission_tooltip: "§Цільова країна охочіше погодиться на підпорядкування, якщо наша військова міць значно перевершує їх!§!"
  demanded_subjugation: "Foreign Subjugation Pressure"
 
- # Generic Nukes Tooltips
- LAUNCH_NUKE_TOOLTIP: "§GClick§! to drop a Nuclear Bomb"
- LAUNCH_NUKE_TOOLTIP_DELAYED: "Requirements:\n[GetNukeStatus]\n[GetNuclearStatus]\n[GerWarStatus]\n[GetBomberStatus]\n[GetPPStatus]\n\n§YNukes Are Not Available Yet.§!"
- #§YNOTE: Due to PDX modding limitations, nuking specific provinces is not possible. The game will decide a random province within [This.GetName]§!
- has_nukes_TT: "At least 1 Nuke in the stockpile"
- has_nukes_yes_TT: "£trigger_yes  Nukes in the stockpile"
- has_nukes_no_TT: "£trigger_no  Nukes in the stockpile"
- has_nuclear_idea: "£trigger_yes  Has Idea: §YNuclear Power§!"
- not_has_nuclear_idea: "£trigger_no  Has Idea: §YNuclear Power§!"
- has_war_TT: "£trigger_yes  §Y[This.GetName]§! is controlled by an enemy nation"
- not_has_war_TT: "£trigger_no  §Y[This.GetName]§! is controlled by an enemy nation"
- has_bombers_TT: "£trigger_yes  At least §Y1 Strategic Bomber§! in reserve"
- not_has_bombers_TT: "£trigger_no  At least §Y1 Strategic Bomber§! in reserve"
- has_pp: "£trigger_yes  At least £pol_power_icon §Y100 Political Power§!"
- not_has_pp: "£trigger_no  At least £pol_power_icon §Y100 Political Power§!"
- TT_game_over_warning: "§RGame Will End When Selecting This§!\n"
+ # Загальні підказки щодо ядерних боєприпасів
+ LAUNCH_NUKE_TOOLTIP: "§GНатисніть,§! щоб скинути ядерну бомбу"
+ LAUNCH_NUKE_TOOLTIP_DELAYED: "Вимоги:\n[GetNukeStatus]\n[GetNuclearStatus]\n[GerWarStatus]\n[GetBomberStatus]\n[GetPPSstatus]\n\n§YБоєприпаси поки недоступні.§!"
+ #§YNOTE: Через обмеження моддингу PDX ядерне бомбардування певних провінцій неможливе. Гра буде вирішувати і вибирати випадкову провінцію всередині [This.GetName]§!
+ has_nukes_TT: "Як мінімум 1 ядерна бомба в запасі"
+ has_nukes_yes_TT: "£trigger_yes Ядерна зброя на складі"
+ has_nukes_no_TT: "£trigger_no Ядерна зброя на складі"
+ has_nuclear_idea: "£trigger_yes Є ідея: §YЯдерна держава§!"
+ not_has_nuclear_idea: "£trigger_no Є ідея: §YЯдерна держава§!"
+ has_war_TT: "£trigger_yes §Y[This.GetName]§! контролюється ворожою нацією"
+ not_has_war_TT: "£trigger_no §Y[This.GetName]§! контролюється ворожою нацією"
+ has_bombers_TT: "£trigger_yes Принаймні §Y1 стратегічний бомбардувальник§! у резерві"
+ not_has_bombers_TT: "£trigger_no Принаймні §Y1 стратегічний бомбардувальник§! у резерві"
+ has_pp: "£trigger_yes Як мінімум £pol_power_icon §Y100 політичної влади§!"
+ not_has_pp: "£trigger_no Як мінімум £pol_power_icon §Y100 політичної влади§!"
+ TT_game_over_warning: "§RГра закінчиться при виборі цього§!\n"
 
  # Generic Treasury Adjustment
- modify_treasury_effect_tt: "[THIS.GetFlag][THIS.GetAdjective] §YTreasury§!: $$[?treasury_change|+] Billion\n"
- has_more_than_temp_treasury_tt: "[THIS.GetFlag][THIS.GetAdjective] §YTreasury§! is greater than $$[?temp_treasury|+] (Current: $$[?treasury|3Y])\n"
- modify_debt_effect_tt: "[THIS.GetFlag][THIS.GetAdjective] §YDebt§!: $$[?debt_change|-] Billion\n"
- modify_international_investment_effect_tt: "[THIS.GetFlag][THIS.GetAdjective] §YInternational Investments§!: $$[?int_investment_change|+] Billion\n"
- modify_corporate_tax_rate_tt: "[THIS.GetFlag][THIS.GetAdjective] §YCorporate Tax Rate§! changes by [?corp_change|+0] (Current: [?THIS.corporate_tax_rate|Y0])\n"
- modify_population_tax_rate_tt: "[THIS.GetFlag][THIS.GetAdjective] §YPopulation Tax Rate§! changes by [?pop_change|+0] (Current: [?THIS.population_tax_rate|Y0])\n"
- add_coalition_members_effect_TT: "§Y[add_coalition_scl]§! is added to our Ruling Coalition.\n"
- remove_coalition_members_effect_TT: "§Y[add_coalition_scl]§! is removed from our Ruling Coalition.\n"
- ruling_party_changed_tt: "§Y[add_coalition_scl]§! becomes the ruling party of our nation.\n"
- 10_percent_government_coalition_strength_tt: "Current §YGovernment Popularity§! > §Y10%§! (Current: [?government_coalition_strength|%1])"
- 20_percent_government_coalition_strength_tt: "Current §YGovernment Popularity§! > §Y20%§! (Current: [?government_coalition_strength|%1])"
- 30_percent_government_coalition_strength_tt: "Current §YGovernment Popularity§! > §Y30%§! (Current: [?government_coalition_strength|%1])"
- 40_percent_government_coalition_strength_tt: "Current §YGovernment Popularity§! > §Y40%§! (Current: [?government_coalition_strength|%1])"
- 50_percent_government_coalition_strength_tt: "Current §YGovernment Popularity§! > §Y50%§! (Current: [?government_coalition_strength|%1])"
- 60_percent_government_coalition_strength_tt: "Current §YGovernment Popularity§! > §Y60%§! (Current: [?government_coalition_strength|%1])"
- 70_percent_government_coalition_strength_tt: "Current §YGovernment Popularity§! > §Y70%§! (Current: [?government_coalition_strength|%1])"
+ modify_treasury_effect_tt: "[THIS.GetFlag][THIS.GetAdjective] §Yказна§!: $$[?treasury_change|+] мільярд(ів/а)\n"
+ modify_debt_effect_tt: "[THIS.GetFlag][THIS.GetAdjective] §Yдолг§!: $$[?debt_change|-] млрд.\n"
+ modify_international_investment_effect_tt: "[THIS.GetFlag][THIS.GetAdjective] §Yміжнародні інвестиції§!: $$[?int_investment_change|+] млрд.\n"
+ modify_corporate_tax_rate_tt: "[THIS.GetFlag][THIS.GetAdjective] §Yставка корпоративного налону§! зміниться на [?corp_change|+0] (Поточна: [?THIS.corporate_tax_rate|Y0])\n"
+ modify_population_tax_rate_tt: "[THIS.GetFlag][THIS.GetAdjective] §Yставка податку на населення§! зміниться на [?pop_change|+0] (Поточна: [?THIS.population_tax_rate|Y0])\n"
+ add_coalition_members_effect_TT: "§Y[add_coalition_scl]§! додано до нашої правлячої коаліції.\n"
+ remove_coalition_members_effect_TT: "§Y[add_coalition_scl]§! видаляється з нашої правлячої коаліції.\n"
+ ruling_party_changed_tt: "§Y[add_coalition_scl]§! стає правлячою партією нашої нації.\n"
+ 10_percent_government_coalition_strength_tt: "§YПопулярність уряду§! > §Y10%§! (Поточна: [?government_coalition_strength|%1])"
+ 20_percent_government_coalition_strength_tt: "§YПопулярність уряду§! > §Y20%§! (Поточна: [?government_coalition_strength|%1])"
+ 30_percent_government_coalition_strength_tt: "§YПопулярність уряду§! > §Y30%§! (Поточна: [?government_coalition_strength|%1])"
+ 40_percent_government_coalition_strength_tt: "§YПопулярність уряду§! > §Y40%§! (Поточна: [?government_coalition_strength|%1])"
+ 50_percent_government_coalition_strength_tt: "§YПопулярність уряду§! > §Y50%§! (Поточна: [?government_coalition_strength|%1])"
+ 60_percent_government_coalition_strength_tt: "§YПопулярність уряду§! > §Y60%§! (Поточна: [?government_coalition_strength|%1])"
+ 70_percent_government_coalition_strength_tt: "§YПопулярність уряду§! > §Y70%§! (Поточна: [?government_coalition_strength|%1])"
 
- 35_percent_communist_state_strength_tt: "§Y[Communist-State_L]§! Greater Than §Y35%§! (Current: [?party_pop_array^4|%1])"
- 35_percent_neutral_communist_strength_tt: "§Y[Neutral_Communism_L]§! Greater Than §Y35%§! (Current: [?party_pop_array^19|%1])"
- 35_percent_nationalist_nat_autocracy_popularity_tt: "§Y[Nat_Autocracy_L]§! Greater Than §Y35%§! (Current: [?party_pop_array^22|%1])"
- 35_percent_nationalist_right_wing_populists_strength_tt: "§Y[Nat_Populism_L]§! Greater Than §Y35%§! (Current: [?party_pop_array^20|%1])"
- 35_percent_nationalist_absolutist_monarchist_strength_tt: "§Y[Monarchist_L]§! Greater Than §Y35%§! (Current: [?party_pop_array^23|%1])"
- 45_percent_nationalist_nat_autocracy_popularity_tt: "§Y[Nat_Autocracy_L]§! Greater Than §Y45%§! (Current: [?party_pop_array^22|%1])"
+ 35_percent_communist_state_strength_tt: "§Y[Communist-State_L]§! Більше, ніж §Y35%§! (Поточний: [?party_pop_array^4|%1])"
+ 35_percent_neutral_communist_strength_tt: "§Y[Neutral_Communism_L]§! Більше, ніж §Y35%§! (Поточний: [?party_pop_array^19|%1])"
+ 35_percent_nationalist_right_wing_populists_strength_tt: "§Y[Nat_Populism_L]§! Більше, ніж §Y35%§! (Поточний: [?party_pop_array^20|%1])"
+ 35_percent_nationalist_absolutist_monarchist_strength_tt: "§Y[Monarchist_L]§! Більше, ніж §Y35%§! (Поточний: [?party_pop_array^23|%1])"
 
- # Signed Trade Agreements
- more_than_1_signed_trade_agreement: "§Y[SIN.GetNameWithFlag]§! has more than §G1§! §YTrade Agreement§! (Current: [?signed_trade_agreements|Y0])\n"
- more_than_2_signed_trade_agreement: "§Y[SIN.GetNameWithFlag]§! has more than §G2§! §YTrade Agreement§! (Current: [?signed_trade_agreements|Y0])\n"
- more_than_3_signed_trade_agreement: "§Y[SIN.GetNameWithFlag]§! has more than §G3§! §YTrade Agreement§! (Current: [?signed_trade_agreements|Y0])\n"
- more_than_4_signed_trade_agreement: "§Y[SIN.GetNameWithFlag]§! has more than §G4§! §YTrade Agreement§! (Current: [?signed_trade_agreements|Y0])\n"
- more_than_5_signed_trade_agreement: "§Y[SIN.GetNameWithFlag]§! has more than §G5§! §YTrade Agreement§! (Current: [?signed_trade_agreements|Y0])\n"
-
-
- democratic_outlook_greater_than_0_tt: "§Y$democratic$§! has more support than 0%"
- emerging_outlook_greater_than_0_tt: "§Y$communism$§! has more support than 0%"
- fascism_outlook_greater_than_0_tt: "§Y$fascism$§! has more support than 0%"
- neutrality_outlook_greater_than_9_tt: "§Y$neutrality$§! has more support than 0%"
- nationalist_outlook_greater_than_0_tt: "§Y$nationalist$§! has more support than 0%"
-
- ##Custom Triggers for Scripted file -- common/scripted_triggers/01_political_triggers.txt
- ruling_party_popularity_change_focus_TT: "Popularity change caused by this effect will be applied to the ruling party."
- modify_election_threshold_tt: "[THIS.GetFlag][THIS.GetAdjective] §YElection Threshold§! changes by [?threshold_change|-0%] (Current: [?THIS.election_threshold|Y0%])\n"
+ ##Кастомні тригери для скриптового файлу -- common/scripted_triggers/01_political_triggers.txt
+ ruling_party_popularity_change_focus_TT: "Зміна популярності, викликана цим ефектом, буде застосована до правлячої партії."
+ modify_election_threshold_tt: "[THIS.GetName] §YВиборчий поріг§! зміниться на [?threshold_change|-0%] (Поточний: [?THIS.election_threshold|Y0%])\n"
  #Has X government - For Custom Triggers
- has_pro_western_autocrat_government_TT: "§Y[Western_Autocracy_L]§! is in Power." #0
- has_conservatism_government_TT: "§Y[conservatism_L]§! is in Power." #1
- has_liberalism_government_TT: "§Y[liberalism_L]§! is in Power." #2
- has_socialism_government_TT: "§Y[socialism_L]§! is in Power." #3
- has_communist_state_government_TT: "§Y[Communist-State_L]§! is in Power." #4
- has_anarchist_communism_government_TT: "§Y[anarchist_communism_L]§! is in Power." #5
- has_conserv_reactionary_government_TT: "§Y[Conservative_L]§! is in Power." #6
- has_autocracy_government_TT: "§Y[Autocracy_L]§! is in Power." #7
- has_mod_vilayat_e_faqih_government_TT: "§Y[Mod_Vilayat_e_Faqih_L]§! is in Power." #8
- has_vilayat_e_faqih_government_TT: "§Y[Vilayat_e_Faqih_L]§! is in Power." #9
- has_kingdom_government_TT: "§Y[Kingdom_L]§! is in Power." #10
- has_caliphate_government_TT: "§Y[Caliphate_L]§! is in Power." #11
- has_neutral_muslim_brotherhood_government_TT: "§Y[Neutral_Muslim_Brotherhood_L]§! is in Power." #12
- has_neutral_autocracy_government_TT: "§Y[Neutral_Autocracy_L]§! is in Power." #13
- has_neutral_conservatism_government_TT: "§Y[Neutral_conservatism_L]§! is in Power." #14
- has_oligarchism_government_TT: "§Y[oligarchism_L]§! is in Power." #15
- has_neutral_libertarian_government_TT: "§Y[Neutral_Libertarian_L]§! is in Power." #16
- has_neutral_green_government_TT: "§Y[Neutral_green_L]§! is in Power." #17
- has_neutral_social_government_TT: "§Y[neutral_Social_L]§! is in Power." #18
- has_neutral_communism_government_TT: "§Y[Neutral_Communism_L]§! is in Power." #19
- has_nat_populism_TT: "§Y[Nat_Populism_L]§! is in Power." #20
- has_fascist_government_TT: "§Y[Nat_Fascism_L]§! is in Power." #21
- has_nat_autocracy_government_TT: "§Y[Nat_Autocracy_L]§! is in Power." #22
- has_monarchist_government_TT: "§Y[Monarchist_L]§! is in Power." #23
+ has_pro_western_autocrat_government_TT: "§Y[Western_Autocracy_L]§! перебуває при владі." #0
+ has_conservatism_government_TT: "§Y[conservatism_L]§! перебуває при владі." #1
+ has_liberalism_government_TT: "§Y[liberalism_L]§! перебуває при владі." #2
+ has_socialism_government_TT: "§Y[socialism_L]§! перебуває при владі." #3
+ has_communist_state_government_TT: "§Y[Communist-State_L]§! перебуває при владі." #4
+ has_anarchist_communism_government_TT: "§Y[anarchist_communism_L]§! перебуває при владі." #5
+ has_conserv_reactionary_government_TT: "§Y[Conservative_L]§! перебуває при владі." #6
+ has_autocracy_government_TT: "§Y[Autocracy_L]§! перебуває при владі." #7
+ has_mod_vilayat_e_faqih_government_TT: "§Y[Mod_Vilayat_e_Faqih_L]§! перебуває при владі." #8
+ has_vilayat_e_faqih_government_TT: "§Y[Vilayat_e_Faqih_L]§! перебуває при владі." #9
+ has_kingdom_government_TT: "§Y[Kingdom_L]§! перебуває при владі." #10
+ has_caliphate_government_TT: "§Y[Халіфат_L]§! перебуває при владі." #11
+ has_neutral_muslim_brotherhood_government_TT: "§Y[Neutral_Muslim_Brotherhood_L]§! перебуває при владі." #12
+ has_neutral_autocracy_government_TT: "§Y[Neutral_Autocracy_L]§! перебуває при владі." #13
+ has_neutral_conservatism_government_TT: "§Y[Neutral_conservatism_L]§! перебуває при владі." #14
+ has_oligarchism_government_TT: "§Y[oligarchism_L]§! перебуває при владі." #15
+ has_neutral_libertarian_government_TT: "§Y[Neutral_Libertarian_L]§! перебуває при владі." #16
+ has_neutral_green_government_TT: "§Y[Neutral_green_L]§! перебуває при владі." #17
+ has_neutral_social_government_TT: "§Y[neutral_Social_L]§! перебуває при владі." #18
+ has_neutral_communism_government_TT: "§Y[Neutral_Communism_L]§! перебуває при владі." #19
+ has_nat_populism_TT: "§Y[Nat_Populism_L]§! перебуває при владі." #20
+ has_fascist_government_TT: "§Y[Nat_Fascism_L]§! перебуває при владі." #21
+ has_nat_autocracy_government_TT: "§Y[Nat_Autocracy_L]§! перебуває при владі." #22
+ has_monarchist_government_TT: "§Y[Monarchist_L]§! перебуває при владі." #23
 
  #Has X party in coalition - For Custom Triggers
- has_pro_western_autocrat_coalition_TT: "§Y[Western_Autocracy_L]§! is in coalition." #0
- has_conservatism_coalition_TT: "§Y[conservatism_L]§! is in coalition." #1
- has_liberalism_coalition_TT: "§Y[liberalism_L]§! is in coalition." #2
- has_socialism_coalition_TT: "§Y[socialism_L]§! is in coalition." #3
- has_communist_state_coalition_TT: "§Y[Communist-State_L]§! is in coalition." #4
- has_anarchist_communism_coalition_TT: "§Y[anarchist_communism_L]§! is in coalition." #5
- has_conserv_reactionary_coalition_TT: "§Y[Conservative_L]§! is in coalition." #6
- has_autocracy_coalition_TT: "§Y[Autocracy_L]§! is in coalition." #7
- has_mod_vilayat_e_faqih_coalition_TT: "§Y[Mod_Vilayat_e_Faqih_L]§! is in coalition." #8
- has_vilayat_e_faqih_coalition_TT: "§Y[Vilayat_e_Faqih_L]§! is in coalition." #9
- has_kingdom_coalition_TT: "§Y[Kingdom_L]§! is in coalition." #10
- has_caliphate_coalition_TT: "§Y[Caliphate_L]§! is in coalition." #11
- has_neutral_muslim_brotherhood_coalition_TT: "§Y[Neutral_Muslim_Brotherhood_L]§! is in coalition." #12
- has_neutral_autocracy_coalition_TT: "§Y[Neutral_Autocracy_L]§! is in coalition." #13
- has_neutral_conservatism_coalition_TT: "§Y[Neutral_conservatism_L]§! is in coalition." #14
- has_oligarchism_coalition_TT: "§Y[oligarchism_L]§! is in coalition." #15
- has_neutral_libertarian_coalition_TT: "§Y[Neutral_Libertarian_L]§! is in coalition." #16
- has_neutral_green_coalition_TT: "§Y[Neutral_green_L]§! is in coalition." #17
- has_neutral_social_coalition_TT: "§Y[neutral_Social_L]§! is in coalition." #18
- has_neutral_communism_coalition_TT: "§Y[Neutral_Communism_L]§! is in coalition." #19
- has_nat_populism_coalition_TT: "§Y[Nat_Populism_L]§! is in coalition." #20
- has_fascist_coalition_TT: "§Y[Nat_Fascism_L]§! is in coalition." #21
- has_nat_autocracy_coalition_TT: "§Y[Nat_Autocracy_L]§! is in coalition." #22
- has_monarchist_coalition_TT: "§Y[Monarchist_L]§! is in coalition." #23
+ has_pro_western_autocrat_coalition_TT: "§Y[Western_Autocracy_L]§! перебуває в правлячій коаліції." #0
+ has_conservatism_coalition_TT: "§Y[conservatism_L]§! перебуває в правлячій коаліції." #1
+ has_liberalism_coalition_TT: "§Y[liberalism_L]§! перебуває в правлячій коаліції." #2
+ has_socialism_coalition_TT: "§Y[socialism_L]§! перебуває в правлячій коаліції." #3
+ has_communist_state_coalition_TT: "§Y[Communist-State_L]§! перебуває в правлячій коаліції." #4
+ has_anarchist_communism_coalition_TT: "§Y[anarchist_communism_L]§! перебуває в правлячій коаліції." #5
+ has_conserv_reactionary_coalition_TT: "§Y[Conservative_L]§! перебуває у правлячій коаліції." #6
+ has_autocracy_coalition_TT: "§Y[Autocracy_L]§! перебуває в правлячій коаліції." #7
+ has_mod_vilayat_e_faqih_coalition_TT: "§Y[Mod_Vilayat_e_Faqih_L]§! перебуває у правлячій коаліції." #8
+ has_vilayat_e_faqih_coalition_TT: "§Y[Vilayat_e_Faqih_L]§! перебуває у правлячій коаліції." #9
+ has_kingdom_coalition_TT: "§Y[Kingdom_L]§! перебуває в правлячій коаліції." #10
+ has_caliphate_coalition_TT: "§Y[Caliphate_L]§! перебуває у правлячій коаліції." #11
+ has_neutral_muslim_brotherhood_coalition_TT: "§Y[Neutral_Muslim_Brotherhood_L]§! перебуває в правлячій коаліції." #12
+ has_neutral_autocracy_coalition_TT: "§Y[Neutral_Autocracy_L]§! перебуває в правлячій коаліції." #13
+ has_neutral_conservatism_coalition_TT: "§Y[Neutral_conservatism_L]§! перебуває в правлячій коаліції." #14
+ has_oligarchism_coalition_TT: "§Y[oligarchism_L]§! перебуває у правлячій коаліції." #15
+ has_neutral_libertarian_coalition_TT: "§Y[Neutral_Libertarian_L]§! перебуває в правлячій коаліції." #16
+ has_neutral_green_coalition_TT: "§Y[Neutral_green_L]§! перебуває в правлячій коаліції." #17
+ has_neutral_social_coalition_TT: "§Y[neutral_Social_L]§! перебуває у правлячій коаліції." #18
+ has_neutral_communism_coalition_TT: "§Y[Neutral_Communism_L]§! перебуває у правлячій коаліції." #19
+ has_nat_populism_coalition_TT: "§Y[Nat_Populism_L]§! перебуває у правлячій коаліції." #20
+ has_fascist_coalition_TT: "§Y[Nat_Fascism_L]§! перебуває в правлячій коаліції." #21
+ has_nat_autocracy_coalition_TT: "§Y[Nat_Autocracy_L]§! перебуває в правлячій коаліції." #22
+ has_monarchist_coalition_TT: "§Y[Monarchist_L]§! перебуває в правлячій коаліції." #23
 
  ### Has Government
- has_socialist_government_TT: "Socialist ruling party"
- has_communist_government_TT: "Communist ruling party"
- has_environmentalist_government_TT: "Environmentalist ruling party"
- has_liberal_government_TT: "Liberal ruling party"
- has_conservative_government_TT: "Conservative ruling party"
- has_reactionary_government_TT: "Reactionary ruling party"
- has_autocratic_government_TT: "Autocratic ruling party"
- has_totalitarian_government_TT: "Totalitarian ruling party"
+ has_socialist_government_TT: "Правляча партія - соціалістична"
+ has_communist_government_TT: "Правляча партія - комуністична"
+ has_environmentalist_government_TT: "Правляча партія - зелена"
+ has_liberal_government_TT: "Правляча партія - ліберальна"
+ has_conservative_government_TT: "Правляча партія - консервативна"
+ has_reactionary_government_TT: "Правляча партія - реакційна"
+ has_autocratic_government_TT: "Правляча партія - автократна"
+ has_totalitarian_government_TT: "Правляча партія - тоталітарна"
 
- has_socialist_in_coalition_TT: "Socialists in coalition"
- has_communist_in_coalition_TT: "Communists in coalition"
- has_environmentalist_in_coalition_TT: "Environmentalists in coalition"
- has_liberal_in_coalition_TT: "Liberals in coalition"
- has_conservative_in_coalition_TT: "Conservatives in coalition"
- has_reactionary_in_coalition_TT: "Reactionaries in coalition"
- has_autocratic_in_coalition_TT: "Autocrats in coalition"
- has_totalitarian_in_coalition_TT: "Totalitarians in coalition"
+ has_socialist_in_coalition_TT: "Соціалісти в коаліції"
+ has_communist_in_coalition_TT: "Комуністи в коаліції"
+ has_environmentalist_in_coalition_TT: "Зелені в коаліції"
+ has_liberal_in_coalition_TT: "Ліберали в коаліції"
+ has_conservative_in_coalition_TT: "Консерватори в коаліції"
+ has_reactionary_in_coalition_TT: "Реакціонери в коаліції"
+ has_autocratic_in_coalition_TT: "Автократи в коаліції"
+ has_totalitarian_in_coalition_TT: "Тоталітаристи в коаліції"
 
- has_socialist_government_or_in_coalition_TT: "Socialist coalition or ruling party"
- has_communist_government_or_in_coalition_TT: "Communist coalition or ruling party"
- has_environmentalist_government_or_in_coalition_TT: "Environmentalist coalition or ruling party"
- has_liberal_government_or_in_coalition_TT: "Liberal coalition or ruling party"
- has_conservative_government_or_in_coalition_TT: "Have a conservative ruling party"
- has_reactionary_government_or_in_coalition_TT: "Have a reactionary ruling party"
- has_autocratic_government_or_in_coalition_TT: "Autocratic coalition or ruling party"
- has_totalitarian_government_or_in_coalition_TT: "Totalitarians in coalition"
+ has_socialist_government_or_in_coalition_TT: "Соціалістична коаліція або правляча партія"
+ has_communist_government_or_in_coalition_TT: "Комуністична коаліція або правляча партія"
+ has_environmentalist_government_or_in_coalition_TT: "Екологічна коаліція або правляча партія"
+ has_liberal_government_or_in_coalition_TT: "Ліберальна коаліція або правляча партія"
+ has_conservative_government_or_in_coalition_TT: "Мати консервативну правлячу партію"
+ has_reactionary_government_or_in_coalition_TT: "Має реакційну правлячу партію"
+ has_autocratic_government_or_in_coalition_TT: "Автократична коаліція або правляча партія"
+ has_totalitarian_government_or_in_coalition_TT: "Тоталітаристи в коаліції"
 
  #Not has X government - For Custom Triggers
- not_has_pro_western_autocrat_government_TT: "§Y[Western_Autocracy_L]§! is Not in Power." #0
- not_has_conservatism_government_TT: "§Y[conservatism_L]§! is Not in Power." #1
- not_has_liberalism_government_TT: "§Y[liberalism_L]§! is Not in Power." #2
- not_has_socialism_government_TT: "§Y[socialism_L]§! is Not in Power." #3
- not_has_communist_state_government_TT: "§Y[Communist-State_L]§! is Not in Power." #4
- not_has_anarchist_communism_government_TT: "§Y[anarchist_communism_L]§! is Not in Power." #5
- not_has_conservative_government_TT: "§Y[Conservative_L]§! is Not in Power." #6
- not_has_autocracy_government_TT: "§Y[Autocracy_L]§! is Not in Power." #7
- not_has_mod_vilayat_e_faqih_government_TT: "§Y[Mod_Vilayat_e_Faqih_L]§! is Not in Power." #8
- not_has_vilayat_e_faqih_government_TT: "§Y[Vilayat_e_Faqih_L]§! is Not in Power." #9
- not_has_kingdom_government_TT: "§Y[Kingdom_L]§! is Not in Power." #10
- not_has_caliphate_government_TT: "§Y[Caliphate_L]§! is Not in Power." #11
- not_has_neutral_muslim_brotherhood_government_TT: "§Y[Neutral_Muslim_Brotherhood_L]§! is Not in Power." #12
- not_has_neutral_autocracy_government_TT: "§Y[Neutral_Autocracy_L]§! is Not in Power." #13
- not_has_neutral_conservatism_government_TT: "§Y[Neutral_conservatism_L]§! is Not in Power." #14
- not_has_oligarchism_government_TT: "§Y[oligarchism_L]§! is Not in Power." #15
- not_has_neutral_libertarian_government_TT: "§Y[Neutral_Libertarian_L]§! is Not in Power." #16
- not_has_neutral_green_government_TT: "§Y[Neutral_green_L]§! is Not in Power." #17
- not_has_neutral_social_government_TT: "§Y[neutral_Social_L]§! is Not in Power." #18
- not_has_neutral_communism_government_TT: "§Y[Neutral_Communism_L]§! is Not in Power." #19
- not_has_nat_populism_TT: "§Y[Nat_Populism_L]§! is Not in Power." #20
- not_has_fascist_government_TT: "§Y[Nat_Fascism_L]§! is Not in Power." #21
- not_has_nat_autocracy_government_TT: "§Y[Nat_Autocracy_L]§! is Not in Power." #22
- not_has_monarchist_government_TT: "§Y[Monarchist_L]§! is Not in Power." #23
+ not_has_pro_western_autocrat_government_TT: "§Y[Western_Autocracy_L]§! не перебуває при владі." #0
+ not_has_conservatism_government_TT: "§Y[conservatism_L]§! не перебуває при владі." #1
+ not_has_liberalism_government_TT: "§Y[liberalism_L]§! не перебуває при владі." #2
+ not_has_socialism_government_TT: "§Y[socialism_L]§! не перебуває при владі." #3
+ not_has_communist_state_government_TT: "§Y[Communist-State_L]§! не перебуває при владі." #4
+ not_has_anarchist_communism_government_TT: "§Y[anarchist_communism_L]§! не перебуває при владі." #5
+ not_has_conservative_government_TT: "§Y[Conservative_L]§! не перебуває при владі." #6
+ not_has_autocracy_government_TT: "§Y[Autocracy_L]§! не перебуває при владі." #7
+ not_has_mod_vilayat_e_faqih_government_TT: "§Y[Mod_Vilayat_e_Faqih_L]§! не перебуває при владі." #8
+ not_has_vilayat_e_faqih_government_TT: "§Y[Vilayat_e_Faqih_L]§! не перебуває при владі." #9
+ not_has_kingdom_government_TT: "§Y[Kingdom_L]§! не перебуває при владі." #10
+ not_has_caliphate_government_TT: "§Y[Caliphate_L]§! не перебуває при владі." #11
+ not_has_neutral_muslim_brotherhood_government_TT: "§Y[Neutral_Muslim_Brotherhood_L]§! не перебуває при владі." #12
+ not_has_neutral_autocracy_government_TT: "§Y[Neutral_Autocracy_L]§! не перебуває при владі." #13
+ not_has_neutral_conservatism_government_TT: "§Y[Neutral_conservatism_L]§! не перебуває при владі." #14
+ not_has_oligarchism_government_TT: "§Y[oligarchism_L]§! не перебуває при владі." #15
+ not_has_neutral_libertarian_government_TT: "§Y[Neutral_Libertarian_L]§! не перебуває при владі." #16
+ not_has_neutral_green_government_TT: "§Y[Neutral_green_L]§! не перебуває при владі." #17
+ not_has_neutral_social_government_TT: "§Y[neutral_Social_L]§! не перебуває при владі." #18
+ not_has_neutral_communism_government_TT: "§Y[Neutral_Communism_L]§! не перебуває при владі." #19
+ not_has_nat_populism_TT: "§Y[Nat_Populism_L]§! не перебуває при владі." #20
+ not_has_fascist_government_TT: "§Y[Nat_Fascism_L]§! не перебуває при владі." #21
+ not_has_nat_autocracy_government_TT: "§Y[Nat_Autocracy_L]§! не перебуває при владі." #22
+ not_has_monarchist_government_TT: "§Y[Monarchist_L]§! не перебуває при владі." #23
 
- # Has X Party in Coalition
- western_autocrats_are_in_power_or_coalition_TT: "§Y[Western_Autocracy_L]§! is in ruling coalition." #0
- western_conservatism_are_in_power_or_coalition_TT: "§Y[conservatism_L]§! is in ruling coalition." #1
- western_liberal_are_in_power_or_coalition_TT: "§Y[liberalism_L]§! is in ruling coalition." #2
- western_socialism_are_in_power_or_coalition_TT: "§Y[socialism_L]§! is in ruling coalition." #3
- emerging_communist_state_in_power_or_coalition_TT: "§Y[Communist-State_L]§! is in ruling coalition." #4
- emerging_anarchist_communism_in_power_or_coalition_TT: "§Y[anarchist_communism_L]§! is in ruling coalition." #5
- emerging_conservative_in_power_or_coalition_TT: "§Y[Conservative_L]§! is in ruling coalition." #6
- emerging_autocracy_in_power_or_coalition_TT: "§Y[Autocracy_L]§! is in ruling coalition." #7
- emerging_mod_vilyat_e_faqih_in_power_or_coalition_TT: "§Y[Mod_Vilayat_e_Faqih_L]§! is in ruling coalition." #8
- emerging_vilayat_e_faqih_in_power_or_coalition_TT: "§Y[Vilayat_e_Faqih_L]§! is in ruling coalition." #9
- salafist_kingdom_in_power_or_coalition_TT: "§Y[Kingdom_L]§! is in ruling coalition." #10
- salafist_caliphate_in_power_or_coalition_TT: "§Y[Caliphate_L]§! is in ruling coalition." #11
- neutrality_muslim_brotherhood_in_power_or_coalition_TT: "§Y[Neutral_Muslim_Brotherhood_L]§! is in ruling coalition." #12
- neutrality_neutral_autocracy_in_power_or_coalition_TT: "§Y[Neutral_Autocracy_L]§! is in ruling coalition." #13
- neutrality_neutral_conservatism_in_power_or_coalition_TT: "§Y[Neutral_conservatism_L]§! is in ruling coalition." #14
- neutrality_oligarchism_in_power_or_coalition_TT: "§Y[oligarchism_L]§! is in ruling coalition." #15
- neutrality_neutral_libertarian_in_power_or_coalition_TT: "§Y[Neutral_Libertarian_L]§! is in ruling coalition." #16
- neutrality_neutral_green_in_power_or_coalition_TT: "§Y[Neutral_green_L]§! is in ruling coalition." #17
- neutrality_neutral_social_in_power_or_coalition_TT: "§Y[neutral_Social_L]§! is in ruling coalition." #18
- neutrality_neutral_communism_in_power_or_coalition_TT: "§Y[Neutral_Communism_L]§! is in ruling coalition." #19
- nationalist_right_wing_populists_are_in_power_or_coalition_tt: "§Y[Nat_Populism_L]§! is in ruling coalition." #20
- nationalist_fascists_are_in_power_or_coalition_tt: "§Y[Nat_Fascism_L]§! is in ruling coalition." #21
- nationalist_military_junta_are_in_power_or_coalition_tt: "§Y[Nat_Autocracy_L]§! is in ruling coalition." #22
- nationalist_monarchists_are_in_power_or_coalition_tt: "§Y[Monarchist_L]§! is in ruling coalition." #23
- # Not has X Party In Coalition
- western_autocrats_are_not_in_power_or_coalition_TT: "§Y[Western_Autocracy_L]§! is not in ruling coalition." #0
- western_conservative_are_not_in_power_or_coalition_TT: "§Y[conservatism_L]§! is not in ruling coalition." #1
- western_liberal_are_not_in_power_or_coalition_TT: "§Y[liberalism_L]§! is not in ruling coalition." #2
- western_socialism_are_not_in_power_or_coalition_TT: "§Y[socialism_L]§! is not in ruling coalition." #3
- emerging_communist_state_not_in_power_or_coalition_TT: "§Y[Communist-State_L]§! is not in ruling coalition." #4
- emerging_anarchist_communism_not_in_power_or_coalition_TT: "§Y[anarchist_communism_L]§! is not in ruling coalition." #5
- emerging_conservative_not_in_power_or_coalition_TT: "§Y[Conservative_L]§! is not in ruling coalition." #6
- emerging_autocracy_not_in_power_or_coalition_TT: "§Y[Autocracy_L]§! is not in ruling coalition." #7
- emerging_mod_vilyat_e_faqih_not_in_power_or_coalition_TT: "§Y[Mod_Vilayat_e_Faqih_L]§! is not in ruling coalition." #8
- emerging_vilayat_e_faqih_not_in_power_or_coalition_TT: "§Y[Vilayat_e_Faqih_L]§! is not in ruling coalition." #9
- salafist_kingdom_not_in_power_or_coalition_TT: "§Y[Kingdom_L]§! is not in ruling coalition." #10
- salafist_caliphate_not_in_power_or_coalition_TT: "§Y[Caliphate_L]§! is not in ruling coalition." #11
- neutrality_muslim_brotherhood_not_in_power_or_coalition_TT: "§Y[Neutral_Muslim_Brotherhood_L]§! is not in ruling coalition." #12
- neutrality_neutral_autocracy_not_in_power_or_coalition_TT: "§Y[Neutral_Autocracy_L]§! is not in ruling coalition." #13
- neutral_conservative_are_not_in_power_or_coalition_TT: "§Y[Neutral_conservatism_L]§! is not in ruling coalition." #14
- neutrality_oligarchism_not_in_power_or_coalition_TT: "§Y[oligarchism_L]§! is not in ruling coalition." #15
- neutrality_neutral_libertarian_not_in_power_or_coalition_TT: "§Y[Neutral_Libertarian_L]§! is not in ruling coalition." #16
- neutrality_neutral_green_not_in_power_or_coalition_TT: "§Y[Neutral_green_L]§! is not in ruling coalition." #17
- neutrality_neutral_social_not_in_power_or_coalition_TT: "§Y[neutral_Social_L]§! is not in ruling coalition." #18
- neutrality_neutral_communism_not_in_power_or_coalition_TT: "§Y[Neutral_Communism_L]§! is not in ruling coalition." #19
- nationalist_right_wing_populists_are_not_in_power_or_coalition_TT: "§Y[Nat_Populism_L]§! is not in ruling coalition." #20
- nationalist_fascists_are_not_in_power_or_coalition_tt: "§Y[Nat_Fascism_L]§! is not in ruling coalition." #21
- nationalist_military_junta_are_not_in_power_or_coalition_tt: "§Y[Nat_Autocracy_L]§! is not in ruling coalition." #22
- nationalist_monarchists_are_not_in_power_or_coalition_tt: "§Y[Monarchist_L]§! is not in ruling coalition." #23
+ #Has X Party in Coalition
+ western_autocrats_are_in_power_or_coalition_TT: "§Y[Western_Autocracy_L]§! у правлячій коаліції." #0
+ western_conservatism_are_in_power_or_coalition_TT: "§Y[conservatism_L]§! у правлячій коаліції." #1
+ western_liberal_are_in_power_or_coalition_TT: "§Y[liberalism_L]§! у правлячій коаліції." #2
+ western_socialism_are_in_power_or_coalition_TT: "§Y[socialism_L]§! у правлячій коаліції." #3
+ emerging_communist_state_in_power_or_coalition_TT: "§Y[Communist-State_L]§! у правлячій коаліції." #4
+ emerging_anarchist_communism_in_power_or_coalition_TT: "§Y[anarchist_communism_L]§! у правлячій коаліції." #5
+ emerging_conservative_in_power_or_coalition_TT: "§Y[Conservative_L]§! у правлячій коаліції." #6
+ emerging_autocracy_in_power_or_coalition_TT: "§Y[Autocracy_L]§! у правлячій коаліції." #7
+ emerging_mod_vilyat_e_faqih_in_power_or_coalition_TT: "§Y[Mod_Vilayat_e_Faqih_L]§! у правлячій коаліції." #8
+ emerging_vilayat_e_faqih_in_power_or_coalition_TT: "§Y[Vilayat_e_Faqih_L]§! у правлячій коаліції." #9
+ salafist_kingdom_in_power_or_coalition_TT: "§Y[Kingdom_L]§! у правлячій коаліції." #10
+ salafist_caliphate_in_power_or_coalition_TT: "§Y[Caliphate_L]§! у правлячій коаліції." #11
+ neutrality_muslim_brotherhood_in_power_or_coalition_TT: "§Y[Neutral_Muslim_Brotherhood_L]§! у правлячій коаліціїп." #12
+ neutrality_neutral_autocracy_in_power_or_coalition_TT: "§Y[Neutral_Autocracy_L]§! у правлячій коаліції." #13
+ neutrality_neutral_conservatism_in_power_or_coalition_TT: "§Y[Neutral_conservatism_L]§! у правлячій коаліції." #14
+ neutrality_oligarchism_in_power_or_coalition_TT: "§Y[oligarchism_L]§! у правлячій коаліції." #15
+ neutrality_neutral_libertarian_in_power_or_coalition_TT: "§Y[Neutral_Libertarian_L]§! у правлячій коаліції." #16
+ neutrality_neutral_green_in_power_or_coalition_TT: "§Y[Neutral_green_L]§! у правлячій коаліції." #17
+ neutrality_neutral_social_in_power_or_coalition_TT: "§Y[neutral_Social_L]§! у правлячій коаліції." #18
+ neutrality_neutral_communism_in_power_or_coalition_TT: "§Y[Neutral_Communism_L]§! у правлячій коаліції." #19
+ nationalist_right_wing_populists_are_in_power_or_coalition_tt: "§Y[Nat_Populism_L]§! у правлячій коаліції." #20
+ nationalist_fascists_are_in_power_or_coalition_tt: "§Y[Nat_Fascism_L]§! у правлячій коаліції." #21
+ nationalist_military_junta_are_in_power_or_coalition_tt: "§Y[Nat_Autocracy_L]§! у правлячій коаліції." #22
+ nationalist_monarchists_are_in_power_or_coalition_tt: "§Y[Monarchist_L]§! у правлячій коаліції." #23
+ #Не має X Party In Coalition
+ western_autocrats_are_not_in_power_or_coalition_TT: "§Y[Western_Autocracy_L]§! не в правлячій коаліції." #0
+ western_conservative_are_not_in_power_or_coalition_TT: "§Y[conservatism_L]§! не в правлячій коаліції." #1
+ western_liberal_are_not_in_power_or_coalition_TT: "§Y[liberalism_L]§! не в правлячій коаліції." #2
+ western_socialism_are_not_in_power_or_coalition_TT: "§Y[socialism_L]§! не в правлячій коаліції." #3
+ emerging_communist_state_not_in_power_or_coalition_TT: "§Y[Communist-State_L]§! не в правлячій коаліції." #4
+ emerging_anarchist_communism_not_in_power_or_coalition_TT: "§Y[anarchist_communism_L]§! не в правлячій коаліції." #5
+ emerging_conservative_not_in_power_or_coalition_TT: "§Y[Conservative_L]§! не в правлячій коаліції." #6
+ emerging_autocracy_not_in_power_or_coalition_TT: "§Y[Autocracy_L]§! не в правлячій коаліції." #7
+ emerging_mod_vilyat_e_faqih_not_in_power_or_coalition_TT: "§Y[Mod_Vilayat_e_Faqih_L]§! не в правлячій коаліції." #8
+ emerging_vilayat_e_faqih_not_in_power_or_coalition_TT: "§Y[Vilayat_e_Faqih_L]§! не в правлячій коаліції." #9
+ salafist_kingdom_not_in_power_or_coalition_TT: "§Y[Kingdom_L]§! не в правлячій коаліції." #10
+ salafist_caliphate_not_in_power_or_coalition_TT: "§Y[Caliphate_L]§! не в правлячій коаліції." #11
+ neutrality_muslim_brotherhood_not_in_power_or_coalition_TT: "§Y[Neutral_Muslim_Brotherhood_L]§! не в правлячій коаліції." #12
+ neutrality_neutral_autocracy_not_in_power_or_coalition_TT: "§Y[Neutral_Autocracy_L]§! не в правлячій коаліції." #13
+ neutral_conservative_are_not_in_power_or_coalition_TT: "§Y[Neutral_conservatism_L]§! не в правлячій коаліції." #14
+ neutrality_oligarchism_not_in_power_or_coalition_TT: "§Y[oligarchism_L]§! не в правлячій коаліції." #15
+ neutrality_neutral_libertarian_not_in_power_or_coalition_TT: "§Y[Neutral_Libertarian_L]§! не в правлячій коаліції." #16
+ neutrality_neutral_green_not_in_power_or_coalition_TT: "§Y[Neutral_green_L]§! не в правлячій коаліції." #17
+ neutrality_neutral_social_not_in_power_or_coalition_TT: "§Y[neutral_Social_L]§! не в правлячій коаліції." #18
+ neutrality_neutral_communism_not_in_power_or_coalition_TT: "§Y[Neutral_Communism_L]§! не в правлячій коаліції." #19
+ nationalist_right_wing_populists_are_not_in_power_or_coalition_TT: "§Y[Nat_Populism_L]§! не в правлячій коаліції." #20
+ nationalist_fascists_are_not_in_power_or_coalition_tt: "§Y[Nat_Fascism_L]§! не в правлячій коаліції." #21
+ nationalist_military_junta_are_not_in_power_or_coalition_tt: "§Y[Nat_Autocracy_L]§! не в правлячій коаліції." #22
+ nationalist_monarchists_are_not_in_power_or_coalition_tt: "§Y[Monarchist_L]§! не в правлячій коаліції." #23
 
- has_socialist_government: "Current ruling party is §YSocialist§!."
- has_communist_government: "Current ruling party is §YCommunist§!."
- has_environmentalist_government: "Current ruling party is §YEnvironmentalist§!."
- has_liberal_government: "Current ruling party is §YLiberal§!."
- has_conservative_government: "Current ruling party is §YConservative§!."
- has_reactionary_government: "Current ruling party is §YReactionary§!."
- has_autocratic_government: "Current ruling party is §YAutocratic§!."
- has_totalitarian_government: "Current ruling party is §YTotalitarian§!."
+ # має aligience goverment
+ has_western_aligned_government_TT: "Має прозахідний уряд"
+ has_emerging_aligned_government_TT: "Має реакційний уряд"
+ has_neutral_aligned_government_TT: "Має нейтральний уряд"
+ has_nationalist_aligned_government_TT: "Має націоналістичний уряд"
+ has_salafist_aligned_government_TT: "Має салафітський уряд"
 
- has_socialist_in_coalition: "Socialists in coalition"
- has_communist_in_coalition: "Communists in coalition"
- has_environmentalist_in_coalition: "Environmentalists in coalition"
- has_liberal_in_coalition: "Liberals in coalition"
- has_conservative_in_coalition: "Conservatives in coalition"
- has_reactionary_in_coalition: "Reactionaries in coalition"
- has_autocratic_in_coalition: "Autocrats in coalition"
- has_totalitarian_in_coalition: "Totalitarians in coalition"
-
- has_socialist_government_or_in_coalition: "Socialist coalition or ruling party"
- has_communist_government_or_in_coalition: "Communist coalition or ruling party"
- has_environmentalist_government_or_in_coalition: "Environmentalist coalition or ruling party"
- has_liberal_government_or_in_coalition: "Liberal coalition or ruling party"
- has_conservative_government_or_in_coalition: "Have a conservative ruling party"
- has_reactionary_government_or_in_coalition: "Have a reactionary ruling party"
- has_autocratic_government_or_in_coalition: "Autocratic coalition or ruling party"
- has_totalitarian_government_or_in_coalition: "Totalitarians in coalition"
- opt_party12_tag_click_enabled: "[ROOT.GetName] is allowed to boost §Y[Caliphate_L]§!\n"
- opt_party13_tag_click_enabled: "[ROOT.GetName] is allowed to boost §Y[Neutral_Muslim_Brotherhood_L]§!\n"
-
- # has aligience government
- has_western_aligned_government_TT: "Has West-aligned government"
- has_emerging_aligned_government_TT: "Has Emerging aligned government"
- has_neutral_aligned_government_TT: "Has Neutral government"
- has_nationalist_aligned_government_TT: "Has Nationalist government"
- has_salafist_aligned_government_TT: "Has Salafist government"
-
- has_economically_liberal_government: "One of the following must be true:\n\t§Y[conservatism_L]§! is in power.\n\t§Y[liberalism_L]§! is in power.\n\t§Y[Neutral_conservatism_L]§! is in power.\n\t§Y[Neutral_Libertarian_L]§! is in power.\n"
- has_economically_liberal_in_coalition: "One of the following must be true:\n\t§Y[conservatism_L]§! is in ruling coalition.\n\t§Y[liberalism_L]§! is in ruling coalition.\n\t§Y[Neutral_conservatism_L]§! is in ruling coalition.\n\t§Y[Neutral_Libertarian_L]§! is in ruling coalition.\n"
+ has_economically_liberal_government: "Один із наступних має бути істинним:\n\t§Y[conservatism_L]§! є при владі.\n\t§Y[liberalism_L]§! є при владі.\n\t§Y[Neutral_conservatism_L]§! є при владі.\n\t§Y[Neutral_Libertarian_L]§! є при владі.\n\t§Y[Neutral_Libertarian_L]§! є при владі.\n"
+ has_economically_liberal_in_coalition: "Повинно бути істинним одне з наведеного нижче:\n\t§Y[консерватизм_L]§! перебуває у владній коаліції.\n\t§Y[лібералізм_L]§! перебуває у владній коаліції.\n\t§Y[нейтральний_консерватизм_L]§! перебуває у владній коаліції.\n\t§Y[нейтральний_ліберал_L]§! перебуває у владній коаліції.\n\t§Y[нейтральний_ліберал_L]§! перебуває у владній коаліції.\n"
  has_economically_liberal_government_or_in_coalition: "$has_economically_liberal_in_coalition$"
 
- # Specific Party
- western_autocrats_have_more_than_25_tt: "§Y[Western_Autocracy_L]§! Have More Than §Y25%§! Popularity (Current: [?party_pop_array^0|2%Y])\n"
- nationalist_monarchists_have_more_than_25_tt: "§Y[Monarchist_L]§! Have More Than §Y25%§! Popularity (Current: [?party_pop_array^23|2%Y])\n"
+ # Конкретна партія
+ western_autocrats_have_more_than_25_tt: "§Y[Western_Autocracy_L]§! Мають більше, ніж §Y25%§! Популярність (Поточна: [?party_pop_array^0|2%Y])\n"
+ nationalist_monarchists_have_more_than_25_tt: "§Y[Monarchist_L]§! Мають більше, ніж §Y25%§! Популярність (Поточна: [?party_pop_array^0|2%Y])\n"
 
- #Economy
- econvent.from_booming_tt: "Will §Rlower§! our economic growth from §HBooming§!\n"
- econvent.from_fast_growth_tt: "Will §Rlower§! our economic growth from §HFast growth§!\n"
- econvent.from_stable_growth_tt: "Will §Rlower§! our economic growth from §HStable Growth§!\n"
- econvent.from_stagnation_tt: "Will §Rlower§! our economic growth from §HStagnation§!\n"
- econvent.from_recession_tt: "Will §Rlower§! our economic growth from §HRecession§!\n"
- econvent.from_recession2_tt: "Will §Rlower§! our economic growth from §HRecession§! to:\n"
- econvent.list.fast_growth_tt: "§HFast growth§!"
- econvent.list.stable_growth_tt: "§HStable Growth§!"
- econvent.list.stagnation_tt: "§HStagnation§!"
- econvent.list.recession_tt: "§HRecession§!"
- econvent.list.depression_tt: "§HDepression§!"
- econvent.list.no_effect_tt: "§HNo change§!"
- econvent.voodoo_economics_tt: "By lowering interest rates, pushing banks to take greater risks and expanding the money supply we make it easier to get loans so the fall will be limited. This is called §H'Voodoo Economics'§! by critics, as it will cushion the blow to a collapsing market, but not fix the underlying issues\n"
- econvent.2.b_tt: "By doing nothing the crash will be much worse. However, the road to recovery may be faster - as the underlying cause of the crash in the first place was too much money flowing into the housing market\n"
- TT_NO_BUILDING_SLOTS: "All our states have 0 empty §Ybuilding slots§!"
- TT_MAX_1_BUILDING_SLOTS: "All our states have at most 1 empty §Ybuilding slot§!"
- cyber_gdp_requirement_0_tt: "Has §Y4.000$ GDP/C§! or higher"
- cyber_gdp_requirement_1_tt: "Has §Y7.000$ GDP/C§! or higher"
- cyber_gdp_requirement_2_tt: "Has §Y15.000$ GDP/C§! or higher"
- cyber_gdp_requirement_3_tt: "Has §Y20.000$ GDP/C§! or higher"
- cyber_gdp_requirement_4_tt: "Has §Y30.000$ GDP/C§! or higher"
- gdp_requirement_10_tt: "Has §Y10.000$ GDP/C§! or higher"
- must_have_at_least_stable_growth_tt: "Must have at least §YStable Growth§!\n"
+ #Економіка
+ econvent.from_booming_tt: "Наше економічне зростання буде §Rзменшене§! з §Некономічного буму§!\n"
+ econvent.from_fast_growth_tt: "Наше економічне зростання буде §Rзменшене§! з §НШвидкого зростання§!\n"
+ econvent.from_stable_growth_tt: "Наше економічне зростання буде §Rзменшено§! з §НСтабільного зростання§!\n"
+ econvent.from_stagnation_tt: "Наше економічне зростання буде §Rзменшено§! з §НСтагнації§!\n"
+ econvent.from_recession_tt: "Наше економічне зростання буде §Rзменшено§! з §НРецесії§!\n"
+ econvent.from_recession2_tt: "Наше економічне зростання буде §Rзменшено§! з §НРецесії§! до:\n"
+ econvent.list.fast_growth_tt: "§НШвидке зростання§!"
+ econvent.list.stable_growth_tt: "§НСтабільне зростання§!"
+ econvent.list.stagnation_tt: "§НСтагнація§!"
+ econvent.list.recession_tt: "§НРецесія§!"
+ econvent.list.depression_tt: "§НДепресія§!"
+ econvent.list.no_effect_tt: "§НБез змін§!"
+ econvent.voodoo_economics_tt: "Знижуючи відсоткові ставки, підштовхуючи банки до більшого ризику і розширюючи грошову масу, ми полегшуємо отримання кредитів, тому падіння буде обмеженим. Критики називають це §H "Економікою Вуду"§!, оскільки вона пом'якшить удар по ринку, що обрушився, але не усуне основні проблеми\n"
+ econvent.2.b_tt: "Якщо нічого не робити, катастрофа буде набагато гіршою. Однак шлях до відновлення може бути швидшим - оскільки основною причиною краху насамперед було занадто багато грошей, що надходять на ринок житла\n"
+ TT_NO_BUILDING_SLOTS: "У всіх наших регіонах 0 незайнятих §Yячейок для будівництва§!"
+ TT_MAX_1_BUILDING_SLOTS: "У всіх наших регіонах не більш ніж 1 незайнятий §Yячейки для будівництва§!"
+ cyber_gdp_requirement_0_tt: "Має §Y4.000$ ВВП/ДН§! або вище"
+ cyber_gdp_requirement_1_tt: "Має §Y7.000$ ВВП/ДН§! або вище"
+ cyber_gdp_requirement_2_tt: "Має §Y15.000$ ВВП/ДН§! або вище"
+ cyber_gdp_requirement_3_tt: "Має §Y20.000$ ВВП/ДН§! або вище"
+ cyber_gdp_requirement_4_tt: "Має §Y30.000$ ВВП/ДН§! або вище"
+ gdp_requirement_10_tt: "Має §Y10.000$ ВВП/ДН§! або вище"
 
- # Tax Rate Changes
- disables_personal_tax_rate_change: "§RDisables§! §YPopulation Tax Rate§! changes\n"
- enables_personal_tax_rate_change: "§GEnables§! §YPopulation Tax Rate§! changes\n"
- disables_corporate_tax_rate_change: "§RDisables§! §YCorporate Tax Rate§! changes\n"
- enables_corporate_tax_rate_change: "§GEnables§! §YCorporate Tax Rate§! changes\n"
+ # Зміни податкової ставки
+ disables_personal_tax_rate_change: "§RВимикає можливість§! змінювати §Yставку податку на населення§!\n"
+ enables_personal_tax_rate_change: "§GВмикає можливість§! змінювати §Yставку податку на населення§!\n"
+ disables_corporate_tax_rate_change: "§RВимикає можливість§! змінювати §Yставку корпоративного податку§!\n"
+ enables_corporate_tax_rate_change: "§GВмикає можливість§! змінювати §Yставку корпоративного податку§!\n"
 
- ##Has tax rate
- per_tax_rate_at_least_3_tt: "Has §YPopulation Tax Rate§! atleast above §Y3%§!\n"
- per_tax_rate_less_than_or_equals_50: "Has §YPopulation Tax Rate§! less than or equal to §Y50%§!\n"
- has_tax_rate_5_at_least_45_less_tt: "Has a §YTax Rate§! of atleast §Y5%§!\nHas a §YTax Rate§! of less than §Y45%§!"
+ ##Має податкову ставку
+ per_tax_rate_at_least_3_tt: "Має §Yставку податку на населення§! не менше §Y3%§!\n"
+ per_tax_rate_less_than_or_equals_50: "Має §Yставку податку на населення§! менше або дорівнює §Y50%§!\n"
+ has_tax_rate_5_at_least_45_less_tt: "Має §Yподаткову ставку§! меншу за §Y5%§!\nМає §Yподаткову ставку§! меншу за §Y45%§!"
 
- # Ethiopia
- ETH_zera_yacob_returns_TT: "Zera Yacob returns to Ethiopia!\n"
- ETH_imperial_guard_TT: "§GThe Kebur Zabagna was the Emperor's official guard. By restoring it, we will secure the new emperor security as well as its prestige.§!"
+ ###Ethiopia
+ ETH_zera_yacob_returns_TT: "Зера Якоб повертається до Ефіопії!\n"
+ ETH_imperial_guard_TT: "§GКебур Забанья був офіційною гвардією імператора. Відновивши його, ми забезпечимо безпеку нового імператора, а також його престиж.§!"
 
- # Myanmar/Burmas
- 11_FortifyBangladesh_tt: "Add Level 3 §YForts§! Along the Bangladeshi Border"
- 11_FortifyThai_tt: "Add Level 3 §YForts§! Along the Thai Border"
- 11_FortifyIndia_tt: "Add Level 3 §YForts§! Along the Indian Border"
- 11_FortifyChina_tt: "Add Level 3 §YForts§! Along the Chinese Border"
- 11_special_ops_tt: "Gain one §YSpecial Operations Command§! unit"
+ #Myanmar/Burmas
+ 11_FortifyBangladesh_tt: "Буде отримано 3 рівні §Yукріплень§! вздовж кордону Бангладешу"
+ 11_FortifyThai_tt: "Буде отримано 3 рівні §Yукріплень§! уздовж тайського кордону"
+ 11_FortifyIndia_tt: "Буде отримано 3 рівні §Yукріплень§! уздовж індійського кордону"
+ 11_FortifyChina_tt: "Буде отримано 3 рівні §Yукріплень§! уздовж китайського кордону"
+ 11_special_ops_tt: "Додається 1 одиниця §YКоманди спеціальних операцій§!"
 
- 11_BRM_influence_0_tt: "§Y[BRM.GetNameWithFlag]§! has §Y0%§! influence in §Y[ROOT.GetNameWithFlag]§!"
+ 11_BRM_influence_0_tt: "§Y[BRM.GetNameWithFlag]§! має §Y0%§! впливу в §Y[ROOT.GetNameWithFlag]§!"
 
- 11_BRM_ambitious_demands_tt: "We will demand §Y10§! independence from Burmese influence"
- 11_BRM_moderate_demands_tt: "We will demand §Y5§! independence from Burmese influence"
- 11_BRM_NCA_tt: "All parties to the conflict in [Root.GetNameDef] have signed the §YNationwide Ceasefire Agreement§!"
- 11_ASEAN_defence_tt: "§ROther member states will not sign if their relations with China are too strong§!"
+ 11_BRM_ambitious_demands_tt: "Ми будемо вимагати §Y10§! одиниць незалежності від бірманського впливу"
+ 11_BRM_moderate_demands_tt: "Ми будемо вимагати §Y5§! одиниць незалежності від бірманського впливу"
+ 11_BRM_NCA_tt: "Усі сторони конфлікту в [Root.GetNameDef] підписали §Yзагальнонаціональну угоду про припинення вогню§!"
+ 11_ASEAN_defence_tt: "§RІнші держави-члени не підпишуть угоду, якщо їхні стосунки з Китаєм будуть надто сильними.§!"
 
  #Child Soldiers
- 11_child_soldiers_recruitment_6_tt: "§YChild Soldier Recruitment Level§! is §Y5§! or lower"
- 11_child_soldiers_recruitment_greater_tt: "§YChild Soldier Recruitment Level§! is greater than §Y0§!"
- 11_child_soldiers_recruitment_decrease_tt: "§YChild Soldier Recruitment Level§! decreases by §Y1§!"
- 11_child_soldiers_recruitment_decrease_5_tt: "§YChild Soldier Recruitment Level§! decreases by §Y5§!"
- 11_child_soldiers_greater_2000_tt: "§YNumber of Child Soldiers§! exceeds §Y2000§!"
- 11_child_soldiers_greater_10000_tt: "§YNumber of Child Soldiers§! exceeds §Y10000§!"
- 11_has_child_soldiers_tt: "§YNumber of Child Soldiers§! in our armed forces is greater than §Y0§!"
- 11_child_soldiers_100_tt: "Reduces our current §YNumber of Child Soldiers§! by §G100§!"
- 11_child_soldiers_1000_tt: "Reduces our current §YNumber of Child Soldiers§! by §G1000§!"
- 11_child_soldiers_5000_tt: "Reduces our current §YNumber of Child Soldiers§! by §G5000§!"
- 11_sufficient_bureaucracy_tt: "Has at least §YLarge Civil Service Administration§! or higher"
- 11_0_child_soldiers_tt: "§YNumber of Child Soldiers§! is §Y0§!"
- 11_0_child_soldiers_recruitment_tt: "§YChild Soldier Recruitment Level§! is §Y0§! or negative"
+ 11_child_soldiers_recruitment_6_tt: "§YРівень вербування дітей-солдатів§! §Y5§! або нижче"
+ 11_child_soldiers_recruitment_greater_tt: "§YРівень вербування дітей-солдатів§! вищий ніж §Y0§!"
+ 11_child_soldiers_recruitment_decrease_tt: "§YРівень вербування дітей-солдатів§! скоротився на §Y1§!"
+ 11_child_soldiers_recruitment_decrease_5_tt: "§YРівень вербування дітей-солдатів§! скоротився на §Y5§!"
+ 11_child_soldiers_greater_2000_tt: "§Y Чисельність дітей-солдатів§! перевищує §Y2000§!"
+ 11_child_soldiers_greater_10000_tt: "§Y Чисельність дітей-солдатів§! перевищує §Y10000§!"
+ 11_has_child_soldiers_tt: "§YЧисленность дітей-солдатів§! в наших збройних силах більше, ніж §Y0§!"
+ 11_child_soldiers_100_tt: "Зменшується приплив §Yчисельності дітей-солдатів§! на §G100§!"
+ 11_child_soldiers_1000_tt: "Зменшується приплив §Yчисельності дітей-солдатів§! на §G1000§!"
+ 11_child_soldiers_5000_tt: "Зменшується приплив §Yчисленности детей-солдат§! на §G5000§!"
+ 11_sufficient_bureaucracy_tt: "Має, принаймні, §Yвелике цивільне управління§! або вище."
+ 11_0_child_soldiers_tt: "§YКількість дітей-солдатів§! §Y0§!"
+ 11_0_child_soldiers_recruitment_tt: "§YРівень вербування дітей-солдатів§! §Y0§§! або негативний"
 
  #Cyber Warfare
- cyber_police_requirement_tt: "Has §YHigh Police and Intelligence Funding§! or higher"
- cyber_police_requirement_1_tt: "Has §YBasic Police and Intelligence Funding§! or higher"
- cyber_superior_tank_technology_tt: "[FROM.GetnameDef] has researched superior §YMBT§! technology"
- cyber_superior_mr_fighter_technology_tt: "[FROM.GetnameDef] has researched superior §Ystealth fighter§! technology"
- cyber_democrats_tt: "The Democrats will lose §Y2%§! of their support to the Republicans"
- cyber_republicans_tt: "The Republicans will lose §Y2%§! of their support to the Democrats"
+ cyber_police_requirement_tt: "Має §Yвисоке фінансування поліції та розвідки§! або вище"
+ cyber_police_requirement_1_tt: "Має §Yбазове фінансування поліції та служб безпеки§! або вище"
+ cyber_superior_tank_technology_tt: "[FROM.GetnameDef] досліджував переважаючу технологію §YMBT§!"
+ cyber_superior_mr_fighter_technology_tt: "[FROM.GetnameDef] досліджував перевершальну технологію §Yвинищувача-невидимки§!"
+ cyber_democrats_tt: "Демократи втратять §Y2%§! від своєї підтримки республіканців."
+ cyber_republicans_tt: "Республіканці втратять §Y2%§! від своєї підтримки демократів."
 
- launched_attack: "A cyber attack is not being launched"
- superior_cyber_tt: "Our computing technology has not fallen behind that of §Y[FROM.GetNameDef]§!"
- CHI_technology_inferior_tt: "Will be able to launch cyber attacks on technologically superior nations"
+ cyber_attack_in_progress_tt: "Кібер-атака не починається"
+ superior_cyber_tt: "Наші обчислювальні технології не відстають від §Y[FROM.GetNameDef]§!"
+ CHI_technology_inferior_tt: "Зможуть здійснювати кібератаки на країни, які технологічно перевершують їх."
 
- cost_cyber_infrastructure: "You will invest in cyber security infrastructure §Y$[?cybercostinv]§!"
+ cost_cyber_infrastructure: "Ви проінвестуєте в кіберзахист §Y$[?cybercostinv]§!"
 
  #International Recognition
- two_thirds_tt: "Has secured the support of two-thirds of all UN member states\nCurrent number of states: §Y[?ROOT.Granted_Recognition]§!\nRequired number of states: §Y120§!"
- security_council_support_tt: "Has secured the support of all 5 permanent members of the UN Security Council"
- USA_recognition_BRM_tt: "§Y[USA.GetNamewithFlag]§! has a better opinion of us than it does of §Y[BRM.GetNamewithFlag]§!"
- ENG_recognition_BRM_tt: "§Y[ENG.GetNamewithFlag]§! has a better opinion of us than it does of §Y[BRM.GetNamewithFlag]§!"
- FRA_recognition_BRM_tt: "§Y[FRA.GetNamewithFlag]§! has a better opinion of us than it does of §Y[BRM.GetNamewithFlag]§!"
- SOV_recognition_BRM_tt: "§Y[SOV.GetNamewithFlag]§! has a better opinion of us than it does of §Y[BRM.GetNamewithFlag]§!"
- CHI_recognition_BRM_tt: "§Y[CHI.GetNamewithFlag]§! has a better opinion of us than it does of §Y[BRM.GetNamewithFlag]§!"
- USA_recognition_CHI_tt: "§Y[USA.GetNamewithFlag]§! has a better opinion of us than it does of §Y[CHI.GetNamewithFlag]§!"
- ENG_recognition_CHI_tt: "§Y[ENG.GetNamewithFlag]§! has a better opinion of us than it does of §Y[CHI.GetNamewithFlag]§!"
- FRA_recognition_CHI_tt: "§Y[FRA.GetNamewithFlag]§! has a better opinion of us than it does of §Y[CHI.GetNamewithFlag]§!"
- SOV_recognition_CHI_tt: "§Y[SOV.GetNamewithFlag]§! has a better opinion of us than it does of §Y[CHI.GetNamewithFlag]§!"
- CHI_influence_below_tt: "§Y[CHI.GetNameWithFlag]§! is not our top influencer"
- SOV_influence_below_tt: "§Y[SOV.GetNameWithFlag]§! is not our top influencer"
- USA_influence_below_tt: "§Y[USA.GetNameWithFlag]§! is not our top influencer"
- ENG_influence_below_tt: "§Y[ENG.GetNameWithFlag]§! is not our top influencer"
- FRA_influence_below_tt: "§Y[FRA.GetNameWithFlag]§! is not our top influencer"
- GER_influence_below_tt: "§Y[GER.GetNameWithFlag]§! is not our top influencer"
- RAJ_influence_below_tt: "§Y[RAJ.GetNameWithFlag]§! is not our top influencer"
- JAP_influence_below_tt: "§Y[JAP.GetNameWithFlag]§! is not our top influencer"
- recognition_FSA: "the Syrian National Coalition"
- recognition_GNA: "the National Transitional Council"
- recognition_SYR: "the Assad Government"
- recognition_TAL: "the Taliban Government"
- recognition_AFG: "the Northern Alliance"
- recognition_generic: "[FROM.GetLeader]'s Government"
+ two_thirds_tt: "Заручилися підтримкою 2/3 усіх держав-членів ООН. \nПоточна кількість держав: §Y[?ROOT.Granted_Recognition]§!\nНеобхідна кількість держав: §Y120§!"
+ security_council_support_tt: "Заручилися підтримкою всіх 5 постійних членів Ради Безпеки Організації Об'єднаних Націй"
+ USA_recognition_BRM_tt: "§Y[USA.GetNamewithFlag]§! має кращу думку про нас, ніж про §Y[BRM.GetNamewithFlag]§!"
+ ENG_recognition_BRM_tt: "§Y[ENG.GetNamewithFlag]§! має кращу думку про нас, ніж про §Y[BRM.GetNamewithFlag]§!"
+ FRA_recognition_BRM_tt: "§Y[FRA.GetNamewithFlag]§! має кращу думку про нас, ніж про §Y[BRM.GetNamewithFlag]§!"
+ SOV_recognition_BRM_tt: "§Y[SOV.GetNamewithFlag]§! має кращу думку про нас, ніж про §Y[BRM.GetNamewithFlag]§!"
+ CHI_recognition_BRM_tt: "§Y[CHI.GetNamewithFlag]§! має кращу думку про нас, ніж про §Y[BRM.GetNamewithFlag]§!"
+ USA_recognition_CHI_tt: "§Y[USA.GetNamewithFlag]§! має кращу думку про нас, ніж про §Y[CHI.GetNamewithFlag]§!"
+ ENG_recognition_CHI_tt: "§Y[ENG.GetNamewithFlag]§! має кращу думку про нас, ніж про §Y[CHI.GetNamewithFlag]§!"
+ FRA_recognition_CHI_tt: "§Y[FRA.GetNamewithFlag]§! має кращу думку про нас, ніж про §Y[CHI.GetNamewithFlag]§!"
+ SOV_recognition_CHI_tt: "§Y[SOV.GetNamewithFlag]§! має кращу думку про нас, ніж про §Y[CHI.GetNamewithFlag]§!"
+ CHI_influence_below_tt: "§Y[CHI.GetNameWithFlag]§! не є найвпливовішим у нас"
+ SOV_influence_below_tt: "§Y[SOV.GetNameWithFlag]§! не є найвпливовішим у нас"
+ USA_influence_below_tt: "§Y[USA.GetNameWithFlag]§! не є найвпливовішим у нас"
+ ENG_influence_below_tt: "§Y[ENG.GetNameWithFlag]§! не є найвпливовішим у нас"
+ FRA_influence_below_tt: "§Y[FRA.GetNameWithFlag]§! не є найвпливовішим у нас"
+ GER_influence_below_tt: "§Y[GER.GetNameWithFlag]§! не є найвпливовішим у нас"
+ RAJ_influence_below_tt: "§Y[RAJ.GetNameWithFlag]§! не є найвпливовішим у нас"
+ JAP_influence_below_tt: "§Y[JAP.GetNameWithFlag]§! не є найвпливовішим у нас"
+ recognition_FSA: "Сирійська національна коаліція"
+ recognition_GNA: "Національна перехідна рада"
+ recognition_SYR: "Уряд Ассада"
+ recognition_TAL: "Талібанський уряд"
+ recognition_AFG: "Північний Альянс"
+ recognition_generic: "Уряд [FROM.GetLeader]"
 
  #China
- CHI_bribe_decisions_tt: "Unlocks §YBribe Taiwanese Officers§! decision\n"
- CHI_increase_coup_support_tt: "Support for a coup in Taiwan increases\n"
- TAI_decrease_coup_support_tt: "Support for the government increases\n"
- TAI_relative_support_tt: "Support for the government outweights support for the coup-plotters\n"
+ CHI_bribe_decisions_tt: "Розблокування рішення §Yдачі хабара тайванським чиновникам§!\n"
+ CHI_increase_coup_support_tt: "Підтримка перевороту на Тайвані зростає\n"
+ TAI_decrease_coup_support_tt: "Підтримка уряду збільшується\n"
+ TAI_relative_support_tt: "Підтримка уряду переважує підтримку змовників\n"
 
- CHI_dropped_opposition_to_independence_tt: "Will no longer gain a wargoal on §Y[TAI.Getnamewithflag]§! if it declares independence\n"
- CHI_recognize_TAI_tt: "§Y[CHI.Getnamewithflag]§! recognizes §Y[TAI.Getnamewithflag]'s§! independence\n"
- CHI_recognized_TAI_tt: "§Y[CHI.Getnamewithflag]§! has recognized §Y[TAI.Getnamewithflag]'s§! independence\n"
- TAI_CSSTA_540_tt: "The §YCross-Strait Service Trade Agreement§! will be ratified in 540 days\n"
- TAI_CSSTA_30_tt: "The §YCross-Strait Service Trade Agreement§! will be ratified in 30 days\n"
- TAI_loses_cores_tt: "§Y[TAI.Getnamewithflag]§! loses cores on Chinese territory\n"
- CHI_loses_cores_tt: "§Y[CHI.Getnamewithflag]§! loses cores on Taiwanese territory\n"
- TAI_DPP_ruling_tt: "Current ruling party is a member of the §GPan-Green Coalition§!"
- TAI_DPP_not_ruling_tt: "Current ruling party is a member of the §CPan-Blue Coalition§!"
- TAI_DPP_75_tt: "§YTotal Support§! for the §GPan-Green Coalition§! is more than §Y75%§!"
- TAI_DPP_25_tt: "§YTotal Support§! for the §GPan-Green Coalition§! is less than §Y25%§!"
- accepted_roadmap: "§Y[TAI.Getnamewithflag]§! has §Gaccepted§! the \"Roadmap to Reunification\""
- rejected_roadmap: "§Y[TAI.Getnamewithflag]§! has §Rrejected§! the \"Roadmap to Reunification\""
- TAI_declared_independence_tt: "§Y[TAI.Getnamewithflag]§! has declared independence"
- TAI_not_declared_independence_tt: "§Y[TAI.Getnamewithflag]§! has not declared independence"
- TAI_reunification_more_likely_tt: "§Y[TAI.Getnamewithflag]§! is more likely to §Gaccept§! the \"Roadmap to Reunification\"\n"
- TAI_reunification_less_likely_tt: "§Y[TAI.Getnamewithflag]§! is more likely to §Rreject§! the \"Roadmap to Reunification\"\n"
- TAI_influence_CHI_tt: "§Y[CHI.GetNameWithFlag]§! gains §Y20§! influence in §Y[TAI.GetNameWithFlag]§!\n"
- anti_infiltration_bill_tt: "Reduces China's ability to conduct propaganda campaigns in our territory\n"
- reunification: "§Y[CHI.GetNameWithFlag]§! has not proclaimed that §Y[HKG.GetNameWithFlag]§! will return to its control in 2047\n"
- troops_deployed: "Has Chinese Troops deployed\n"
- CHI_shift_away_shanghai_clique_tt: "The power of the §YShanghai Clique§! will decrease\n"
- CHI_shift_away_youth_league_tt: "The power of the §YCommunist Youth League§! will decrease\n"
+ CHI_dropped_opposition_to_independence_tt: "Більше не матимемо на меті війни проти §Y[TAI.GetNameWithflag]§!, якщо він оголосив незалежність\n"
+ CHI_recognize_TAI_tt: "§Y[CHI.GetNameWithflag]§! визнає незалежність §Y[TAI.GetNameWithflag]§!\n"
+ CHI_recognized_TAI_tt: "§Y[CHI.GetNameWithflag]§! визнав незалежність §Y[TAI.GetNameWithflag]§!\n"
+ TAI_CSSTA_540_tt: "Угода про §Yторгівлю послугами через протоку§! буде ратифікована через 540 днів\n"
+ TAI_CSSTA_30_tt: "Угода про §Yторгівлю послугами через протоку§! буде ратифікована через 30 днів\n"
+ TAI_loses_cores_tt: "Материкові території більше не будуть національними для §Y[TAI.GetNameWithflag]§!\n"
+ CHI_loses_cores_tt: "Тайванські території більше не будуть національними для §Y[CHI.GetNameWithflag]§!\n"
+ TAI_DPP_ruling_tt: "Поточна правляча партія - член §GПан-зеленої коаліції§!"
+ TAI_DPP_not_ruling_tt: "Поточна правляча партія - член §МПан-сініі коаліції§!"
+ TAI_DPP_75_tt: "§YЗагальна підтримка§! §GПан-зеленої коаліції§! більше §Y75%§!"
+ TAI_DPP_25_tt: "§YЗагальна підтримка§! §GПан-зеленої коаліції§! менше §Y25%§!"
+ accepted_roadmap: "§Y[TAI.GetNameWithflag]§! §Gприйняв§! "дорожню карту возз'єднання""
+ rejected_roadmap: "§Y[TAI.GetNameWithflag]§! §Rвідхилив§! "дорожню карту возз'єднання""
+ TAI_declared_independence_tt: "§Y[TAI.GetNameWithflag]§! оголосив про свою незалежність"
+ TAI_not_declared_independence_tt: "§Y[TAI.GetNameWithflag]§! не оголосив про свою незалежність"
+ TAI_reunification_more_likely_tt: "§Y[TAI.GetNameWithflag]§! з більшою ймовірністю §Gприйме§! "дорожню карту возз'єднання"\n"
+ TAI_reunification_less_likely_tt: "§Y[TAI.GetNameWithflag]§! з більшою ймовірністю §Rвідхилить§! "дорожню карту возз'єднання"\n"
+ TAI_influence_CHI_tt: "§Y[CHI.GetNameWithFlag]§! отримає §Y20§! впливу в §Y[TAI.GetNameWithFlag]§!\n"
+ anti_infiltration_bill_tt: "Знижує здатність Китаю проводити пропагандистські кампанії на нашій території\n"
+ HKG_continuation_tt: "§Y[CHI.GetNameWithFlag]§! не оголосив, що §Y[HKG.GetNameWithFlag]§! повернеться під його контроль у 2047 році\n"
+ HKG_chinese_troops_deployed_tt: "Чи розгорнуті китайські війська\n"
+ CHI_shift_away_shanghai_clique_tt: "Влада §YШанхайської Кліки§! зменшиться\n"
+ CHI_shift_away_youth_league_tt: "Влада §YКомуністичної Ліги Молоді§! зменшиться\n"
 
- CHI_open_nation_level_up_tt: "§YReformist Government§! national spirit effects increase\n"
- CHI_censored_nation_level_up_tt: "§YRepressive Government§! national spirit effects increase\n"
- CHI_industrial_espionage_tt: "Unlocks §YCyber Warfare§! Industrial Espionage Decisions.\n"
- CHI_global_propaganda_tt: "Unlocks §YCyber Warfare§! Global Propaganda Decisions.\n"
- CHI_TIB_RAJ_tt: "Will no longer be able to engage in border conflicts with §B[RAJ.GetNameDef]§! over §YArunachal.§!\n"
- CHI_ETK_RAJ_tt: "Will no longer be able to engage in border conflicts with §B[RAJ.GetNameDef]§! over §YAksai Chin.§!\n"
- CHI_uighur_threat_less_50_tt: "§YUighur Threat§! is lower than §Y50%§!\n"
- CHI_modify_uighur_opinion_tt: "§YUighur Opinion§! changes by [?modify_uighur_opinion|+0] (Current: [?CHI.uighur_opinion|Y0])\n"
- CHI_modify_uighur_threat_tt: "§YUighur Threat§! changes by [?modify_uighur_threat|-0] (Current: [?CHI.uighur_threat|Y0])\n"
- CHI_modify_chinese_aggression_tt: "§YChinese Aggression§! changes by [?modify_chinese_aggression|-0] (Current: [?CHI.chinese_aggression|Y0])\n"
- CHI_chinese_aggression_greater_than_10_tt: "§YChinese Aggression§! is Higher Than §R10§! (Current: [?CHI.chinese_aggression|Y0])\n"
+ CHI_open_nation_level_up_tt: "Ефекти національного духу §YРеформістського уряду§! збільшуються\n"
+ CHI_censored_nation_level_up_tt: "Ефекти національного духу §YРепресивного уряду§! збільшуються\n"
+ CHI_industrial_espionage_tt: "Відкриває доступ до рішень про промислове шпигунство §Yкібервійни§!.\n"
+ CHI_global_propaganda_tt: "Відкриває доступ до рішень про глобальну пропаганду §Yкібервійни§!.\n"
 
- CHI_JAP_warcrimes_tt: "§Y[JAP.Getnamewithflag]§! has not apologized for war crimes"
- CHI_JAP_influence_below_5_tt: "§Y[JAP.GetNameWithFlag]§! has less than §G5%§! influence in §Y[TAI.GetNameWithFlag]§!"
+ CHI_TIB_RAJ_tt: "Більше не зможе брати участь у прикордонних конфліктах із §Y[RAJ.GetNameDef]§!\n"
+ CHI_uighur_threat_less_50_tt: "§YУйгурська загроза§! менша, ніж §Y50%§!\n"
+ CHI_modify_uighur_opinion_tt: "§YУйгурська думка§! зміниться на [?modify_uighur_opinion|+0] (Поточне значення: [?CHI.uighur_opinion|Y0])\n"
+ CHI_modify_uighur_threat_tt: "§YУйгурська загроза§! зміниться на [?modify_uighur_threat|-0] (Поточне значення: [?CHI.uighur_threat|Y0])\n"
+ CHI_modify_chinese_aggression_tt: "§YКитайська агресія§! зміниться на [?modify_chinese_aggression|-0] (Поточне значення: [?CHI.chinese_aggression|Y0])\n"
 
- CHI_USA_ventures_tt: "Reduces the future cost of cooperating with §YAmerican§! companies\n"
- CHI_GER_ventures_tt: "Reduces the future cost of cooperating with §YGerman§! companies\n"
- CHI_JAP_ventures_tt: "Reduces the future cost of cooperating with §YJapanese§! companies\n"
- CHI_KOR_ventures_tt: "Reduces the future cost of cooperating with §YKorean§! companies\n"
+ CHI_JAP_warcrimes_tt: "Держава §Y[JAP.Getnamewithflag]§! не вибачилася за воєнні злочини"
+ CHI_JAP_influence_below_5_tt: "§Y[JAP.GetNameWithFlag]§! має менш ніж §G5%§! вплив у державі §Y[TAI.GetNameWithFlag]§!"
 
- CHI_KAZ_railway_tt: "The infrastructure level on the route through the state of §Y[719.GetName]§! in §Y[KAZ.GetNamewithFlag]§! has been increased to level §Y3§! through Chinese investments"
- CHI_UZB_railway_tt: "The infrastructure level on the route through the states of §Y[725.GetName]§! and §Y[726.GetName]§! in §Y[UZB.GetNamewithFlag]§! has been increased to level §Y3§! through Chinese investments"
- CHI_KYR_railway_tt: "The infrastructure level on the route through the state of §Y[720.GetName]§! in §Y[KYR.GetNamewithFlag]§! has been increased to level §Y3§! through Chinese investments"
- CHI_TRK_railway_tt: "The infrastructure level on the route through the state of §Y[728.GetName]§! in §Y[TRK.GetNamewithFlag]§! has been increased to level §Y3§! through Chinese investments"
- CHI_TAJ_railway_tt: "The infrastructure level on the route through the state of §Y[723.GetName]§! in §Y[TAJ.GetNamewithFlag]§! has been increased to level §Y3§! through Chinese investments"
- CHI_PER_railway_tt: "The infrastructure level on the route through the states of §Y[402.GetName]§!, §Y[405.GetName]§! and §Y[407.GetName]§! in §Y[PER.GetNamewithFlag]§! has been increased to level §Y3§! through Chinese investments"
- CHI_TUR_railway_tt: "The infrastructure level on the route through §Y[935.GetName]§! and §Y[159.GetName]§! in §Y[TUR.GetNamewithFlag]§! has been increased to level §Y3§! through Chinese investments"
- CHI_DJI_railway_tt: "The infrastructure level on the route through the states of §Y[233.GetName]§!, §Y[234.GetName]§!, §Y[236.GetName]§! and §Y[230.GetName]§! in §Y[ETH.GetNamewithFlag]§! and §Y[DJI.GetNamewithFlag]§! has been increased to level §Y3§! through Chinese investments"
- CHI_KEN_railway_tt: "The infrastructure level on the route through §Y[242.GetName]§! and §Y[241.GetName]§! in §Y[KEN.GetNamewithFlag]§! has been increased to level §Y3§! through Chinese investments"
- CHI_NIG_railway_tt: "The infrastructure level on the route through the states of §Y[334.GetName]§!, §Y[337.GetName]§! and §Y[339.GetName]§! in §Y[NIG.GetNamewithFlag]§! has been increased to level §Y3§! through Chinese investments"
- CHI_PAK_railway_tt: "The infrastructure level in every state in §Y[PAK.GetNamewithFlag]§! has been increased to level §Y3§! through Chinese investments"
- CHI_BRM_railway_tt: "The infrastructure level on the route through the states of §Y[930.GetName]§!, §Y[505.GetName]§!, §Y[504.GetName]§! and §Y[503.GetName]§! in §Y[BRM.GetNamewithFlag]§! has been increased to level §Y3§! through Chinese investments"
- CHI_LAO_railway_tt: "The infrastructure level on the route through §Y[515.GetName]§! and §Y[516.GetName]§! in §Y[LAO.GetNamewithFlag]§! has been increased to level §Y3§! through Chinese investments"
- CHI_SIA_railway_tt: "The infrastructure level on the route through the states of §Y[506.GetName]§!, §Y[508.GetName]§!, §Y[509.GetName]§! and §Y[510.GetName]§! in §Y[SIA.GetNamewithFlag]§! has been increased to level §Y3§! through Chinese investments"
- CHI_MAY_railway_tt: "The infrastructure level on the route through §Y[528.GetName]§! and §Y[527.GetName]§! in §Y[MAY.GetNamewithFlag]§! has been increased to level §Y3§! through Chinese investments"
- CHI_VIE_railway_tt: "The infrastructure level on the route through §Y[524.GetName]§!, §Y[522.GetName]§!, §Y[521.GetName]§! and §Y[519.GetName]§! in §Y[VIE.GetNamewithFlag]§!, and §Y[514.GetName]§! and §Y[513.GetName]§! in §Y[CBD.GetNamewithFlag]§! has been increased to level §Y3§! through Chinese investments"
- signed_BRI: "Has signed up to the Belt and Road Initiative"
- AFG_NOR_tt: "Has overthrown the Taliban government"
+ CHI_USA_ventures_tt: "Знижує майбутні витрати на співпрацю з §YАмериканськими§! компаніями\n"
+ CHI_GER_ventures_tt: "Знижує майбутні витрати на співпрацю з §YНімецькими§! компаніями\n"
+ CHI_JAP_ventures_tt: "Знижує майбутні витрати на співпрацю з §YЯпонськими§! компаніями\n"
+ CHI_KOR_ventures_tt: "Знижує майбутні витрати на співпрацю з §YКорейськими§! компаніями\n"
 
- CHI_Partnership_tt: "Modify §YPartnership§! by §YUtility Vehicle§!: £production_cost Production Cost §G-10.00%§!"
- CHI_reduce_space_tt: "Reduces the cost of space-related focuses\n"
+ CHI_KAZ_railway_tt: "Рівень інфраструктури §YАлмати§! в §Y[KAZ.GetNamewithFlag]§! був поліпшений до §Y3§! рівня за рахунок китайських інвестицій"
+ CHI_UZB_railway_tt: "Рівень інфраструктури §YФергани§! і §YТрансоксаніі§! у §Y[UZB.GetNamewithFlag]§! було покращено до §Y3§! рівня за рахунок китайських інвестицій"
+ CHI_KYR_railway_tt: "Рівень інфраструктури §YТянь-Шаня§! в §Y[KYR.GetNamewithFlag]§! було покращено до §Y3§! рівня за рахунок китайських інвестицій"
+ CHI_TRK_railway_tt: "Рівень інфраструктури §YМеври§! в §Y[TRK.GetNamewithFlag]§! було покращено до §Y3§! рівня за рахунок китайських інвестицій"
+ CHI_TAJ_railway_tt: "Рівень інфраструктури §YСогдійської Області§! в §Y[TAJ.GetNamewithFlag]§! був поліпшений до §Y3§! рівня за рахунок китайських інвестицій"
+ CHI_PER_railway_tt: "Рівень інфраструктури §YХорасана§!, §YЦентрального Ірану§! і §YАзербайджана§! у §Y[PER.GetNamewithFlag]§! було покращено до §Y3§! рівня за рахунок китайських інвестицій"
+ CHI_TUR_railway_tt: "Рівень інфраструктури §YВана§! і §YЦентральної Анатолії§! в §Y[TUR.GetNamewithFlag]§! було покращено до §Y3§! рівня за рахунок китайських інвестицій"
+ CHI_DJI_railway_tt: "Рівень інфраструктури §YОромії§!, §YСхідної Оромії§!, §YОгадена§! та §YДжибуті§! у §Y[ETH.GetNamewithFlag]§! та §Y[DJI.GetNamewithFlag]§! було покращено до §Y3§! рівня за рахунок китайських інвестицій"
+ CHI_KEN_railway_tt: "Рівень інфраструктури §YЦентральної Кенії§! і §YКенійського Берега§! в §Y[KEN.GetNamewithFlag]§! було покращено до §Y3§! рівня за рахунок китайських інвестицій"
+ CHI_NIG_railway_tt: "Рівень інфраструктури §YЛагоса§!, §YАбуджи§! і §YКано§! у §Y[NIG.GetNamewithFlag]§! було покращено до §Y3§! рівня за рахунок китайських інвестицій"
+ CHI_PAK_railway_tt: "Рівень інфраструктури держави §Y[PAK.GetNamewithFlag]§! був покращений до §Y3§! рівня за рахунок китайських інвестицій"
+ CHI_BRM_railway_tt: "Рівень інфраструктури §Y-Північного Шана§!, §Y-Верхньої Бірми§!, §Y-Понижньої Бірми§! і §YМон-Танінтайн§! в §Y[BRM.GetNamewithFlag]§! було покращено до §Y3§! рівня за рахунок китайських інвестицій"
+ CHI_LAO_railway_tt: "Рівень інфраструктури §YПівнічного Лаосу§! і §YДолини Меконгу§! у §Y[LAO.GetNamewithFlag]§! було покращено до §Y3§! рівня за рахунок китайських інвестицій"
+ CHI_SIA_railway_tt: "Рівень інфраструктури §YІсана§!, §YЦентрального Таїланду§!, §YПівденного Таїланду§! і §YПаттані§! у §Y[SIA.GetNamewithFlag]§! було покращено до §Y3§! рівня за рахунок китайських інвестицій"
+ CHI_MAY_railway_tt: "Рівень інфраструктури §YЗахідної Малайї§! і §YМаллакі§! в §Y[MAY.GetNamewithFlag]§! було покращено до §Y3§! рівня за рахунок китайських інвестицій"
+ CHI_VIE_railway_tt: "Рівень інфраструктури §YПівнічного В'єтнаму§!, §YДельти Червоної Річки§!, §YЦентрального В'єтнаму§! і §YПівденного В'єтнаму§! у §Y[VIE.GetNamewithFlag]§! та §YРівнини Меконгу§! і §YПівденної Камбоджі§! у §Y[CBD.GetNamewithFlag]§! було покращено до §Y3§! рівня за рахунок китайських інвестицій"
+ signed_BRI: "Приєдналися до ініціативи "Один пояс і один шлях""
+ AFG_NOR_tt: "Скинув уряд талібів"
 
- south_china_sea_shared_vietnam_tt: "Any oil that we discover from now on will be shared with §Y[VIE.Getnamewithflag]§!\n"
- south_china_sea_shared_malaysia_tt: "Any oil that we discover from now on will be shared with §Y[MAY.Getnamewithflag]§!\n"
- south_china_sea_shared_philippines_tt: "Any oil that we discover from now on will be shared with §Y[PHI.Getnamewithflag]§!\n"
- spratlys_deal_VIE: "Has established a joint development zone with §Y[VIE.Getnamewithflag]§!\n"
- spratlys_deal_MAY: "Has established a joint development zone with §Y[MAY.Getnamewithflag]§!\n"
- spratlys_deal_PHI: "Has established a joint development zone with §Y[PHI.Getnamewithflag]§!\n"
- CHI_island_building_tt: "§YNorthern Spratlys§! add §Y1 Land Fort§! in each province.\n"
- CHI_VIE_disputes_tt: "Territorial disputes with §Y[VIE.GetNamewithFlag]§! have been resolved"
- CHI_disputes_tt: "Territorial disputes with §Y[MAY.GetNamewithFlag]§!, §Y[PHI.GetNamewithFlag]§! & §Y[VIE.GetNamewithFlag]§! have been resolved"
- CHI_liquidate_evil: "Liquidation preparation of Japan"
+ CHI_Partnership_tt: "Зміни від §Yпартнерства§! для §Yпозашляховиків§!: £production_cost Вартість виробництва §G-10.00%§!"
+ CHI_reduce_space_tt: "Скорочує витрати на пов'язані з космонавтикою дії\n"
 
- CHI_top_influencer_koreas_tt: "§Y[CHI.GetNamewithFlag]§! is the top influencer in §Y[KOR.GetNamewithFlag]§! and §Y[NKO.GetNamewithFlag]§!"
- CHI_NKO_military_tt: "§YKorean People's Army§! - §RDecrease§! 5 opinion of [NKO.GetLeader]\n"
- JAP_USA_call_tt: "§Y[JAP.GetName]§! may call upon their allies for protection\n"
+ south_china_sea_shared_vietnam_tt: "Будь-яку нафту, яку ми виявимо відтепер, буде передано під контроль державі §Y[VIE.Getnamewithflag]§!"\n"
+ south_china_sea_shared_malaysia_tt: "Будь-яка нафта, яку ми виявимо відтепер, буде передана під контроль державі §Y[MAY.Getnamewithflag]§!\n"
+ south_china_sea_shared_philippines_tt: "Будь-яка нафта, яку ми виявимо відтепер, буде передана під контроль державі §Y[PHI.Getnamewithflag]§!\n"
+ joint_development_zone_vietnam_tt: "Створив зону спільного розвитку з §Y[VIE.Getnamewithflag]§!\n"
+ joint_development_zone_malaysia_tt: "Створив зону спільного розвитку з §Y[MAY.Getnamewithflag]§!\n"
+ joint_development_zone_philippines_tt: "Створив зону спільного розвитку з §Y[PHI.Getnamewithflag]§!\n"
+ CHI_island_building_tt: "Додасть §Y1 укріплення§! у кожній провінції §YКитайських Спратлі§!.\n"
+ CHI_VIE_disputes_tt: "Територіальні суперечки з §Y[VIE.GetNamewithFlag]§! вирішені"
+ CHI_disputes_tt: "Територіальні суперечки з §Y[MAY.GetNamewithFlag]§!, §Y[PHI.GetNamewithFlag]§! і §Y[VIE.GetNamewithFlag]§! вирішено"
 
- CSTO_all_emerging_tt: "Every CSTO member is §YEmerging§!"
- CSTO_all_democratic_tt: "Every CSTO member is §YPro-Western§!"
- SCO_all_emerging_tt: "Every SCO member is §YEmerging§!"
- SCO_all_democratic_tt: "Every SCO member is §YPro-Western§!"
- CHI_influence_central_asia_tt: "§Y[CHI.GetName]§! has more influence in Central Asia than §Y[SOV.GetName]§!"
- USA_influence_lower_than_CHI_tt: "§Y[CHI.GetName]§! has more influence than the §Y[USA.GetName]§! in African and Asian countries"
- USA_influence_lower_tt: "§Y[USA.GetName]§! is no longer the top influencer in any African or Asian country"
- CHI_ending_hegemony_tt: "§Y[CHI.GetName]§! will have to exceed, rather than simply undermine, American influence in Africa and Asia in order to complete §YEnd US Hegemony§!\n§YEnd US Hegemony§! will give the §Y[USA.GetName]§! the option to declare a pre-emptive war against §Y[CHI.GetName]§!"
- CHI_USA_demands_tt: "§Y[USA.GetName]§! will be less able to refuse any demands that we make\n"
- SOV_CHI_war_tt: "Will have the option to declare pre-emptive war on §Y[CHI.GetName]§!\n"
- CHI_development_assistance_tt: "§YGive Development Assistance§! decisions are twice as effective\n"
- SCO_drills_effective_tt: "§YHost SCO Joint Exercises§! decision gives twice as much §YArmy Experience§!\n"
- SCO_peace_tt: "All SCO members are at peace"
- SCO_drills_tt: "Has not started military exercises with any other countries"
- SCO_any_drills_tt: "No SCO members are currently engaged in military exercises"
- CHI_SOV_decisions_locked_tt: "Will no longer be able to select the §YHost SCO Joint Exercises§! decision or have a say in the admission of new members\n"
- SOV_left_SCO_tt: "Has left the SCO\nRussia will leave the SCO if §YChinese Aggression§! is high enough\n"
- CHI_dominant_SCO_tt: "Has at least §Y30%§! influence in every SCO member"
+ CHI_top_influencer_koreas_tt: "§Y[CHI.GetNamewithFlag]§! - найвпливовіший серед решти держав у §Y[KOR.GetNamewithFlag]§! та §Y[NKO.GetNamewithFlag]§!"
+ CHI_NKO_military_tt: "§YКорейська народна армія§! - §Rпогіршує§! думку про [NKO.GetLeader]\n"
+ JAP_USA_call_tt: "§Y[JAP.GetName]§! можуть закликати своїх союзників до захисту\n"
 
- CHI_aggression_less_20_tt: "§YChinese Aggression§! is §Y20§! or lower"
- CHI_aggression_less_10_tt: "§YChinese Aggression§! is §Y10§! or lower"
- CHI_aggression_less_5_tt: "§YChinese Aggression§! is §Y5§! or lower"
- CHI_aggression_less_0_tt: "§YChinese Aggression§! is §Y0§! or lower"
- CHI_aggression_less_-10_tt: "§YChinese Aggression§! is §Y-10§! or lower"
- CHI_aggression_less_-20_tt: "§YChinese Aggression§! is §Y-20§! or lower"
+ CSTO_all_emerging_tt: "Кожен член ОДКБ §Yреакційний§!"
+ CSTO_all_democratic_tt: "Кожен член ОДКБ §Yпрозахідний§!"
+ SCO_all_emerging_tt: "Кожен член ШОС §Yреакційний§!"
+ SCO_all_democratic_tt: "Кожен член ШОС §Yпрозахідний§!"
+ CHI_influence_central_asia_tt: "§Y[CHI.GetName]§! має більше впливу в Центральній Азії, ніж §Y[SOV.GetName]§!"
+ USA_influence_lower_than_CHI_tt: "§Y[CHI.GetName]§! має більше впливу в Африканських та Азійських державах, ніж §Y[USA.GetName]§!"
+ USA_influence_lower_tt: "§Y[USA.GetName]§! більше не є найвпливовішими в Африканських та Азійських державах"
+ CHI_ending_hegemony_tt: "Державі §Y[CHI.GetName]§! доведеться перевершити, а не просто підірвати американський вплив в Африці та Азії, щоб покласти §Yкінець гегемонії США§!\n§YКонец гегемонії США§! дасть §Y[USA.GetName]§! можливість оголосити превентивну війну державі §Y[CHI.GetName]§!"
+ CHI_USA_demands_tt: "§Y[USA.GetName]§! будуть менше відмовлятися від будь-яких наших вимог.\n"
+ SOV_CHI_war_tt: "Матиме можливість оголосити превентивну війну державі §Y[CHI.GetName]§!"
+ CHI_development_assistance_tt: "Рішення про §Yнадання допомоги з метою розвитку§! буде вдвічі ефективнішим\n"
+ SCO_drills_effective_tt: "Рішення про §Yпроведення спільних навчань ШОС§! дасть удвічі більше §Yвійськового досвіду§!\n"
+ SCO_peace_tt: "Усі члени ШОС у світі"
+ SCO_drills_tt: "Не розпочав військові навчання з іншими країнами"
+ SCO_any_drills_tt: "Наразі жоден із членів ШОС не бере участі у військових навчаннях"
+ CHI_SOV_decisions_locked_tt: "Більше не зможе ухвалювати рішення щодо §Yпроведення спільних навчань ШОС§! або мати право голосу під час прийому нових членів."
+ SOV_left_SCO_tt: "Покинув ШОС\nРосія покине ШОС, якщо §Yкитайська агресія§! буде досить високою\n"
+ CHI_dominant_SCO_tt: "Має більш ніж §Y30%§! впливу в кожному члені ШОС"
 
- CHI_turkey_ask_patience_tt: "[CHI.GetFlag]§H[CHI.GetName]§! will be told the Varyag will wait for §HTwo Years§!."
- CHI_turkey_negotiates_tt: "If [CHI.GetFlag]§H[CHI.GetName]§! accepts to pay:\n   Political Power: §G+50§!\n   Add §H50 Millions§! in our Treasury.\n   The Varyag will continue its journey after §HTwo Weeks§!"
- CHI_turkey_reckless_tt: "The Varyag will go through §HToday§!.\n§RThere's a risk the hull can Capsize and Completely Block the Strait!§!"
- CHI_china_bribes_tt: "If [TUR.GetFlag]§H[TUR.GetName]§! accepts our offer:\n   Political Power: §R-75§!\n   The Varyag will continue its journey in §HSix Months§!"
- CHI_turkey_pressured_tt: "The success of pressuring [TUR.GetFlag]§H[TUR.GetName]§! will depend on how high our influence is."
- CHI_varyag_two_weeks_tt: "The Varyag will pass through in §HTwo Weeks!§!"
- CHI_varyag_waits_tt: "The Varyag will wait for §HTwo Years§!"
- CHI_varyag_five_months_tt: "The Varyag will arrive in our waters approximately in §HFive Months§!."
- CHI_varyag_six_months_tt: "The Varyag will wait for §HSix Months§!"
- CHI_varyag_six_months_continue_tt: "The journey will continue in §HSix Months§!"
- CHI_varyag_two_years_tt: "The Varyag will wait for §HTwo Years§!"
- CHI_accept_pressure_tt: "We will cave in to [CHI.GetFlag]§H[CHI.GetName]§! and:\n- The Varyag will continue its journey in §HTwo Weeks§!\n- Increases [CHI.GetFlag]§H[CHI.GetAdjective]§! influence in [TUR.GetFlag]§H[TUR.GetName]§! by around §G~2%§!"
- CHI_resist_pressure_tt: "We will reject [CHI.GetFlag]§H[CHI.GetAdjective]§! demands and:\n- The Varyag will continue its journey in §HThree Years§!"
- CHI_varyag_construction_tt: "Deploys §YLiaoning Class§! Carrier in §YDalian§! naval base.\n"
- CHI_north_demands_cores_TT: "The §YChina§! Gains Cores on all of Former North Territories."
- CHI_khalkha_cores_TT: "The §YChina§! Gains Cores on Outer Mongolian region."
- CHI_bhutan_cores_TT: "The §YChina§! Gains Cores on Bhutan Territories."
- CHI_jebtsundamba_TT: "Unlocks §YLook for 9th Jebtsundamba Khutuktu§! decision\n"
- CHI_southwest_hydroelectricity_dev_TT: "Unlocks §YDevelopment of southwest hydroelectricity Projects§! decision\n"
- CHI_jinshajiang_dam_TT: "§YA hydroelectricity project in Kham will give us additional energy:§! §G7.5§!"
- CHI_yalongjiang_dam_TT: "§YA hydroelectricity project in Sichuan will give us additional energy:§! §G12.5§!"
- CHI_wujiang_dam_TT: "§YA hydroelectricity project in Guizhou will give us additional energy:§! §G2.5§!"
- CHI_jialingjiang_dam_TT: "§YA hydroelectricity project in Chongqing will give us additional energy:§! §G5§!"
- CHI_build_high_speed_railway_TT: "§YUnlocks §YHigh-speed railway construction project§! decision\n§!"
- CHI_build_high_speed_railway_northern_TT: "§YAll state in northern China would gain high speed railway bonus.§!"
- CHI_build_high_speed_railway_central_TT: "§YAll state in central China would gain high speed railway bonus.§!"
- CHI_build_high_speed_railway_eastern_TT: "§YAll state in eastern China would gain high speed railway bonus.§!"
- CHI_build_high_speed_railway_southern_TT: "§YAll state in southern China would gain high speed railway bonus.§!"
- CHI_build_high_speed_railway_western_TT: "§YAll state in western China would gain high speed railway bonus.§!"
- CHI_build_high_speed_railway_tibet_TT: "§YAll state in tibet region would gain high speed railway bonus.§!"
- CHI_build_high_speed_railway_mongolia_TT: "§YAll state in outer mongolia region would gain high speed railway bonus.§!"
- CHI_build_high_speed_railway_taiwan_TT: "§YAll state in taiwan area would gain high speed railway bonus.§!"
- CHI_moonbase_chain_start_tt: "§YThis will start the moon base construction event chain.§!"
- CHI_mars_city_building_chain_start_tt: "§YThis will start the mars city building event chain.§!"
- CHI_arunachal_border_conflict_TT: "§YThis will enable the Arunachal border war with§! §B[RAJ.GetName]§!"
- arunachal_tension_TT: "Tension is higher then 80"
- arunachal_readiness_TT: "Our Readiness is higher then 60"
- arunachal_increase_readiness_TT: "§GThis will increase our readiness§!"
- arunachal_increase_tension_TT: "§YThis will increase border tension§!"
- not_attacking_on_arunachal_TT: "Currently attacking or preparing an attack"
- more_than_50_arunachal_progress_TT: "More then 50 conflict progress"
- more_than_80_arunachal_progress_TT: "More then 80 conflict progress"
- arunachal_readiness_minus_10_TT: "§RThis will decrease our readiness by 10§!"
- Arunachal_war_increase_progress_10_TT: "§GThis will increase our progress by 10§!"
- Arunachal_war_increase_progress_5_TT: "§RThis will increase our progress by 5§!"
- Arunachal_war_decrease_progress_10_TT: "§RThis will decrease our progress by 10§!"
- Arunachal_war_decrease_progress_5_TT: "§RThis will decrease our progress by 5§!"
- Arunachal_war_decrease_progress_3_TT: "§RThis will decrease our progress by 3§!"
+ CHI_aggression_less_20_tt: "§YКитайська агресія§! дорівнює §Y20§! або менше"
+ CHI_aggression_less_10_tt: "§YКитайська агресія§! дорівнює §Y10§! або менше"
+ CHI_aggression_less_5_tt: "§YКитайська агресія§! дорівнює §Y5§! або менше"
+ CHI_aggression_less_0_tt: "§YКитайська агресія§! дорівнює §Y0§! або менше"
+ CHI_aggression_less_-10_tt: "§YКитайська агресія§! дорівнює §Y-10§! або менше"
+ CHI_aggression_less_-20_tt: "§YКитайська агресія§! дорівнює §Y-20§! або менше"
+
+ CHI_turkey_ask_patience_tt: "[CHI.GetFlag]§H[CHI.GetName]§! скаже, що "Варяг" стоятиме §Ндва роки§!".
+ CHI_turkey_negotiates_tt: "Якщо [CHI.GetFlag]§H[CHI.GetName]§! погодиться заплатити:\n Політична влада: §G+50§!\n Буде отримано §H50 мільйонів§! у нашу казну.\n "Варяг" продовжить свій шлях через §Ндва тижні§!"
+ CHI_turkey_reckless_tt: ""Варяг" вирушить у дорогу §Сьогодні§!!!\n§RІснує ризик, що корпус може перекинутися і повністю заблокувати протоку!!!"
+ CHI_china_bribes_tt: "Якщо [TUR.GetFlag]§H[TUR.GetName]§! прийме нашу пропозицію:\n Політична влада: §R-75§!\n "Варяг" продовжить свій шлях протягом §Шести місяців§!"
+ CHI_turkey_pressured_tt: "Успіх тиску на [TUR.GetFlag]§H[TUR.GetName]§! буде залежати від того, наскільки великий наш вплив."
+ CHI_varyag_two_weeks_tt: ""Варяг" пройде свій шлях через §Два тижні!§!"
+ CHI_varyag_waits_tt: ""Варяг" стоятиме §Два роки§!"
+ CHI_varyag_five_months_tt: ""Варяг" прибуде в наші води приблизно через §П'ять місяців§!"
+ CHI_varyag_six_months_tt: ""Варяг" стоятиме §Шість місяців§!"
+ CHI_varyag_six_months_continue_tt: "Плавання продовжиться через §Шість місяців§!"
+ CHI_varyag_two_years_tt: ""Варяг" стоятиме §Два роки§!"
+ CHI_accept_pressure_tt: "Ми поступимося [CHI.GetFlag]§H[CHI.GetName]§! і:\n "Варяг" продовжить свій шлях через §Два тижні§!\n Збільшить вплив держави [CHI.GetFlag]§H[CHI.GetName]§! у [TUR.GetFlag]§H[TUR.GetName]§! приблизно на §G~2%§!"
+ CHI_resist_pressure_tt: "Ми відкинемо вимоги [CHI.GetFlag]§H[CHI.GetAdjective]§! і:\n "Варяг" продовжить свій шлях через §Нтри роки§!!!"
+ CHI_varyag_construction_tt: "Додає виробництво §Навіаносця класу Ляонін§!"
+ CHI_north_demands_cores_TT: "Усі колишні північні території §YКитая§! стануть національними."
 
  #France
- FRA_euro_investments_TT: "These countries receive an offer from French companies. They offer control over portions of industries in exchange for return on investments. §YEach country that accepts reduces the treasury by§! §R-1.0§! billion.\n"
- FRA_euro_investments_accept_TT: "§BAccepting this allows French Influence to Grow§!\n"
- FRA_euro_investments_cost_TT: "§YThey have accepted. Therefore we lose ~$20 billion dollars for the deal§!\n"
- FRA_european_investments2_TT: "Eastern European highways and transportation systems are somewhat weak. §YIn exchange we pay for the development of highways. Each country that accepts reduces the treasury by:§! §R-5.0§!\n"
- FRA_euro_investments_2_cost_TT: "§YThey have accepted. Therefore, we lost ~$5 billion dollars for this deal§!\n"
- FRA_expanison_tooltip_TT: "§YThese focuses will not show their true effects until you finish the Communist or Nationalist trees.§!\n"
- FRA_competitive_education_TT: "§YRegardless of what level of education you are at. This focus will raise your education budget.§!\n"
- FRA_french_candian_TT1: "§YFrench Canadian Happiness is Boosted due to French helping the Canadian government.§!\n"
- FRA_french_candian_TT2: "§YFrench Canadian Happiness is Lowered due to the French supporting the Quebecers.§!\n"
+ FRA_euro_investments_TT: "Ці країни отримують пропозицію від французьких компаній. Вони пропонують контроль над частиною галузей в обмін на повернення інвестицій. §YКожна приймаюча країна скорочує казначейство на: §! §R-1.0§! млрд.\n"
+ FRA_euro_investments_accept_TT: "§ВУхвалення цього рішення дозволяє французькому впливу зростати.§!\n"
+ FRA_euro_investments_cost_TT: "§YОни прийняли. Тому ми втрачаємо ~$20 млрд доларів за угоду.§!\n"
+ FRA_european_investments2_TT: "Східноєвропейські магістралі та транспортні системи дещо слабкі. §Натомість ми платимо за розвиток автомобільних доріг. Кожна приймаюча країна скорочує скарбницю на: §! §R-5.0§!\n"
+ FRA_euro_investments_2_cost_TT: "§YВони прийняли. Тому ми втратили ~$5 млрд доларів за цю угоду.§!\n"
+ FRA_expanison_tooltip_TT: "§YЦі фокуси не покажуть свого істинного ефекту, поки ви не закінчите комуністичні або націоналістичні дерева.§!\n"
+ FRA_competitive_education_TT: "§YНезалежно від того, на якому рівні освіти ви перебуваєте, цей фокус збільшить ваш бюджет на освіту.§!\n"
+ FRA_french_candian_TT1: "§YФранко-канадське щастя зростає завдяки тому, що французи допомагають канадському уряду.§!\n"
+ FRA_french_candian_TT2: "§YФранко-канадське щастя знижується через те, що французи підтримують квебекців.§!\n"
 
  ##Things
- customs_union_tt: "§YCreates a Customs Union.§!\n"
- common_market_tt: "§YCreates a Common Market.§!\n"
- economic_union_tt: "§YCreates an Economic Union.§!\n"
- unasur_must_control_tt: "Every country in Unasur must:\n - Have compatible Outlooks §YOR§! \n - Be in the same alliance §YOR§! \n - Be puppets of Brazil. \n"
- mercosur_must_control_tt: "Every country in Mercosur must:\n - Have compatible Outlooks §YOR§! \n - Be in the same alliance §YOR§! \n - Be puppets of Brazil. \n"
- form_unasur_tt: "§YForm the Unasur Federation!§!\n"
- form_mercosur_tt: "§YForm the Mercosur Federation!§! n"
- common_market: "Common Market"
- consumption_economy_TT: "Resources to Market: §Y0%§!\n"
- reset_internal_faction_opinion: "Will reset all internal faction opinions.\n"
- set_full_internal_faction_opinions: "Sets all Internal Factions to §GMax§! Opinion"
- airstrike_prepare_tooltip: "§R60%§! chance of producing §R3§! missiles\n§G40%§! chance of producing §G5§! missiles"
- airstrike_thingy_tooltip: "§R20%§! chance of failing\nIf successful:\n§R20%§! chance of reducing PKK's power by §R2§!\n§G80%§! chance of reducing PKK's power by §G5§!\n\n§GThis decision could also grant us more party popularity and approval rate!§!"
- got_missiles: "Missile stockpile hasn't ran out"
- stockpile_not_full: "We can still store more missiles"
- investment_propaganda_1_tooltip: "§GGives approval rating and party popularity. Decreases PKK's Power by 10 and Max Power by 5, if they are still around.§!"
- investment_propaganda_2_tooltip: "§GGives more approval rating and party popularity. Decreases PKK's Power by 10 and Max Power by 5, if they are still around.§!"
- operation_thingy: "§GUnlocks the Attack Decisions when completed.§!"
- anti_bully_tooltip_L_NU.1: "§RYou've lost War Support§!"
- debates_agree_tt: "\n§GConcessions can increase the number of the law supporters§!\n"
- debates_disagree_tt: "\n§RRefusal of concessions will reduce the number of the law supporters§!\n"
- mercosur_focus_tt: "Member of Mercosur"
+ customs_union_tt: "§YСтворює Митний союз.§! \n"
+ common_market_tt: "§YСтворює спільний ринок.§! \n"
+ economic_union_tt: "§YСтворює економічний союз.§! \n"
+ unasur_must_control_tt: "Кожна країна в UNASUR повинна: \n - Мати сумісні прогнози §Yабо§! \n - Бути в одному союзі §Yили§! \n - Будьте маріонетками Бразилії. \n"
+ mercosur_must_control_tt: "Кожна країна в МЕРКОСУР повинна: \n - Мати сумісні прогнози §Yили§! \n - Бути в одному союзі §Yили§! \n - Будьте маріонетками Бразилії. \n"
+ form_unasur_tt: "§YСформувати Федерацію UNASUR!§! \n"
+ form_mercosur_tt: "§YСформувати Федерацію МЕРКОСУР!§! \n"
+ common_market: "Спільний ринок"
+ consumption_economy_TT: "Ресурси для виходу на ринок: §Y0%§!\n"
+ reset_internal_faction_opinion: "Будуть скинуті всі внутрішні фракційні думки.\n"
+ set_full_internal_faction_opinions: "Встановлює всім внутрішнім фракціям §Gмаксимальну§! думку"
+ airstrike_prepare_tooltip: "§R%60§! шанс зробити §R3§! ракети\n§G%40§! шанс зробити §G5§! ракет"
+ airstrike_thingy_tooltip: "§R%20§! шанс провалу\nУ разі успіху:\n§R%20§! вірогідність зниження потужності РПК на §R2§!\n§G%80§! вірогідність зниження потужності РПК на §G5§!\n\n§GЦе рішення також може забезпечити нам більшу популярність партії та рівень схвалення!§!"
+ got_missiles: "Ракетні запаси ще не закінчилися"
+ stockpile_not_full: "Ми все ще можемо зберігати більше ракет"
+ investment_propaganda_1_tooltip: "§GДає рейтинг схвалення і партійну популярність. Зменшує потужність РПК на 10 і максимальну потужність на 5, якщо вони все ще поруч.§!"
+ investment_propaganda_2_tooltip: "§GДає більший рейтинг схвалення і партійну популярність. Зменшує потужність РПК на 10 і максимальну потужність на 5, якщо вони все ще поруч.§!"
+ operation_thingy: "§GРозблокує рішення про атаку після їх завершення.§!"
+ anti_bully_tooltip_L_NU.1: "§RВтрачено підтримку війни§"
+ debates_agree_tt: "\n§GПоступки можуть збільшити число прихильників закону§!\n"
+ debates_disagree_tt: "\n§RВідмова від поступок скоротить число прихильників закону§!\n"
+ mercosur_focus_tt: "Член МЕРКОСУР"
 
- battle_for_kirkuk_tt: "There is a one in four chance that we'll win the battle!"
- tooltip_annexation: "This choice results in your annexation and will end the game! \n"
- muslim_brotherhood_crackdown_tt: "Will set a §RCrackdown§! on the §HMuslim Brotherhood§!\n"
+ battle_for_kirkuk_tt: "Є один шанс із чотирьох, що ми виграємо битву!"
+ tooltip_annexation: "Цей вибір призведе до нашої анексії і покладе край правлінню! \n"
+ muslim_brotherhood_crackdown_tt: "Встановить §Rсуворі заходи§! по відношенню до §НБратів-мусульман§!"\n"
 
- tooltip_change_flag: "\n([ROOT.GetFlag]§Y[ROOT.GetName]§!) Changes flag to fit the [Root.GetRulingParty]\n"
+ tooltip_change_flag: "\n([ROOT.GetFlag]§Y[ROOT.GetName]§!) змінить прапор, щоб відповідати [Root.GetRulingParty]\n"
 
- JAP_new_emperor_TT: "Puts the §Y[Monarchist_L]§! in power, restoring our old ways of monarchy and the good days of Hirohito."
+ JAP_new_emperor_TT: "Приводить §Y[Monarchist_L]§! до влади, відновлюючи наші старі монархічні порядки і добрі часи Хірохіто."
 
- TT_korea_united_under_democracy: "Korea is united under a democratic government"
- TT_china_united_under_democracy: "China is united under a democratic government"
+ TT_korea_united_under_democracy: "Корея об'єднана під владою демократичного уряду"
+ TT_china_united_under_democracy: "Китай об'єднаний під владою демократичного уряду"
 
- no_building_construction_TT: "§RNo available slots for declared state. Will add to random state with free slots instead.§!"
+ ###Україна
+ UKR_referendum_results_implementation_TT: "§ВРезультати можуть бути введені в дію тільки після референдуму§!\n"
 
- ###Ukraine
- UKR_referendum_results_implementation_TT: "§BThe Results Can Only be Implemented After a Referendum§!\n"
+ ### BOS Happiness System ###
+ TT_BOS_increase_B_happiness_by_1: "§GЗбільшиться§! [BOS.GetAdjective] §Щастя§! на 1.\n"
+ TT_BOS_increase_B_happiness_by_2: "§GЗбільшиться§! [BOS.GetAdjective] §Щастя§! на 2.\n"
+ TT_BOS_increase_B_happiness_by_3: "§GЗбільшиться§! [BOS.GetAdjective] §Щастя§! на 3.\n"
+ TT_BOS_increase_B_happiness_by_4: "§GЗбільшиться§! [BOS.GetAdjective] §Щастя§! на 4.\n"
+ TT_BOS_increase_B_happiness_by_5: "§GЗбільшиться§! [BOS.GetAdjective] §Щастя§! на 5.\n"
+ TT_BOS_increase_B_happiness_by_10: "§GЗбільшиться§! [BOS.GetAdjective] §Щастя§! на 10.\n"
+ TT_BOS_increase_B_happiness_by_20: "§GЗбільшиться§! [BOS.GetAdjective] §Щастя§! на 20.\n"
+ TT_BOS_decrease_B_happiness_by_1: "§RЗменшиться§! [BOS.GetAdjective] §Щастя§! на 1.\n"
+ TT_BOS_decrease_B_happiness_by_2: "§RЗменшиться§! [BOS.GetAdjective] §Щастя§! на 2.\n"
+ TT_BOS_decrease_B_happiness_by_3: "§RЗменшиться§! [BOS.GetAdjective] §Щастя§! на 3.\n"
+ TT_BOS_decrease_B_happiness_by_4: "§RЗменшиться§! [BOS.GetAdjective] §Щастя§! на 4.\n"
+ TT_BOS_decrease_B_happiness_by_5: "§RЗменшиться§! [BOS.GetAdjective] §Щастя§! на 5.\n"
+ TT_BOS_decrease_B_happiness_by_10: "§RЗменшиться§! [BOS.GetAdjective] §Щастя§! на 10.\n"
+ TT_BOS_decrease_B_happiness_by_20: "§RЗменшиться§! [BOS.GetAdjective] §Щастя§! на 20.\n"
+ TT_BOS_increase_C_happiness_by_1: "§GЗбільшиться§! [CRO.GetAdjective] §Щастя§! на 1.\n"
+ TT_BOS_increase_C_happiness_by_2: "§GЗбільшиться§! [CRO.GetAdjective] §Щастя§! на 2.\n"
+ TT_BOS_increase_C_happiness_by_3: "§GЗбільшиться§! [CRO.GetAdjective] §Щастя§! на 3.\n"
+ TT_BOS_increase_C_happiness_by_4: "§GЗбільшиться§! [CRO.GetAdjective] §Щастя§! на 4.\n"
+ TT_BOS_increase_C_happiness_by_5: "§GЗбільшиться§! [CRO.GetAdjective] §Щастя§! на 5.\n"
+ TT_BOS_increase_C_happiness_by_10: "§GЗбільшиться§! [CRO.GetAdjective] §Щастя§! на 10.\n"
+ TT_BOS_increase_C_happiness_by_20: "§GЗбільшиться§! [CRO.GetAdjective] §Щастя§! на 20.\n"
+ TT_BOS_decrease_C_happiness_by_1: "§RЗменшиться§! [CRO.GetAdjective] §Щастя§! на 1.\n"
+ TT_BOS_decrease_C_happiness_by_2: "§RЗменшиться§! [CRO.GetAdjective] §Щастя§! на 2.\n"
+ TT_BOS_decrease_C_happiness_by_3: "§RЗменшиться§! [CRO.GetAdjective] §Щастя§! на 3.\n"
+ TT_BOS_decrease_C_happiness_by_4: "§RЗменшиться§! [CRO.GetAdjective] §Щастя§! на 4.\n"
+ TT_BOS_decrease_C_happiness_by_5: "§RЗменшиться§! [CRO.GetAdjective] §Щастя§! на 5.\n"
+ TT_BOS_decrease_C_happiness_by_10: "§RЗменшиться§! [CRO.GetAdjective] §Щастя§! на 10.\n"
+ TT_BOS_decrease_C_happiness_by_20: "§RЗменшиться§! [CRO.GetAdjective] §Щастя§! на 20.\n"
+ TT_BOS_increase_S_happiness_by_1: "§GЗбільшиться§! [SER.GetAdjective] §Щастя§! на 1.\n"
+ TT_BOS_increase_S_happiness_by_2: "§GЗбільшиться§! [SER.GetAdjective] §Щастя§! на 2.\n"
+ TT_BOS_increase_S_happiness_by_3: "§GЗбільшиться§! [SER.GetAdjective] §Щастя§! на 3.\n"
+ TT_BOS_increase_S_happiness_by_4: "§GЗбільшиться§! [SER.GetAdjective] §Щастя§! на 4.\n"
+ TT_BOS_increase_S_happiness_by_5: "§GЗбільшиться§! [SER.GetAdjective] §Щастя§! на 5.\n"
+ TT_BOS_increase_S_happiness_by_10: "§GЗбільшиться§! [SER.GetAdjective] §Щастя§! на 10.\n"
+ TT_BOS_increase_S_happiness_by_20: "§GЗбільшиться§! [SER.GetAdjective] §Щастя§! на 20.\n"
+ TT_BOS_decrease_S_happiness_by_1: "§RЗменшиться§! [SER.GetAdjective] §Щастя§! на 1.\n"
+ TT_BOS_decrease_S_happiness_by_2: "§RЗменшиться§! [SER.GetAdjective] §Щастя§! на 2.\n"
+ TT_BOS_decrease_S_happiness_by_3: "§RЗменшиться§! [SER.GetAdjective] §Щастя§! на 3.\n"
+ TT_BOS_decrease_S_happiness_by_4: "§RЗменшиться§! [SER.GetAdjective] §Щастя§! на 4.\n"
+ TT_BOS_decrease_S_happiness_by_5: "§RЗменшиться§! [SER.GetAdjective] §Щастя§! на 5.\n"
+ TT_BOS_decrease_S_happiness_by_10: "§RЗменшиться§! [SER.GetAdjective] §Щастя§! на 10.\n"
+ TT_BOS_decrease_S_happiness_by_20: "§RЗменшиться§! [SER.GetAdjective] §Щастя§! на 20.\n"
 
- 30_billion_debt_tt: "Has more than §Y$30 Billion§! in debt\n"
+ add_zhejiang_pop_tt: "Чисельність населення Чжецзяна §Yзбільшиться§! на §Y42 мільйони осіб§!\n"
+ remove_fujian_pop_tt: "Чисельність населення Фуцзяня §Yзменшиться§! на §Y12 мільйонів чоловік§!\n"
+ remove_guanxi_pop_tt: "Чисельність населення Гуансі §Yзменшиться§! на §Y11 мільйонів чоловік§!\n"
+ remove_hunan_pop_tt: "Чисельність населення Хунаня §Yзменшиться§! на §Y8 мільйонів осіб§!\n"
+ remove_jiangxi_pop_tt: "Чисельність населення Цзянсі §Yзменшиться§! на §Y7 мільйонів чоловік§!\n"
+ remove_guizhou_pop_tt: "Чисельність населення Гуйчжоу §Yзменшиться§! на §Y5 мільйонів чоловік§!\n"
+
+ 30_billion_debt_tt: "Мають понад §Y$30 мільярдів§! боргу\n"
 
  #Civil war
- start_civil_war_against_the_strongest_opposition_tt: "§RThe current largest opposition party will start a civil war. The current ruling party will stay in power.§!"
- start_civil_war_as_the_strongest_opposition_tt: "§RThe current largest opposition party will take power. The old ruling party will start a civil war.§!"
+ start_civil_war_against_the_strongest_opposition_tt: "§RНинішня найбільша опозиційна партія почне громадянську війну. Нинішня правляча партія залишиться при владі§!"
+ start_civil_war_as_the_strongest_opposition_tt: "§RДо влади прийде нинішня найбільша опозиційна партія. Стара правляча партія почне громадянську війну§!"
 
- ###Soviet Tooltips###
- ##Focus Effects
- SOV_more_than_30_support_for_united_russia_TT: "£SOV_emerging_reactionary §YUnited Russia§! has more than 30% support"
- SOV_more_than_60_support_for_united_russia_TT: "£SOV_emerging_reactionary §YUnited Russia§! has more than 60% support"
- SOV_NOV_more_than_80_percent_influence_TT: "§Y[SOV.GetAdjective]§! Influence in [NOV.GetNameWithFlag] is Over 80%"
- SOV_more_than_30_support_for_nationals_TT: "£SOV_nationalist_right_wing_populist §YLDPR§! has more than 30% support"
- SOV_more_than_30_support_for_commies_TT: "£SOV_emerging_communism §YCPRF§! has more than 30% support"
- SOV_more_than_30_support_for_liberals_TT: "£SOV_western_liberal §YYabloko§! has more than 30% support"
- SOV_ban_the_communist_party_TT: "Bans the £SOV_emerging_communism §YCPRF§!\n"
- SOV_the_dictatorship_TT: "§GSuspends the Duma, and Empowers Putin to President for Life!§!\n"
- SOV_secure_putins_position_TT: "The popularity of £SOV_emerging_communism §YCPRF§! is halved and added to £SOV_emerging_reactionary §YUnited Russia§! as their voters flock to Putin.\n"
- SOV_root_out_the_nationalists_TT: "§YNationalists§! Within the Country are Rooted Out and the £SOV_nationalist_right_wing_populist §YLDPR§! is Banned!"
+ #Poland#
+ POL_corruption_Scandal_Soc_1_TT: "Більшу частину підтримки партії буде переспрямовано на PO в рамках кампанії з ребрендингу!"
+ POL_corruption_Scandal_Soc_2_TT: "PiS, швидше за все, скористається цією перевагою!"
+ POL_corruption_Scandal_Con_1_TT: "Інші партії можуть бути націлені на нас у нашій наступній виборчій кампанії!"
+ POL_corruption_Scandal_Con_2_TT: "Такі заяви мають охолодити ситуацію для PiS."
+ POL_First_elections_1_TT: "Це дозволить зберегти підтримку партії на поточному рівні."
+ POL_First_elections_2_TT: "Це, найімовірніше, допоможе PiS."
+ POL_secure_unions_TT: "Це збільшить підтримку партії"
+ POL_soften_cons_TT: "Зробивши це, ми отримаємо деяку підтримку PiS!"
+ POL_nine_eleven_supportcondition_TT: "Ми повинні повністю підтримати США, щоб ми пішли цим шляхом!"
+ POL_nine_eleven_notSupportcondition_TT: "Ми повинні відмовитися від повної підтримки США, щоб стати на цей шлях!"
+ POL_lgbt_protest_ingored_TT: "Це може знизити нашу підтримку з боку більш консервативного електорату"
+ POL_increase_nationalist_support_TT: "§YЦе збільшить підтримку націоналізму§!\n"
+ POL_nationalist_spending_TT: "§YЦе збільшить майбутній борг націоналістів.§!\n"
+ POL_day_of_phalanga_TT: "§RЦе приведе все в рух і приведе до влади націоналістів. Нам доведеться виплатити націоналістичний борг, набутий під час підготовки.§!\n"
+ POL_Phalanga_leave_EU_TT: "§YМи залишимо ЄС, якщо будемо його частиною!§!\n"
+ POL_local_cooperation_TT: "§YМи почнемо впливати на наших сусідів.§!\n"
+ POL_fund_movements_TT: "§GЦе відкриє фінансування дружніх рухів в інших країнах.§!\n"
+ POL_ally_industry_TT: "§YМи допоможемо з індустріалізацією наших союзників і посилимо наш вплив§!\n"
+ POL_allowed_justification_TT: "§YМи зможемо обґрунтувати цілі війни, щоб відновити справедливість і порядок для наших майбутніх союзників. §!\n"
+ POL_state_run_economy_TT: "§GНам доведеться керувати великою кількістю галузей нашої економіки вручну, але потенційно з більшим успіхом§!\n"
+ POL_comm_leave_EU_TT: "§YМи покинемо ЄС, якщо будемо його частиною!§!\n"
+ POL_incompatible_spirits_TT: "§YУ нас є національні ідеї, несумісні з нашою нинішньою політичною системою§!\n"
+ POL_party_pop_TT: "§GЦе збільшить підтримку нашої партії§!\n"
+ POL_opposition_dec_TT: "§GЦе зменшить підтримку нашої опозиції§!\n"
+ POL_red_support_TT: "§RЦе збільшить підтримку червоних§!\n"
+ POL_stead_fast_jazz_TT: "§RПідготовка має бути проведена восени§!\n"
+
+ ###Soviet Tooltips####
+ ##Фокус-ефекти
+ SOV_more_than_30_support_for_united_russia_TT: "£SOV_emerging_reactionary §YЕдиная Россия§! має понад 30% підтримки"
+ SOV_more_than_60_support_for_united_russia_TT: "£SOV_emerging_reactionary §Єдина Росія§! має понад 60% підтримки"
+ SOV_NOV_more_than_80_percent_influence_TT: "§Y[SOV.GetAdjective]§! вплив у [NOV.GetNameWithFlag] становить понад 80%"
+ SOV_more_than_30_support_for_nationals_TT: "£SOV_nationalist_right_wing_populist §YЛДПР§! має понад 30% підтримки"
+ SOV_more_than_30_support_for_commies_TT: "£SOV_emerging_communism §YКПРФ§! має понад 30% підтримки"
+ SOV_more_than_30_support_for_liberals_TT: "£SOV_western_liberal §YЯблуко§! має понад 30% підтримки"
+ SOV_ban_the_communist_party_TT: "Буде заборонена партія £SOV_emerging_communism §YКПРФ§!"
+ SOV_the_dictatorship_TT: "§GГДосдуму буде розпущено, а Путін стане довічним президентом!§!\n"
+ SOV_secure_putins_position_TT: "Популярність £SOV_emerging_communism §YКПРФ§! знизиться вдвічі і додасться до £SOV_emerging_reactionary §YЄдиної Росії§!, оскільки їхні виборці перейдуть на бік Путіна.\n"
+ SOV_root_out_the_nationalists_TT: "§YНаціоналісти§! будуть викорінені всередині держави і буде заборонена партія £SOV_nationalist_right_wing_populist §YЛДПР§!"
  ##Focus Tooltips##
- SOV_baltic_econ_tooltip_TT: "Each §YBaltic State§! that accepts will Remove §Y$10 Billion§! from our Treasury.\n"
- SOV_nationalize_oligarch_factories_toolie_TT: "Nationalizes §YFive Factories§! from the §Y[SOV.GetAdjective] Entrepreneurs§!.\n"
- SOV_nationalize_foreign_industry_TT: "Nationalizes §YThree Factories§! from Foreign Businesses!\n"
- SOV_end_of_republic_TT: "Ends the §YDuma§! and empowers Zhirinovsky to §YPresident Indefinitely§!.\n"
- SOV_claim_the_crown_TT: "§YZhirinovsky§! Claims the Crown to the §YRussian Empire§! and Nominates Himself §YTsar§! of Russia!\n"
- SOV_ban_the_nationalist_party_TT: "Bans the £SOV_nationalist_right_wing_populist §YLDPR§!\n"
- SOV_the_fifth_international_TT: "May Get More Potential Members the more Foreign Communists there are and the better their opinion of us."
- SOV_territorial_demands_cores_TT: "The §YSoviet Union§! Gains Cores on All of the Former Republics."
+ SOV_baltic_econ_tooltip_TT: "Кожна §Yбалтійська держава§!, що прийме нашу допомогу, забере §Y$10 мільярдів§! з нашої скарбниці."
+ SOV_nationalize_oligarch_factories_toolie_TT: "Націоналізує §Yп'ять фабрик§!, що належать §Y[SOV.GetAdjective] підприємцям§!"
+ SOV_nationalize_foreign_industry_TT: "Націоналізує §Yтри фабрики§! від іноземних компаній!\n"
+ SOV_end_of_republic_TT: "§YДерждума§! буде розпущена, а Жириновський стане §Yжиттєвим президентом§!.\n"
+ SOV_claim_the_crown_TT: "§YЖириновський§! претендуватиме на корону §YРосійської Імперії§! і оголосить себе §YЦарем§! Росії!"
+ SOV_ban_the_nationalist_party_TT: "Буде заборонена партія £SOV_nationalist_right_wing_populist §YЛДПР§!\n"
+ SOV_the_fifth_international_TT: "Нехай буде більше потенційних членів, чим більше іноземних комуністів і чим краща їхня думка про нас."
+ SOV_territorial_demands_cores_TT: "Уся територія колишнього §YРадянського Союзу§! стає національною."
 
- SOV_reduction_of_interest_rate_TT: "Interest Reduction Packages are put in place.\n"
+ SOV_reduction_of_interest_rate_TT: "Будуть введені в дію пакети зі зниження відсоткових ставок.\n"
+
+ ###Ukraine Tooltips
+ ##Підказка про унікальну механіку
+ ###Under % Stability
+ UKR_requires_under_30_variable_stab_TT: "Потрібно менше 30% £stability_texticon §Yстабільності режиму (СР)§! на Україні"
+ UKR_requires_under_40_variable_stab_TT: "Потрібно менше 40% £stability_texticon §Yстабільності режиму (СР)§! на Україні"
+ UKR_requires_under_50_variable_stab_TT: "Потрібно менше 50% £stability_texticon §Yстабільності режиму (СР)§! на Україні"
+ UKR_requires_under_60_variable_stab_TT: "Потрібно менше 60% £stability_texticon §Yстабільності режиму (СР)§! на Україні"
+ UKR_requires_under_70_variable_stab_TT: "Потрібно менше 70% £stability_texticon §Yстабільності режиму (СР)§! на Україні"
+ UKR_requires_under_80_variable_stab_TT: "Потрібно менше 80% £stability_texticon §Yстабільності режиму (СР)§! на Україні"
+ ###Over % Stability
+ UKR_requires_over_30_variable_stab_TT: "Потрібно понад 30% £stability_texticon §Yстабільності режиму (СР)§! на Україні"
+ UKR_requires_over_40_variable_stab_TT: "Потрібно понад 40% £stability_texticon §Yстабільності режиму (СР)§! на Україні"
+ UKR_requires_over_50_variable_stab_TT: "Потрібно понад 50% £stability_texticon §Yстабільності режиму (СР)§! на Україні"
+ UKR_requires_over_60_variable_stab_TT: "Потрібно понад 60% £stability_texticon §Yстабільності режиму (СР)§! на Україні"
+ UKR_requires_over_70_variable_stab_TT: "Потрібно понад 70% £stability_texticon §Yстабільності режиму (СР)§! на Україні"
+ UKR_requires_over_80_variable_stab_TT: "Потрібно понад 80% £stability_texticon §Yстабільності режиму (СР)§! на Україні"
+ ###Over COR
+ UKR_requires_under_15_cor_TT: "Потрібно менше ніж 15 £generic_anarchist_communism_small §Under_15_cor_TT: "Потрібно менше ніж 15 £generic_anarchist_communism_small §Yімовірності повстання (ВВ)§! на Україні\n"
+ ##has x chance of revolt
+ UKR_has_cor_over_5_tooltip: "Потрібно понад 5 £generic_anarchist_communism_small §Yвероятности восстания (ВВ)§! на Украине"
+ ###Chance of Revolt (COR)
+ ####Add
+ UKR_raise_chance_of_revolt_by_1_TT: "§RВиросте§! £generic_anarchist_communism_small §Yймовірність повстання (ВВ)§! на 1\n"
+ UKR_raise_chance_of_revolt_by_2_TT: "§RВиросте§! £generic_anarchist_communism_small §Yймовірність повстання (ВВ)§! на 2\n"
+ UKR_raise_chance_of_revolt_by_3_TT: "§RВиросте§! £generic_anarchist_communism_small §Yймовірність повстання (ВВ)§! на 3\n"
+ UKR_raise_chance_of_revolt_by_4_TT: "§RВиросте§! £generic_anarchist_communism_small §Yймовірність повстання (ВВ)§! на 4\n"
+ UKR_raise_chance_of_revolt_by_5_TT: "§RВиросте§! £generic_anarchist_communism_small §Yймовірність повстання (ВВ)§! на 5\n"
+ UKR_raise_chance_of_revolt_by_10_TT: "§RВиросте§! £generic_anarchist_communism_small §Yвероятность восстания (ВВ)§! на 10\n"
+ ####Subtract
+ UKR_lowers_chance_of_revolt_by_1_TT: "§GСнизиться§! £generic_anarchist_communism_small §Yймовірність повстання (ВВ)§! на 1\n"
+ UKR_lowers_chance_of_revolt_by_2_TT: "§GЗнизиться§! £generic_anarchist_communism_small §Yймовірність повстання (ВВ)§! на 2\n"
+ UKR_lowers_chance_of_revolt_by_3_TT: "§GЗнизиться§! £generic_anarchist_communism_small §Yймовірність повстання (ВВ)§! на 3\n"
+ UKR_lowers_chance_of_revolt_by_4_TT: "§GЗнизиться§! £generic_anarchist_communism_small §Yймовірність повстання (ВВ)§! на 4\n"
+ UKR_lowers_chance_of_revolt_by_5_TT: "§GСнизиться§! £generic_anarchist_communism_small §Yймовірність повстання (ВВ)§! на 5\n"
+ ###Stability of Regime (SOR)
+ ####Add
+ UKR_stability_of_ukraine_var_raises_by_1_TT: "§GВиросте§! £stability_texticon §Yстабільність режиму (СР)§! на 1\n"
+ UKR_stability_of_ukraine_var_raises_by_2_TT: "§GВиросте§! £stability_texticon §Yстабільність режиму (СР)§! на 2\n"
+ UKR_stability_of_ukraine_var_raises_by_3_TT: "§GВиросте§! £stability_texticon §Yстабільність режиму (СР)§! на 3\n"
+ UKR_stability_of_ukraine_var_raises_by_4_TT: "§GВиросте§! £stability_texticon §Yстабільність режиму (СР)§! на 4\n"
+ UKR_stability_of_ukraine_var_raises_by_5_TT: "§GВиросте§! £stability_texticon §Yстабільність режиму (СР)§! на 5\n"
+ ####Subtract
+ UKR_stability_of_ukraine_var_lowers_by_1_TT: "§RСнизиться§! £stability_texticon §Yстабільність режиму (СР)§! на 1\n"
+ UKR_stability_of_ukraine_var_lowers_by_2_TT: "§RСнизиться§! £stability_texticon §Yстабільність режиму (СР)§! на 2\n"
+ UKR_stability_of_ukraine_var_lowers_by_3_TT: "§RСнизиться§! £stability_texticon §Yстабільність режиму (СР)§! на 3\n"
+ UKR_stability_of_ukraine_var_lowers_by_4_TT: "§RСнизиться§! £stability_texticon §Yстабільність режиму (СР)§! на 4\n"
+ UKR_stability_of_ukraine_var_lowers_by_5_TT: "§RСнизиться§! £stability_texticon §Yстабільність режиму (СР)§! на 5\n"
 
  ###Focus Toolies
- ##effects
- UKR_try_to_reach_an_agreement_TT: "§YForms a Coalition with the Communists.§!\n"
- UKR_crimea_tooltip_TT: "§YThe focus will have its effects depending on what Russia decides§!\n"
- UKR_reorganize_the_national_guard_focus_TT: "§YUnlocks the Decision to Reorgnaize the National Guard of Ukraine§!\n"
- UKR_hyperloop_project_focus_TT: "Builds Maximum Infrastructure from §YKyiv§! to §YZaporizhya§!\n"
- UKR_infrastructure_project_TT: "The effects will change once you have §YInfrastructure Projects§! or §YInfrastructure Projects 2§!\n"
- UKR_baltic_black_sea_dialogue_focus_TT: "§YThis focus will give any countries that support the Black-Baltic Sea Union mutual guarantees§!\n"
- UKR_decision_demand_the_return_of_the_crimea_TT: "Can Lead to War with Russia"
- UKR_temp_focus_placeholder_until_tech_TT: "These are just are temp effects until Nuke tech is re-added"
+ ##ефекти
+ UKR_try_to_reach_an_agreement_TT: "§YФормує коаліцію з комуністами.§!\n"
+ UKR_crimea_tooltip_TT: "§YФокус матиме свої наслідки залежно від того, що вирішить Росія§!\n"
+ UKR_reorganize_the_national_guard_focus_TT: "§YРозблоковано рішення про реорганізацію Національної гвардії України.§!\n"
+ UKR_hyperloop_project_focus_TT: "Будує максимальну інфраструктуру від §YКиєва§! до §YЗапоріжжя§!\n"
+ UKR_infrastructure_project_TT: "Ефекти зміняться, щойно у вас буде §YІнфраструктурні проєкти§! або §YІнфраструктурні проєкти 2§!\n"
+ UKR_baltic_black_sea_dialogue_focus_TT: "§YТакий фокус дасть усім державам, що підтримують Чорноморський Союз, взаємні гарантії§!\n"
+ UKR_decision_demand_the_return_of_the_crimea_TT: "Може призвести до війни з Росією"
+ UKR_temp_focus_placeholder_until_tech_TT: "Це лише тимчасові ефекти доти, доки ядерна технологія не буде досліджена."
  ##Triggers
- UKR_nato_major_influence_greater_than_10_percent_TT: "Requires More than §Y10%§! Influence from §Y[ENG.GetNameWithFlag]§!, §Y[USA.GetNameWithFlag]§!, §Y[GER.GetNameWithFlag]§!, or §Y[FRA.GetNameWithFlag]§!"
- UKR_east_major_influence_greater_than_10_perecnt_TT: "Requires More than §Y10%§! Influence from §Y[SOV.GetNameWithFlag]§! or §Y[CHI.GetNameWithFlag]§!"
+ UKR_nato_major_influence_greater_than_10_percent_TT: "Потрібно більше ніж §Y10%§! впливу з боку §Y[ENG.GetNameWithFlag]§!, §Y[USA.GetNameWithFlag]§!, §Y[GER.GetNameWithFlag]§!, або §Y[FRA.GetNameWithFlag]§!"
+ UKR_east_major_influence_greater_than_10_perecnt_TT: "Потрібно більше ніж §Y10%§! впливу з боку §Y[SOV.GetNameWithFlag]§! або §Y[CHI.GetNameWithFlag]§!"
 
  ###England Tooltips
- ENG_fight_capitalism_TT: "§YThe Communists Seize Power to Bring the Revolution Abroad!§!\n"
+ ENG_fight_capitalism_TT: "§YКомуністи захоплюють владу, щоб перенести революцію за кордон!§!\n"
 
  # Switerzland
- SWI_additional_military_facilities_TT: "§RIf you control Austria this focus will add more military factories§!."
+ SWI_additional_military_facilities_TT: "§RЯкщо ви контролюєте Австрію, цей фокус додасть більше військових заводів.§!\nВартість кожного заводу, збудованого з огляду на цю мету, становитиме §Y$5 мільярдів§! з нашої скарбниці\n"
 
- #Custom Econbomic trigger
- consumes_more_than_produced_steel_tt: "[ROOT.GetNameWithFlag] Consumes more Steel than Produced."
- consumes_more_than_produced_aluminium_tt: "[ROOT.GetNameWithFlag] Consumes more Light Metals than Produced."
- consumes_more_than_produced_oil_tt: "[ROOT.GetNameWithFlag] Consumes more Fossil Fuels than Produced."
- consumes_more_than_produced_tungsten_tt: "[ROOT.GetNameWithFlag] Consumes more Technology Metals than Produced."
- GER_more_than_30_support_for_nationals_TT: "£GER_nationalist_right_wing_populist §YAfD§! has more than 30% support"
+ #Custom Econoimc trigger
+ consumes_more_than_produced_steel_tt: "[ROOT.GetNameWithFlag] споживає більше сталі, ніж виробляє."
+ consumes_more_than_produced_aluminium_tt: "[ROOT.GetNameWithFlag] споживає більше легких металів, ніж виробляється."
+ consumes_more_than_produced_oil_tt: "[ROOT.GetNameWithFlag] споживає більше нафти, ніж виробляється."
+ consumes_more_than_produced_tungsten_tt: "[ROOT.GetNameWithFlag] споживає більше технологічних матеріалів, ніж виробляється."
+ ###DPRK's Tooltips###
+ NKO_Junta_support_increase_10_tt: "£NKO_military_junta Корейська народна армія отримає §G10%§! підтримки"
+ NKO_Arduous_March_SCL_TT: "[Root.NKO_Arduous_March_SCL]"
+ NKO_Arduous_March_1_tt: "Важкий марш - §GI§!"
+ NKO_Arduous_March_2_tt: "Важкий марш - II"
+ NKO_Arduous_March_3_tt: "Важкий марш - §YIII§!"
+ NKO_Arduous_March_4_tt: "Важкий марш - §RIV§!"
+ NKO_Arduous_March_5_tt: "Важкий марш - §OV§!"
+ NKO_support_Songun_tt: "§YЦей фокус приведе країну до сонгунів.§!"
+ NKO_black_market_tt: "Завершіть цей фокус, щоб розблокувати рішення §YУхвалити чорний ринок§!"
+ NKO_Arduous_March_tt: "Завершіть цей фокус, щоб розблокувати категорію рішень §YТрудний марш§!"
+ NKO_decrease_Misery_March_tt: "Знижує негативний вплив §YТрудного походу§!"
+ NKO_reform_opening_up_tt: "Це полегшить §Yрадикальну реформу§!"
+ NKO_Support_Market_tt: "Прийшов час. Просто дерзайте".
+ NKO_Maybe_Support_Market_tt: "Можливо, зараз країна може собі це дозволити".
+ NKO_Not_Support_Market_tt: "Країна поки що не може дозволити собі таку радикальну програму реформ..."
+ NKO_35_support_Kim_Jong_Nam_tt: "Підтримка Кім Чен Нама має бути більшою або дорівнювати 35%"
+ NKO_35_support_Kim_Jong_un_tt: "Підтримка Кім Чен Ина має бути більшою або дорівнювати 35%"
+ NKO_45_support_Kim_Jong_Nam_tt: "Підтримка Кім Чен Нама має бути більшою або дорівнювати 45%"
+ NKO_45_support_Kim_Jong_un_tt: "Підтримка Кім Чен Ина має бути більшою або дорівнювати 45%"
+ NKO_50_support_Kim_Jong_Nam_tt: "Підтримка Кім Чен Нама має бути більшою або дорівнювати 50%"
+ NKO_50_support_Kim_Jong_un_tt: "Підтримка Кім Чен Ина має бути більшою або дорівнювати 50%"
+ NKO_75_support_Kim_Jong_Nam_tt: "Підтримка Кім Чен Нама має бути більшою або дорівнювати 75%"
+ NKO_75_support_Kim_Jong_un_tt: "Підтримка Кім Чен Ина має бути більшою або дорівнювати 75%"
+ NKO_35_increase_Kim_Jong_un_tt: "§GПідтримка Кім Чен Ина збільшується на 35%§!"
+ NKO_35_increase_Kim_Jong_Nam_tt: "§GПідтримка Кім Чен Нама збільшується на 35%§!"
+ NKO_3_increase_Kim_Jong_un_tt: "§GПідтримка Кім Чен Ина збільшується на 3%§!"
+ NKO_3_increase_Kim_Jong_Nam_tt: "§Підтримка Кім Чен Нама збільшується на 3%§!"
+ NKO_2_5_increase_Kim_Jong_un_tt: "§Підтримка Кім Чен Ина збільшується на 2% ~ 5%§!"
+ NKO_2_5_increase_Kim_Jong_Nam_tt: "§Підтримка Кім Чен Нама збільшується на 2% ~ 5%§!"
+ NKO_decrease_Kim_Jong_Nam_tt: "§СРейтинг підтримки Кім Чен Нама продовжує падати...§!"
+ NKO_decrease_Kim_Jong_un_tt: "§СРейтинг підтримки Кім Чен Ина продовжує падати...§!"
+ NKO_ramdom_increase_tt: ""
+ NKO_minimum_opinion_KPA_tt: "§YКорейська народна армія§! має §Gпозитивну§! думку про [NKO.Getleader] або вище"
+ NKO_WIP_SORRY_tt: "§YВибачте, цей фокус ще не завершений і все ще перебуває в розробці§!"
+ Kim_Jong_il_Death_tt: "Товариш Кім Чен Ір мертвий!"
+ NKO_CHI_PROPOSE_TRADE_AGREEMENT_TOOLTIP: "Має торговельну угоду з §Y[CHI.GetNameWithFlag]§!\n"
+ Unchain_the_Democraic_Parties_tt: "§СЦей фокус розв'яже демократичні партії§!\n"
+ KPA_Unhappy_tt: "§РКНА буде незадоволена.§!"
+ korea_peninsula_reunited: "§YКорейський півострів §Gвоссоединенен§!!§!"
+ GER_more_than_30_support_for_nationals_TT: "£GER_nationalist_right_wing_populist §YАдГ§! має понад 30% підтримки"
 
  # AZE stuff
  AZE_start_aliev_cult_tt: "§BThis will start the Aliev cult.§!\n"
  AZE_stop_aliev_cult_tt: "§BThis will stop the Aliev cult.§!\n"
- AZE_aliev_cult_tt: "§YAliev Cult§! changes by [?modify_aliev_cult|+0] (Current: [?AZE.aliev_cult|Y0])\n"
- AZE_increase_readiness_tt: "§GThis will increase our war readiness§!\n"
- AZE_decrease_readiness_tt: "§RThis will decrease our war readiness§!\n"
- AZE_increase_tension_tt: "§YThis will increase Karabakh tensions§!\n"
- AZE_decrease_tension_tt: "§YThis will decrease Karabakh tensions§!\n"
- AZE_final_solution_tt: "§GThis will bring us a step closer to peace§!\n"
- AZE_doomsday_fund_tt: "§GThis will create Doomsday fund for us to use in dire times.§!"
- AZE_investments_tt: "§GThis will transfer money from our treasury to investments.§!"
- AZE_indian_ports_TT: "§GThis will give us steady source of weekly income, estimated about 0.25 billions weekly§!"
- AZE_ban_aliev_party_tt: "§GThis will ban dictators party [conservatism_L]§!\n"
- AZE_stop_election_tt: "§YThis will suspend all elections§!\n"
- AZE_investments_tt: "§GThis will transfer money to foreign investments.§!"
- AZE_allied_funding_TT: "§GThis will allow us and our allies to get a good money stimulus.§!"
- AZE_allied_pipelines_TT: "§GThis will give our friendly neighbours refineries to process our fuel.§!"
- Aze_hunta_possible_TT: "§YThis will be available if and when our generals will become untrustworthy.§!"
- aze_nato_TT: "§GThis will give us NATO associate status.§!"
- AZE_GUAM_cooperation_TT: "§GThis will strengthen our ties to GUAM members.§!"
+ AZE_aliev_cult_tt: "§YAliev Cult§! змінюється за допомогою [?modify_aliev_cult|+0] (Current: [?AZE.aliev_cult|Y0])\n"
+ AZE_increase_readiness_tt: "§GЦе підвищить нашу боєготовність§!\n"
+ AZE_decrease_readiness_tt: "§RЦе зменшить нашу боєготовність§!\n"
+ AZE_increase_tension_tt: "§YЦе призведе до зростання напруженості в Карабасі§!\n"
+ AZE_decrease_tension_tt: "§YЦе зменшить напруженість в Карабасі§!\n"
+ AZE_final_solution_tt: "§GЦе наблизить нас на крок до миру§!\n"
+ AZE_doomsday_fund_tt: "Це створить фонд Судного дня для нас, щоб ми могли використовувати його у важкі часи.§!"
+ AZE_investments_tt: "§GЦе перекаже гроші з нашої скарбниці в інвестиції.§!"
+ AZE_indian_ports_TT: "Це дасть нам стабільне джерело щотижневого доходу, який оцінюється приблизно в 0,25 мільярда щотижня§!"
+ AZE_ban_aliev_party_tt: "§GЦе заборонить диктаторам партію [консерватизм_L]§!\n"
+ AZE_stop_election_tt: "§YЦе призупинить усі вибори§!\n"
+ AZE_investments_tt: "§GЦе перекаже гроші на іноземні інвестиції.§!"
+ AZE_allied_funding_TT: "§GЦе дасть змогу нам і нашим союзникам отримати хороший грошовий стимул.§!"
+ AZE_allied_pipelines_TT: "Це дасть нашим дружнім сусідам нафтопереробні заводи, на яких буде перероблятися наше паливо.§!"
+ Aze_hunta_possible_TT: "§YЦе буде доступно, якщо та коли наші генерали стануть не заслуговуватимуть на довіру...!"
+ aze_nato_TT: "§GЦе дасть нам статус асоційованого члена НАТО.§!"
+ AZE_GUAM_cooperation_TT: "§GЦе зміцнить наші зв'язки з членами ГУАМ.§!"
 
- NKR_main_cycle_tt: "§YOur war readiness and region tension level will be updated§!\n"
- NKR_gamble_tt: "§YWe may gain or lose readiness depending on enemy actions§!\n"
- NKR_war_TT: "§RThere will be a war. There is no coming back from this.§!\n"
- NKR_low_tension_trigger_TT: "§YThis action requires tension higher than low§!\n"
- NKR_medium_tension_trigger_TT: "§YThis action requires tension higher than medium§!\n"
- NKR_lower_then_high_trigger_TT: "§YThis action requires tension lower than high§!\n"
- NKR_lower_then_medium_trigger_TT: "§YThis action requires tension lower than medium§!\n"
- NKR_lower_then_low_trigger_TT: "§YThis action requires tension lower than low§!\n"
- NKR_higher_then_high_TT: "§YThis action requires tension higher than high!\n"
- conducted_activity: "§YWe did not conduct any actions already§!\n"
- AZE_aliev_cult_mission_TT: "§YWe will gather reports to see Aliev cult popularity§!\n"
+ NKR_main_cycle_tt: "§YOur військова готовність і рівень напруженості в регіоні будуть оновлюватися§!\n"
+ NKR_gamble_tt: "§YМи можемо набирати або втрачати боєготовність залежно від дій супротивника§!\n"
+ NKR_war_TT: "§RТhere will be a war. Від цього немає вороття назад§!\n"
+ NKR_low_tension_trigger_TT: "§YЦя дія вимагає напруги, більшої за низьку§!\n"
+ NKR_medium_tension_trigger_TT: "§YЦя дія вимагає напруження вище, ніж середнє§!\n"
+ NKR_lower_then_high_trigger_TT: "§YЦя дія вимагає напруження нижче, ніж high§!\n"
+ NKR_lower_then_medium_trigger_TT: "§YЦя акція вимагає напруги нижче, ніж medium§!\n"
+ NKR_lower_then_low_trigger_TT: "§YЦя дія вимагає напруги нижче, ніж low§!\n"
+ NKR_higher_then_high_TT: "§YЦя дія вимагає напруження вище, ніж високе!\n"
+ NKR_has_not_conducted_shit_TT: "§YYМи вже не проводили жодних дій§!\n"
+ AZE_aliev_cult_mission_TT: "§YWe будемо збирати звіти, щоб побачити популярність секти Алієва§!\n"
 
- # Steal Popularity
- attract_voters_pos.0: "[Western_Autocracy_L] loses §R1%§! popularity\n"
- attract_voters_pos.1: "[conservatism_L] loses §R1%§! popularity\n"
- attract_voters_pos.2: "[liberalism_L] loses §R1%§! popularity\n"
- attract_voters_pos.3: "[socialism_L] loses §R1%§! popularity\n"
- attract_voters_pos.4: "[Communist-State_L] loses §R1%§! popularity\n"
- attract_voters_pos.5: "[anarchist_communism_L] loses §R1%§! popularity\n"
- attract_voters_pos.6: "[Conservative_L] loses §R1%§! popularity\n"
- attract_voters_pos.7: "[Autocracy_L] loses §R1%§! popularity\n"
- attract_voters_pos.8: "[Mod_Vilayat_e_Faqih_L] loses §R1%§! popularity\n"
- attract_voters_pos.9: "[Vilayat_e_Faqih_L] loses §R1%§! popularity\n"
- attract_voters_pos.10: "[Kingdom_L] loses §R1%§! popularity\n"
- attract_voters_pos.11: "[Caliphate_L] loses §R1%§! popularity\n"
- attract_voters_pos.12: "[Neutral_Muslim_Brotherhood_L] loses §R1%§! popularity\n"
- attract_voters_pos.13: "[Neutral_Autocracy_L] loses §R1%§! popularity\n"
- attract_voters_pos.14: "[Neutral_conservatism_L] loses §R1%§! popularity\n"
- attract_voters_pos.15: "[oligarchism_L] loses §R1%§! popularity\n"
- attract_voters_pos.16: "[Neutral_Libertarian_L] loses §R1%§! popularity\n"
- attract_voters_pos.17: "[Neutral_green_L] loses §R1%§! popularity\n"
- attract_voters_pos.18: "[neutral_Social_L] loses §R1%§! popularity\n"
- attract_voters_pos.19: "[Neutral_Communism_L] loses §R1%§! popularity\n"
- attract_voters_pos.20: "[Nat_Populism_L] loses §R1%§! popularity\n"
- attract_voters_pos.21: "[Nat_Fascism_L] loses §R1%§! popularity\n"
- attract_voters_pos.22: "[Nat_Autocracy_L] loses §R1%§! popularity\n"
- attract_voters_pos.23: "[Monarchist_L] loses §R1%§! popularity\n"
- TT_ADD_RELATIVE_PARTY_POPULARITY: "[party_index_L] popularity changes by [?party_popularity_increase|+%]\n"
 
- TT_TRIGGER_ENOUGH_BUILDING_SLOTS: "We need to have enough empty building slots"
+ # Украсти популярність
+ attract_voters_pos.0: "[Western_Autocracy_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.1: "[conservatism_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.2: "[лібералізм_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.3: "[соціалізм_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.4: "[Комуністична держава_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.5: "[анархіст_комунізм_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.6: "[Conservative_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.7: "[Autocracy_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.8: "[Mod_Vilayat_e_Faqih_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.9: "[Vilayat_e_Faqih_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.10: "[Kingdom_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.11: "[Халіфат_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.12: "[Neutral_Muslim_Brotherhood_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.13: "[Neutral_Autocracy_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.14: "[Neutral_conservatism_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.15: "[олігархізм_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.16: "[Нейтральний_лібертаріан_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.17: "[Neutral_green_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.18: "[neutral_Social_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.19: "[Neutral_Communism_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.20: "[Nat_Populism_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.21: "[Nat_Fascism_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.22: "[Nat_Autocracy_L] втратить §R1%§! популярності\n"
+ attract_voters_pos.23: "[Monarchist_L] втратить §R1%§! популярності\n"
+ TT_ADD_RELATIVE_PARTY_POPULARITY: "[party_index_L] змінюється популярність на [?party_popularity_increase|+%]\n"
 
- #Game rules countries/global flags (if you put check flag in available for focuses, etc...)
- GAME_RULE_eu_disabled: "The European Union disabled due to the game rules"
+ TT_TRIGGER_ENOUGH_BUILDING_SLOTS: "Нам треба більше порожніх комірок для будівництва"
 
- add_to_investment_array_tooltip_already_in: "§GWe are already one of the §YInvestment Targets§! for [THIS.GetFlag]§Y[THIS.GetNameDef]§!§!"
- add_to_investment_array_tooltip: "We will become a possible §YInvestment Target§! for [THIS.GetFlag]§Y[THIS.GetNameDef]§!"
- change_permanent_investment_target_tt: "[?var:adding_nation.GetFlag]§Y[?var:adding_nation.GetNameDef]§! will become a possible §YInvestment Target§! for [?var:target_nation.GetFlag]§Y[?var:target_nation.GetNameDef]§!"
- change_permanent_investment_target_remove_tt: "[?var:adding_nation.GetFlag]§Y[?var:adding_nation.GetNameDef]§! will be removed as a possible §YInvestment Target§! for [?var:target_nation.GetFlag]§Y[?var:target_nation.GetNameDef]§!"
- set_partyall_banned_tt: "Bans All Parties Except §Y[show_ruling_party]§!\n"
- set_partyall_allowed_tt: "Unbans All Parties in our Country\n"
+ Body_armor_TT: "§GВійськова поліція: §Y+1.2 ОЗ§!\nЛегка піхота: §Y+2 ОЗ§!\nМеханізіровання піхота: §Y+1.75 ОЗ§!\nБроньована піхота: §Y+1.5 ОЗ§!§!"
 
- May_increase_radicalisation_TT: "§RThis will increase radicalisation§!\n"
- May_decrease_radicalisation_TT: "§GThis will decrease radicalisation§!\n"
- Will_decrease_strength_TT: "§GThis decrease protests strength§!\n"
- Increase_radicalisation_TT: "§RThis will increase radicalisation§!\n" # kind of a duplicate, keep for now
- Increase_radicalisation_decrease_strength_TT: "§YThis will increase radicalisation slightly but will decrease protest strength§!\n"
- Increase_radicalisation_considerably_TT: "§RThis will increase radicalisation considerably§!\n"
- civil_war_protest_TT: "§RProtestors will start a civil war§!\n"
- # Debt-Ratio
- gdp_debt_ratio_lower_5_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y5%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_5_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y5%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_10_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y10%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_10_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y10%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_15_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y15%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_15_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y15%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_20_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y20%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_20_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y20%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_25_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y25%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_25_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y25%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_30_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y30%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_30_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y30%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_35_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y35%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_35_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y35%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_40_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y40%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_40_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y40%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_45_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y45%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_45_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y45%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_50_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y50%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_50_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y50%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_55_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y55%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_55_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y55%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_60_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y60%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_60_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y60%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_65_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y65%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_65_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y65%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_70_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y70%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_70_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y70%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_75_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y75%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_75_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y75%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_80_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y80%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_80_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y80%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_85_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y85%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_85_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y85%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_90_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y90%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_90_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y90%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_95_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y95%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_95_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y95%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_100_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y100%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_100_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y100%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_105_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y105%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_105_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y105%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_110_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y110%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_110_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y110%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_115_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y115%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_115_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y115%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_120_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y120%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_120_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y120%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_125_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y125%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_125_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y125%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_130_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y130%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_130_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y130%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_135_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y135%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_135_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y135%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_140_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y140%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_140_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y140%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_145_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y145%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_145_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y145%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_150_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y150%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_150_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y150%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_155_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y155%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_155_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y155%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_160_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y160%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_160_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y160%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_165_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y165%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_165_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y165%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_170_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y170%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_170_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y170%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_175_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y175%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_175_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y175%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_180_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y180%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_180_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y180%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_185_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y185%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_185_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y185%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_190_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y190%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_190_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y190%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_195_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y195%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_195_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y195%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_lower_200_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Lower than §Y200%§! (Current:[?THIS.debt_ratio|-1%])"
- gdp_debt_ratio_higher_200_tt: "[THIS.GetNameWithFlag] §YDebt-to-GDP§! Ratio Higher than §Y200%§! (Current:[?THIS.debt_ratio|-1%])"
+ #Правила гри країни/глобальні прапори (якщо поставити прапор чеку в доступні для фокусу і т.д...)
+ GAME_RULE_eu_disabled: "Європейський союз відключений через правила гри"

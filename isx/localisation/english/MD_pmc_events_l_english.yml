@@ -1,5 +1,5 @@
 ﻿l_english:
 
- pmc_events.1.t: "[From.GetNameDef] recalls their mercenaries"
- pmc_events.1.d: "Some of our mercenary units get recalled to [From.GetNameDef] due to the orders of their overlord, they will provide compensation for such untimely contract termination but thats it."
- pmc_events.1.a: "Unfortunate."
+ pmc_events.1.t: "[From.GetNameDef] відкликає своїх найманців"
+ pmc_events.1.d: "Один із наших підрозділів найманців було відкликано [From.GetNameDef] через наказ їхнього власника, вони виплатять нам компенсацію за передчасне розірвання контракту і на цьому закінчать свою службу."
+ pmc_events.1.a: "Неприємно."
