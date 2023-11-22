@@ -1,422 +1,421 @@
 ﻿l_english:
- SER_political_development: "Політичний розвиток"
- SER_political_development_desc: "У процесі"
+ SER_political_development: "Political Development"
+ SER_political_development_desc: "WIP desc"
 
- SER_bulldozer_revolution: "Бульдозерна революція"
- SER_bulldozer_revolution_desc: "У процесі"
+ SER_bulldozer_revolution: "Bulldozer Revolution"
+ SER_bulldozer_revolution_desc: "WIP desc"
 
- SER_forgive_milosevic: "Пробачити Мілошевича"
- SER_forgive_milosevic_desc: "У процесі"
+ SER_forgive_milosevic: "Forgive Milosevic"
+ SER_forgive_milosevic_desc: "WIP desc"
 
- SER_focus_on_liberty: "Свобода"
- SER_focus_on_liberty_desc: "У процесі"
+ SER_focus_on_liberty: "Focus On Liberty"
+ SER_focus_on_liberty_desc: "WIP desc"
 
- SER_arrest_slodoban_milosevic: "Арешт Слободана Мілошевича"
- SER_arrest_slodoban_milosevic_desc: "У процесі"
+ SER_arrest_slodoban_milosevic: "Arrest Slodoban Milosevic"
+ SER_arrest_slodoban_milosevic_desc: "WIP desc"
 
- SER_end_journalist_assassination: "Кінець вбивствам журналістів"
- SER_end_journalist_assassination_desc: "У процесі"
+ SER_end_journalist_assassination: "End Journalist Assassination"
+ SER_end_journalist_assassination_desc: "WIP desc"
 
- SER_put_an_end_to_nationalist_newspaper: "Покласти край націоналістичній газеті"
- SER_put_an_end_to_nationalist_newspaper_desc: "У процесі"
+ SER_put_an_end_to_nationalist_newspaper: "Put An End To Nationalist Newspaper"
+ SER_put_an_end_to_nationalist_newspaper_desc: "WIP desc"
 
- SER_fight_the_corruption: "Боротьба з корупцією"
- SER_fight_the_corruption_desc: "У процесі"
+ SER_fight_the_corruption: "Fight The Corruption"
+ SER_fight_the_corruption_desc: "WIP desc"
 
- SER_recognize_kosovo: "Визнання Косово"
- SER_recognize_kosovo_desc: "У процесі"
+ SER_recognize_kosovo: "Recognize Kosovo"
+ SER_recognize_kosovo_desc: "WIP desc"
 
- SER_give_more_autonomy_to_kosovo: "Дати більше автономії Косово"
- SER_give_more_autonomy_to_kosovo_desc: "У процесі"
+ SER_give_more_autonomy_to_kosovo: "Give More Autonomy To Kosovo"
+ SER_give_more_autonomy_to_kosovo_desc: "WIP desc"
 
- SER_apply_for_nato: "Подати заявку в НАТО"
- SER_apply_for_nato_desc: "У процесі"
+ SER_apply_for_nato: "Apply For Nato"
+ SER_apply_for_nato_desc: "WIP desc"
 
- SER_nato_military_advisors: "Військові радники НАТО"
- SER_nato_military_advisors_desc: "У процесі"
+ SER_nato_military_advisors: "Nato Military Advisors"
+ SER_nato_military_advisors_desc: "WIP desc"
 
- SER_apply_for_eu: "Подати заявку в ЄС"
- SER_apply_for_eu_desc: "У процесі"
+ SER_apply_for_eu: "Apply For Eu"
+ SER_apply_for_eu_desc: "WIP desc"
 
- SER_the_european_integration: "Європейська інтеграція"
- SER_the_european_integration_desc: "У процесі"
+ SER_the_european_integration: "The European Integration"
+ SER_the_european_integration_desc: "WIP desc"
 
- SER_the_euro: "Євро"
- SER_the_euro_desc: "У процесі"
+ SER_the_euro: "The Euro"
+ SER_the_euro_desc: "WIP desc"
 
- SER_the_budapest_belgrad_sofia_line: "Будапешт-Белград-Софія"
- SER_the_budapest_belgrad_sofia_line_desc: "У процесі"
+ SER_the_budapest_belgrad_sofia_line: "The Budapest Belgrad Sofia Line"
+ SER_the_budapest_belgrad_sofia_line_desc: "WIP desc"
 
- SER_seek_foreign_industrial_investments: "Пошук іноземних промисл. інвестицій"
- SER_seek_foreign_industrial_investments_desc: "У процесі"
+ SER_seek_foreign_industrial_investments: "Seek Foreign Industrial Investments"
+ SER_seek_foreign_industrial_investments_desc: "WIP desc"
 
- SER_fiat_investments: "Інвестиції Fiat"
- SER_fiat_investments_desc: "У процесі"
+ SER_fiat_investments: "Fiat Investments"
+ SER_fiat_investments_desc: "WIP desc"
 
- SER_volkswagen_investments: "Інвестиції Volkswagen"
- SER_volkswagen_investments_desc: "У процесі"
+ SER_volkswagen_investments: "Volkswagen Investments"
+ SER_volkswagen_investments_desc: "WIP desc"
 
- SER_improve_the_welfare_system: "Поліпшення системи соц. забезпечення"
- SER_improve_the_welfare_system_desc: "У процесі"
+ SER_improve_the_welfare_system: "Improve The Welfare System"
+ SER_improve_the_welfare_system_desc: "WIP desc"
 
- SER_university_of_belgrad: "Белградський університет"
- SER_university_of_belgrad_desc: "У процесі"
+ SER_university_of_belgrad: "University Of Belgrad"
+ SER_university_of_belgrad_desc: "WIP desc"
 
- SER_balkan_cooperation_pact: "Балканський пакт про співпрацю"
- SER_balkan_cooperation_pact_desc: "У процесі"
+ SER_balkan_cooperation_pact: "Balkan Cooperation Pact"
+ SER_balkan_cooperation_pact_desc: "WIP desc"
 
- SER_give_autonomy_to_montenegro: "Дати автономію Чорногорії"
- SER_give_autonomy_to_montenegro_desc: "У процесі"
+ SER_give_autonomy_to_montenegro: "Give Autonomy To Montenegro"
+ SER_give_autonomy_to_montenegro_desc: "WIP desc"
 
- SER_balkan_cooperation_invite_bosnia: "Балканське співробітництво запрошує Боснію"
- SER_balkan_cooperation_invite_bosnia_desc: "У процесі"
+ SER_balkan_cooperation_invite_bosnia: "Balkan Cooperation Invite Bosnia"
+ SER_balkan_cooperation_invite_bosnia_desc: "WIP desc"
 
- SER_balkan_cooperation_invite_macedonia: "Балканське співробітництво запрошує Македонію"
- SER_balkan_cooperation_invite_macedonia_desc: "У процесі"
+ SER_balkan_cooperation_invite_macedonia: "Balkan Cooperation Invite Macedonia"
+ SER_balkan_cooperation_invite_macedonia_desc: "WIP desc"
 
- SER_balkan_trade_treaty: "Балканський торговий договір"
- SER_balkan_trade_treaty_desc: "У процесі"
+ SER_balkan_trade_treaty: "Balkan Trade Treaty"
+ SER_balkan_trade_treaty_desc: "WIP desc"
 
- SER_befriend_neighbours: "Подружитися із сусідами"
- SER_befriend_neighbours_desc: "У процесі"
+ SER_befriend_neighbours: "Befriend Neighbours"
+ SER_befriend_neighbours_desc: "WIP desc"
 
- SER_develop_national_car_industry: "Розвивати нац. автопром"
- SER_develop_national_car_industry_desc: "У процесі"
+ SER_develop_national_car_industry: "Develop National Car Industry"
+ SER_develop_national_car_industry_desc: "WIP desc"
 
- SER_zastava_automobili: "Автозавод Застава"
- SER_zastava_automobili_desc: "У процесі"
+ SER_zastava_automobili: "Zastava Automobili"
+ SER_zastava_automobili_desc: "WIP desc"
 
- SER_balkan_cooperation_invite_croatia: "Балканське співробітництво запрошує Хорватію"
- SER_balkan_cooperation_invite_croatia_desc: "У процесі"
+ SER_balkan_cooperation_invite_croatia: "Balkan Cooperation Invite Croatia"
+ SER_balkan_cooperation_invite_croatia_desc: "WIP desc"
 
- SER_balkan_cooperation_invite_albania: "Балканське співробітництво запрошує Албанію"
- SER_balkan_cooperation_invite_albania_desc: "У процесі"
+ SER_balkan_cooperation_invite_albania: "Balkan Cooperation Invite Albania"
+ SER_balkan_cooperation_invite_albania_desc: "WIP desc"
 
- SER_balkan_cooperation_invite_bulgaria: "Балканське співробітництво запрошує Болгарію"
- SER_balkan_cooperation_invite_bulgaria_desc: "У процесі"
+ SER_balkan_cooperation_invite_bulgaria: "Balkan Cooperation Invite Bulgaria"
+ SER_balkan_cooperation_invite_bulgaria_desc: "WIP desc"
 
- SER_the_eastern_path: "Східний шлях"
- SER_the_eastern_path_desc: "У процесі"
+ SER_the_eastern_path: "The Eastern Path"
+ SER_the_eastern_path_desc: "WIP desc"
 
- SER_free_trade_with_russia: "Вільна торгівля з Росією"
- SER_free_trade_with_russia_desc: "У процесі"
+ SER_free_trade_with_russia: "Free Trade With Russia"
+ SER_free_trade_with_russia_desc: "WIP desc"
 
- SER_befriend_vladimir: "Дружба з Володимиром"
- SER_befriend_vladimir_desc: "У процесі"
+ SER_befriend_vladimir: "Befriend Vladimir"
+ SER_befriend_vladimir_desc: "WIP desc"
 
- SER_rehold_elections: "Повторення виборів"
- SER_rehold_elections_desc: "У процесі"
+ SER_rehold_elections: "Rehold Elections"
+ SER_rehold_elections_desc: "WIP desc"
 
- SER_befrind_bricks: "Дружба з Бріксом"
- SER_befrind_bricks_desc: "У процесі"
+ SER_befrind_bricks: "Befrind Bricks"
+ SER_befrind_bricks_desc: "WIP desc"
 
- SER_china_investments: "Китайські інвестиції"
- SER_china_investments_desc: "У процесі"
+ SER_china_investments: "China Investments"
+ SER_china_investments_desc: "WIP desc"
 
- SER_apply_for_csto: "Подати заявку в CSTO"
- SER_apply_for_csto_desc: "У процесі"
+ SER_apply_for_csto: "Apply For Csto"
+ SER_apply_for_csto_desc: "WIP desc"
 
- SER_joint_military_exercises: "Спільні військові навчання"
- SER_joint_military_exercises_desc: "У процесі"
+ SER_joint_military_exercises: "Joint Military Exercises"
+ SER_joint_military_exercises_desc: "WIP desc"
 
- SER_industrial_cooperation_with_the_east: "Промислове співробітництво зі Сходом"
- SER_industrial_cooperation_with_the_east_desc: "У процесі"
+ SER_industrial_cooperation_with_the_east: "Industrial Cooperation With The East"
+ SER_industrial_cooperation_with_the_east_desc: "WIP desc"
 
- SER_pipeline_from_the_east: "Трубопровід зі Сходу"
- SER_pipeline_from_the_east_desc: "У процесі"
+ SER_pipeline_from_the_east: "Pipeline From The East"
+ SER_pipeline_from_the_east_desc: "WIP desc"
 
- SER_technological_alliance_with_russia: "Технологічний альянс із Росією"
- SER_technological_alliance_with_russia_desc: "У процесі"
+ SER_technological_alliance_with_russia: "Technological Alliance With Russia"
+ SER_technological_alliance_with_russia_desc: "WIP desc"
 
- SER_refuse_kosovo_independance: "Відмовитися від незалежності Косово"
- SER_refuse_kosovo_independance_desc: "У процесі"
+ SER_refuse_kosovo_independance: "Refuse Kosovo Independance"
+ SER_refuse_kosovo_independance_desc: "WIP desc"
 
- SER_befriend_montenegro: "Дружба з Чорногорією"
- SER_befriend_montenegro_desc: "У процесі"
+ SER_befriend_montenegro: "Befriend Montenegro"
+ SER_befriend_montenegro_desc: "WIP desc"
 
- SER_invite_montenegro_to_csto: "Запрошення Чорногорії до CSTO"
- SER_invite_montenegro_to_csto_desc: "У процесі"
+ SER_invite_montenegro_to_csto: "Invite Montenegro To Csto"
+ SER_invite_montenegro_to_csto_desc: "WIP desc"
 
- SER_the_conscription_reform: "Реформа призову"
- SER_the_conscription_reform_desc: "У процесі"
+ SER_the_conscription_reform: "The Conscription Reform"
+ SER_the_conscription_reform_desc: "WIP desc"
 
- SER_arrest_the_leader_of_opposition: "Арешт лідера опозиції"
- SER_arrest_the_leader_of_opposition_desc: "У процесі"
+ SER_arrest_the_leader_of_opposition: "Arrest The Leader Of Opposition"
+ SER_arrest_the_leader_of_opposition_desc: "WIP desc"
 
- SER_promote_the_nationalism: "Просування націоналізму"
- SER_promote_the_nationalism_desc: "У процесі"
+ SER_promote_the_nationalism: "Promote The Nationalism"
+ SER_promote_the_nationalism_desc: "WIP desc"
 
- SER_put_an_end_to_liberty_of_speech: "Кінець свободі слова"
- SER_put_an_end_to_liberty_of_speech_desc: "У процесі"
+ SER_put_an_end_to_liberty_of_speech: "Put An End To Liberty Of Speech"
+ SER_put_an_end_to_liberty_of_speech_desc: "WIP desc"
 
- SER_limit_the_freedom_of_religion: "Обмеження свободи віросповідання"
- SER_limit_the_freedom_of_religion_desc: "У процесі"
+ SER_limit_the_freedom_of_religion: "Limit The Freedom Of Religion"
+ SER_limit_the_freedom_of_religion_desc: "WIP desc"
 
- SER_claim_the_old_yugoslavian_borders: "Вимога старих югославських кордонів"
- SER_claim_the_old_yugoslavian_borders_desc: "У процесі"
+ SER_claim_the_old_yugoslavian_borders: "Claim The Old Yugoslavian Borders"
+ SER_claim_the_old_yugoslavian_borders_desc: "WIP desc"
 
- SER_secure_the_access_to_the_see: "Безпечний доступ до моря"
- SER_secure_the_access_to_the_see_desc: "У процесі"
+ SER_secure_the_access_to_the_see: "Secure The Access To The See"
+ SER_secure_the_access_to_the_see_desc: "WIP desc"
 
- SER_ultimatum_to_bosnia: "Ультиматум Боснії"
- SER_ultimatum_to_bosnia_desc: "У процесі"
+ SER_ultimatum_to_bosnia: "Ultimatum To Bosnia"
+ SER_ultimatum_to_bosnia_desc: "WIP desc"
 
- SER_form_greater_yugoslavia: "Велика Югославія"
- SER_form_greater_yugoslavia_desc: "У процесі"
+ SER_form_greater_yugoslavia: "Form Greater Yugoslavia"
+ SER_form_greater_yugoslavia_desc: "WIP desc"
 
- SER_protect_serbian_minorities_in_kosovo: "Захист сербських меншин у Косово"
- SER_protect_serbian_minorities_in_kosovo_desc: "У процесі"
+ SER_protect_serbian_minorities_in_kosovo: "Protect Serbian Minorities In Kosovo"
+ SER_protect_serbian_minorities_in_kosovo_desc: "WIP desc"
 
- SER_strengthen_the_slavic_identity: "Зміцнення слов'янської ідентичності"
- SER_strengthen_the_slavic_identity_desc: "У процесі"
+ SER_strengthen_the_slavic_identity: "Strengthen The Slavic Identity"
+ SER_strengthen_the_slavic_identity_desc: "WIP desc"
 
- SER_nationalism_befriend_russia: "Націоналізм - дружба з Росією"
- SER_nationalism_befriend_russia_desc: "У процесі"
+ SER_nationalism_befriend_russia: "Nationalism Befriend Russia"
+ SER_nationalism_befriend_russia_desc: "WIP desc"
 
- SER_improve_the_research_budget: "Збільшення бюджету досліджень"
- SER_improve_the_research_budget_desc: "У процесі"
+ SER_improve_the_research_budget: "Improve The Research Budget"
+ SER_improve_the_research_budget_desc: "WIP desc"
 
  SER_zastava_arms: "Zastava Arms"
- SER_zastava_arms_desc: "У процесі"
+ SER_zastava_arms_desc: "WIP desc"
 
  SER_krusik_valjevo: "Krusik Valjevo"
- SER_krusik_valjevo_desc: "У процесі"
+ SER_krusik_valjevo_desc: "WIP desc"
 
- SER_srbijagas: "Сербіягаз"
- SER_srbijagas_desc: "У процесі"
+ SER_srbijagas: "Srbijagas"
+ SER_srbijagas_desc: "WIP desc"
 
- SER_nicolas_tesla_powerplant: "Силова установка Ніколи Тесли"
- SER_nicolas_tesla_powerplant_desc: "У процесі"
+ SER_nicolas_tesla_powerplant: "Nicolas Tesla Powerplant"
+ SER_nicolas_tesla_powerplant_desc: "WIP desc"
 
- SER_expend_the_industrial_zones: "Витрати на промислові зони"
- SER_expend_the_industrial_zones_desc: "У процесі"
+ SER_expend_the_industrial_zones: "Expend The Industrial Zones"
+ SER_expend_the_industrial_zones_desc: "WIP desc"
 
- SER_the_serbian_youth: "Сербська молодь"
- SER_the_serbian_youth_desc: "У процесі"
+ SER_the_serbian_youth: "The Serbian Youth"
+ SER_the_serbian_youth_desc: "WIP desc"
 
- SER_the_serbian_orthodox_church: "Сербська православна церква"
- SER_the_serbian_orthodox_church_desc: "У процесі"
+ SER_the_serbian_orthodox_church: "The Serbian Orthodox Church"
+ SER_the_serbian_orthodox_church_desc: "WIP desc"
 
- SER_threaten_croatia: "Загроза Хорватії"
- SER_threaten_croatia_desc: "У процесі"
+ SER_threaten_croatia: "Threaten Croatia"
+ SER_threaten_croatia_desc: "WIP desc"
 
- SER_invade_slovenia: "Вторгнення до Словенії"
- SER_invade_slovenia_desc: "У процесі"
+ SER_invade_slovenia: "Invade Slovenia"
+ SER_invade_slovenia_desc: "WIP desc"
 
- SER_retake_nothern_macedonia: "Повернення Північної Македонії"
- SER_retake_nothern_macedonia_desc: "У процесі"
+ SER_retake_nothern_macedonia: "Retake Nothern Macedonia"
+ SER_retake_nothern_macedonia_desc: "WIP desc"
 
- SER_claim_greek_macedonia: "Претензії на Грецьку Македонію"
- SER_claim_greek_macedonia_desc: "У процесі"
+ SER_claim_greek_macedonia: "Claim Greek Macedonia"
+ SER_claim_greek_macedonia_desc: "WIP desc"
 
- SER_claim_bulgaria: "Претензії на Болгарію"
- SER_claim_bulgaria_desc: "У процесі"
+ SER_claim_bulgaria: "Claim Bulgaria"
+ SER_claim_bulgaria_desc: "WIP desc"
 
- SER_ultimatum_to_bulgaria: "Ультиматум Болгарії"
- SER_ultimatum_to_bulgaria_desc: "У процесі"
+ SER_ultimatum_to_bulgaria: "Ultimatum To Bulgaria"
+ SER_ultimatum_to_bulgaria_desc: "WIP desc"
 
- SER_influence_bulgaria: "Вплив у Болгарії"
- SER_influence_bulgaria_desc: "У процесі"
+ SER_influence_bulgaria: "Influence Bulgaria"
+ SER_influence_bulgaria_desc: "WIP desc"
 
- SER_stage_a_coup_in_bulgaria: "Переворот у Болгарії"
- SER_stage_a_coup_in_bulgaria_desc: "У процесі"
+ SER_stage_a_coup_in_bulgaria: "Stage A Coup In Bulgaria"
+ SER_stage_a_coup_in_bulgaria_desc: "WIP desc"
 
- SER_ultimatum_to_greece: "Ультиматум Греції"
- SER_ultimatum_to_greece_desc: "У процесі"
+ SER_ultimatum_to_greece: "Ultimatum To Greece"
+ SER_ultimatum_to_greece_desc: "WIP desc"
 
- SER_secure_the_bosphore: "Мобілізація Босфору"
- SER_secure_the_bosphore_desc: "У процесі"
+ SER_secure_the_bosphore: "Secure The Bosphore"
+ SER_secure_the_bosphore_desc: "WIP desc"
 
- SER_nostalgia_of_the_past: "Ностальгія минулого"
- SER_nostalgia_of_the_past_desc: "У процесі"
+ SER_nostalgia_of_the_past: "Nostalgia Of The Past"
+ SER_nostalgia_of_the_past_desc: "WIP desc"
 
- SER_refuse_to_give_milosevic_to_the_un: "Відмова видавати Мілошевича ООН"
- SER_refuse_to_give_milosevic_to_the_un_desc: "У процесі"
+ SER_refuse_to_give_milosevic_to_the_un: "Refuse To Give Milosevic To The Un"
+ SER_refuse_to_give_milosevic_to_the_un_desc: "WIP desc"
 
- SER_enhance_multi_ethnic_feeling: "Поліпшення багатоетнічних настроїв"
- SER_enhance_multi_ethnic_feeling_desc: "У процесі"
+ SER_enhance_multi_ethnic_feeling: "Enhance Multi Ethnic Feeling"
+ SER_enhance_multi_ethnic_feeling_desc: "WIP desc"
 
- SER_influence_the_neighbours: "Вплив сусідів"
- SER_influence_the_neighbours_desc: "У процесі"
+ SER_influence_the_neighbours: "Influence The Neighbours"
+ SER_influence_the_neighbours_desc: "WIP desc"
 
- SER_enhance_panslavic_feeling: "Посилення панславістських настроїв"
- SER_enhance_panslavic_feeling_desc: "У процесі"
+ SER_enhance_panslavic_feeling: "Enhance Panslavic Feeling"
+ SER_enhance_panslavic_feeling_desc: "WIP desc"
 
- SER_finance_communist_group_in_the_balkans: "Фінансова комуністична група на Балканах"
- SER_finance_communist_group_in_the_balkans_desc: "У процесі"
+ SER_finance_communist_group_in_the_balkans: "Finance Communist Group In The Balkans"
+ SER_finance_communist_group_in_the_balkans_desc: "WIP desc"
 
- SER_the_kosovo_negociations: "Косовські переговори"
- SER_the_kosovo_negociations_desc: "У процесі"
+ SER_the_kosovo_negociations: "The Kosovo Negociations"
+ SER_the_kosovo_negociations_desc: "WIP desc"
 
- SER_the_montenegro_negociations: "Чорногорські переговори"
- SER_the_montenegro_negociations_desc: "У процесі"
+ SER_the_montenegro_negociations: "The Montenegro Negociations"
+ SER_the_montenegro_negociations_desc: "WIP desc"
 
- SER_ask_bosnia_to_join_the_union: "Прохання до Боснії вступити в Союз"
- SER_ask_bosnia_to_join_the_union_desc: "У процесі"
+ SER_ask_bosnia_to_join_the_union: "Ask Bosnia To Join The Union"
+ SER_ask_bosnia_to_join_the_union_desc: "WIP desc"
 
- SER_ask_croatia_to_join_the_union: "Прохання до Хорватії вступити до Союзу"
- SER_ask_croatia_to_join_the_union_desc: "У процесі"
+ SER_ask_croatia_to_join_the_union: "Ask Croatia to join the Union"
+ SER_ask_croatia_to_join_the_union_desc: "WIP desc"
 
- SER_form_the_socialist_union_of_yugoslavia: "Форма соціалістичного союзу Югославії"
- SER_form_the_socialist_union_of_yugoslavia_desc: "У процесі"
+ SER_form_the_socialist_union_of_yugoslavia: "Form The Socialist Union Of Yugoslavia"
+ SER_form_the_socialist_union_of_yugoslavia_desc: "WIP desc"
 
- SER_invite_slovenia: "Запрошення Словенії"
- SER_invite_slovenia_desc: "У процесі"
+ SER_invite_slovenia: "Invite Slovenia"
+ SER_invite_slovenia_desc: "WIP desc"
 
- SER_infleunce_bulgaria_communism: "Вплив у Болгарії"
- SER_infleunce_blgaria_desc: "У процесі"
+ SER_infleunce_bulgaria_communism: "Infleunce Blugaria"
+ SER_infleunce_blgaria_desc: "WIP desc"
 
- SER_rally_bulgaria: "Мітинг Болгарії"
- SER_rally_bulgaria_desc: "У процесі"
+ SER_rally_bulgaria: "Rally Blugaria"
+ SER_rally_bulgaria_desc: "WIP desc"
 
- SER_infleunce_albania: "Вплив в Албанії"
- SER_infleunce_albania_desc: "У процесі"
+ SER_infleunce_albania: "Infleunce Albania"
+ SER_infleunce_albania_desc: "WIP desc"
 
- SER_rally_albania: "Мітинг Албанії"
- SER_rally_albania_desc: "У процесі"
+ SER_rally_albania: "Rally Albania"
+ SER_rally_albania_desc: "WIP desc"
 
- SER_integrated_rail_network: "Інтегрована залізнична мережа"
- SER_integrated_rail_network_desc: "У процесі"
+ SER_integrated_rail_network: "Integrated Rail Network"
+ SER_integrated_rail_network_desc: "WIP desc"
 
- SER_the_balkanic_academy: "Балканська академія"
- SER_the_balkanic_academy_desc: "У процесі"
+ SER_the_balkanic_academy: "The Balkanic Academy"
+ SER_the_balkanic_academy_desc: "WIP desc"
 
- SER_stage_a_coup_in_slovenia: "Переворот у Словенії"
- SER_stage_a_coup_in_slovenia_desc: "У процесі"
+ SER_stage_a_coup_in_slovenia: "Stage A Coup In Slovenia"
+ SER_stage_a_coup_in_slovenia_desc: "WIP desc"
 
- SER_invite_slovenia_in_the_union: "Запрошення Словенії до Союзу"
- SER_invite_slovenia_in_the_union_desc: "У процесі"
+ SER_invite_slovenia_in_the_union: "Invite Slovenia In The Union"
+ SER_invite_slovenia_in_the_union_desc: "WIP desc"
 
- SER_open_relations_with_abroad_communist_country: "Відносини із зарубіжною комуністичною країною"
- SER_open_relations_with_abroad_communist_country_desc: "У процесі"
+ SER_open_relations_with_abroad_communist_country: "Open Relations With Abroad Communist Country"
+ SER_open_relations_with_abroad_communist_country_desc: "WIP desc"
 
- SER_centralize_the_rail_network_in_serbia: "Централізація залізничної мережі в Сербії"
- SER_centralize_the_rail_network_in_serbia_desc: "У процесі"
+ SER_centralize_the_rail_network_in_serbia: "Centralize The Rail Network In Serbia"
+ SER_centralize_the_rail_network_in_serbia_desc: "WIP desc"
 
- SER_nationalize_the_automobile_industry: "Націоналізація автопрому"
- SER_nationalize_the_automobile_industry_desc: "У процесі"
+ SER_nationalize_the_automobile_industry: "Nationalize The Automobile Industry"
+ SER_nationalize_the_automobile_industry_desc: "WIP desc"
 
- SER_developp_krusik_valjevo: "Розвиток Krusik Valjevo"
- SER_developp_krusik_valjevo_desc: "У процесі"
+ SER_developp_krusik_valjevo: "Developp Krusik Valjevo"
+ SER_developp_krusik_valjevo_desc: "WIP desc"
 
- SER_liberate_the_bosnian_people: "Звільнення боснійців"
- SER_liberate_the_bosnian_people_desc: "У процесі"
+ SER_liberate_the_bosnian_people: "Liberate The Bosnian People"
+ SER_liberate_the_bosnian_people_desc: "WIP desc"
 
- SER_stage_a_coup_in_croatia: "Переворот у Хорватії"
- SER_stage_a_coup_in_croatia_desc: "У процесі"
+ SER_stage_a_coup_in_croatia: "Stage A Coup In Croatia"
+ SER_stage_a_coup_in_croatia_desc: "WIP desc"
 
- SER_align_croatia_by_force: "Приєднання Хорватії силою"
- SER_align_croatia_by_force_desc: "У процесі"
+ SER_align_croatia_by_force: "Align Croatia By Force"
+ SER_align_croatia_by_force_desc: "WIP desc"
 
- SER_form_the_socialist_federal_republic_of_yugoslavia: "Соціалістична Федеративна Республіка Югославія"
- SER_form_the_socialist_federal_republic_of_yugoslavia_desc: "У процесі"
+ SER_form_the_socialist_federal_republic_of_yugoslavia: "Form The Socialist Federal Republic Of Yugoslavia"
+ SER_form_the_socialist_federal_republic_of_yugoslavia_desc: "WIP desc"
 
- SER_stage_a_coup_in_slovenia2: "Переворот у Словенії"
- SER_stage_a_coup_in_slovenia2_desc: "У процесі"
+ SER_stage_a_coup_in_slovenia2: "Stage A Coup In Slovenia"
+ SER_stage_a_coup_in_slovenia2_desc: "WIP desc"
 
- SER_align_slovenia_by_force: "Приєднати Словенію силою"
- SER_align_slovenia_by_force_desc: "У процесі"
+ SER_align_slovenia_by_force: "Align Slovenia By Force"
+ SER_align_slovenia_by_force_desc: "WIP desc"
 
- SER_liberate_the_macedonian_people: "Звільнення македонців"
- SER_liberate_the_macedonian_people_desc: "У процесі"
+ SER_liberate_the_macedonian_people: "Liberate The Macedonian People"
+ SER_liberate_the_macedonian_people_desc: "WIP desc"
 
- SER_the_international_revolution: "Міжнародна революція"
- SER_the_international_revolution_desc: "У процесі"
+ SER_the_international_revolution: "The International Revolution"
+ SER_the_international_revolution_desc: "WIP desc"
 
- SER_planified_economy: "Планова економіка"
- SER_planified_economy_desc: "У процесі"
+ SER_planified_economy: "Planified Economy"
+ SER_planified_economy_desc: "WIP desc"
 
- SER_proletarian_youth: "Пролетарська молодь"
- SER_proletarian_youth_desc: "У процесі"
+ SER_proletarian_youth: "Proletarian Youth"
+ SER_proletarian_youth_desc: "WIP desc"
 
- SER_rebuild_the_country: "Відновлення країни"
- SER_rebuild_the_country_desc: "У процесі"
+ SER_rebuild_the_country: "Rebuild The Country"
+ SER_rebuild_the_country_desc: "WIP desc"
 
- SER_improve_serbian_railway: "Покращення сербської залізниці"
- SER_improve_serbian_railway_desc: "У процесі"
+ SER_improve_serbian_railway: "Improve Serbian Railway"
+ SER_improve_serbian_railway_desc: "WIP desc"
 
- SER_modernization_of_the_iron_gate_dam: "Модернізація греблі "Залізні Ворота""
- SER_modernization_of_the_iron_gate_dam_desc: "У процесі"
+ SER_modernization_of_the_iron_gate_dam: "Modernization Of The Iron Gate Dam"
+ SER_modernization_of_the_iron_gate_dam_desc: "WIP desc"
 
- SER_developp_the_coal_industry: "Розвиток вугільної промисловості"
- SER_developp_the_coal_industry_desc: "У процесі"
+ SER_developp_the_coal_industry: "Developp The Coal Industry"
+ SER_developp_the_coal_industry_desc: "WIP desc"
 
- SER_developp_the_mining_capacity: "Розвиток гірничодобувного потенціалу"
- SER_developp_the_mining_capacity_desc: "У процесі"
+ SER_developp_the_mining_capacity: "Developp The Mining Capacity"
+ SER_developp_the_mining_capacity_desc: "WIP desc"
 
- SER_ikarbus_beograd: "Белградський Ікарбус"
- SER_ikarbus_beograd_desc: "У процесі"
+ SER_ikarbus_beograd: "Ikarbus Beograd"
+ SER_ikarbus_beograd_desc: "WIP desc"
 
+ SER_army_effort: "Army Effort"
+ SER_army_effort_desc: "WIP desc"
 
- SER_army_effort: "Розвиток армії"
- SER_army_effort_desc: "У процесі"
+ SER_equipment_effort: "Equipment Effort"
+ SER_equipment_effort_desc: "WIP desc"
 
- SER_equipment_effort: "Розвиток спорядження"
- SER_equipment_effort_desc: "У процесі"
+ SER_motorization_effort: "Motorization Effort"
+ SER_motorization_effort_desc: "WIP desc"
 
- SER_motorization_effort: "Розвиток моторизації"
- SER_motorization_effort_desc: "У процесі"
+ SER_doctrine_effort: "Doctrine Effort"
+ SER_doctrine_effort_desc: "WIP desc"
 
- SER_doctrine_effort: "Розвиток доктрини"
- SER_doctrine_effort_desc: "У процесі"
+ SER_equipment_effort_2: "Equipment Effort 2"
+ SER_equipment_effort_2_desc: "WIP desc"
 
- SER_equipment_effort_2: "Розвиток спорядження 2"
- SER_equipment_effort_2_desc: "У процесі"
+ SER_mechanization_effort: "Mechanization Effort"
+ SER_mechanization_effort_desc: "WIP desc"
 
- SER_mechanization_effort: "Розвиток механізації"
- SER_mechanization_effort_desc: "У процесі"
+ SER_doctrine_effort_2: "Doctrine Effort 2"
+ SER_doctrine_effort_2_desc: "WIP desc"
 
- SER_doctrine_effort_2: "Розвиток доктрини 2"
- SER_doctrine_effort_2_desc: "У процесі"
+ SER_equipment_effort_3: "Equipment Effort 3"
+ SER_equipment_effort_3_desc: "WIP desc"
 
- SER_equipment_effort_3: "Розвиток спорядження 3"
- SER_equipment_effort_3_desc: "У процесі"
+ SER_armor_effort: "Armor Effort"
+ SER_armor_effort_desc: "WIP desc"
 
- SER_armor_effort: "Розвиток бронетехніки"
- SER_armor_effort_desc: "У процесі"
+ SER_special_forces: "Special Forces"
+ SER_special_forces_desc: "WIP desc"
 
- SER_special_forces: "Спецназ"
- SER_special_forces_desc: "У процесі"
+ SER_aviation_effort: "Aviation Effort"
+ SER_aviation_effort_desc: "WIP desc"
 
- SER_aviation_effort: "Розвиток авіації"
- SER_aviation_effort_desc: "У процесі"
+ SER_fighter_focus: "Fighter Focus"
+ SER_fighter_focus_desc: "WIP desc"
 
- SER_fighter_focus: "Винищувачі"
- SER_fighter_focus_desc: "У процесі"
+ SER_bomber_focus: "Bomber Focus"
+ SER_bomber_focus_desc: "WIP desc"
 
- SER_bomber_focus: "Бомбардувальники"
- SER_bomber_focus_desc: "У процесі"
+ SER_aviation_effort_2: "Aviation Effort 2"
+ SER_aviation_effort_2_desc: "WIP desc"
 
- SER_aviation_effort_2: "Розвиток авіації 2"
- SER_aviation_effort_2_desc: "У процесі"
+ SER_CAS_effort: "CAS Effort"
+ SER_CAS_effort_desc: "WIP desc"
 
- SER_CAS_effort: "Розвиток штурмовиків"
- SER_CAS_effort_desc: "У процесі"
+ SER_rocket_effort: "Rocket Effort"
+ SER_rocket_effort_desc: "WIP desc"
 
- SER_rocket_effort: "Розвиток ракет"
- SER_rocket_effort_desc: "У процесі"
+ SER_NAV_effort: "NAV Effort"
+ SER_NAV_effort_desc: "WIP desc"
 
- SER_NAV_effort: "Розвиток NAV"
- SER_NAV_effort_desc: "У процесі"
+ SER_naval_effort: "Naval Effort"
+ SER_naval_effort_desc: "WIP desc"
 
- SER_naval_effort: "Розвиток ВМФ"
- SER_naval_effort_desc: "У процесі"
+ SER_flexible_navy: "Flexible Navy"
+ SER_flexible_navy_desc: "WIP desc"
 
- SER_flexible_navy: "Гнучкий флот"
- SER_flexible_navy_desc: "У процесі"
+ SER_large_navy: "Large Navy"
+ SER_large_navy_desc: "WIP desc"
 
- SER_large_navy: "Великий флот"
- SER_large_navy_desc: "У процесі"
+ SER_submarine_effort: "Submarine Effort"
+ SER_submarine_effort_desc: "WIP desc"
 
- SER_submarine_effort: "Розвиток підводних човнів"
- SER_submarine_effort_desc: "У процесі"
+ SER_cruiser_effort: "Cruiser Effort"
+ SER_cruiser_effort_desc: "WIP desc"
 
- SER_cruiser_effort: "Розвиток крейсерів"
- SER_cruiser_effort_desc: "У процесі"
+ SER_destroyer_effort: "Destroyer Effort"
+ SER_destroyer_effort_desc: "WIP desc"
 
- SER_destroyer_effort: "Розвиток есмінців"
- SER_destroyer_effort_desc: "У процесі"
-
- SER_capital_ships_effort: "Розвиток головних кораблів"
- SER_capital_ships_effort_desc: "У процесі"
+ SER_capital_ships_effort: "Capital Ships Effort"
+ SER_capital_ships_effort_desc: "WIP desc"
 
